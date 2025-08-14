@@ -1,0 +1,4618 @@
+[
+    {
+        "id": "1-01",
+        "setNumber": 1,
+        "emblemNumber": 1,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Toad"
+        ],
+        "rarity": 6,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Who are You?",
+            "desc": "Usable on Round 4.\nPermanently increases your ATK by 2500."
+        },
+        "skill2": {
+            "name": "Kurama Link Mode",
+            "desc": "At the start of the round, if you have fewer than 6 chakra, grants 2 chakra."
+        }
+    },
+    {
+        "id": "1-02",
+        "setNumber": 1,
+        "emblemNumber": 2,
+        "name": "Minato Namikaze",
+        "tags": [
+            "Flash",
+            "Hokage",
+            "Leaf"
+        ],
+        "rarity": 6,
+        "specialAttack": {
+            "name": "Flying Raijin: Level 2",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Yellow Flash of the Leaf",
+            "desc": "When deployed as the AE, if the enemy AE is \"SPD\", grants 2 chakra and permanently increases your ATK by 1000."
+        },
+        "skill2": {
+            "name": "Flying Raijin Jutsu",
+            "desc": "At the start of a battle, if ally AE is \"TECH\" and the enemy AE is \"SPD,\" you can swap in for the AE."
+        }
+    },
+    {
+        "id": "1-03",
+        "setNumber": 1,
+        "emblemNumber": 3,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Toad"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Wind Style: Rasen Shuriken",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased based on your number of \"Naruto\" allies."
+        },
+        "skill1": {
+            "name": "Multi Shadow Clone Jutsu",
+            "desc": "At the start of Round 2, releases 2 shadow clones."
+        },
+        "skill2": {
+            "name": "Chakra Nature Change Training",
+            "desc": "At the start of Round 4, permanently increases your ATK by 300 for each \"Naruto\" on your team."
+        }
+    },
+    {
+        "id": "1-04",
+        "setNumber": 1,
+        "emblemNumber": 4,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Leaf",
+            "Sage Mode",
+            "Toad"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Sage Art: Giant Rasengan",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "It's Time to End This!",
+            "desc": "Usable on Round 3. \nGrants 2 chakra and permanently increases your ATK by 1500."
+        },
+        "skill2": {
+            "name": "Sage Mode's True Power",
+            "desc": "When deployed as the AE, grants 1 chakra."
+        }
+    },
+    {
+        "id": "1-05",
+        "setNumber": 1,
+        "emblemNumber": 5,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Lil' bro",
+            "Sharingan",
+            "Taka"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Snake Sword Chidori Blade",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Taka",
+            "desc": "At the start of Round 3, if \"Suigetsu,\" \"Karin,\" and \"Jugo\" are allies, grants 2 chakra to your team."
+        },
+        "skill2": {
+            "name": "Unblockable Blade",
+            "desc": "When SP is used, lowers the enemy AE's DEF by 2000 until the end of the round."
+        }
+    },
+    {
+        "id": "1-06",
+        "setNumber": 1,
+        "emblemNumber": 6,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Lil' bro",
+            "Sharingan",
+            "Taka"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Amaterasu",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "We'll Destroy the Hidden Leaf",
+            "desc": "When deployed as the AE, if the enemy AE is \"Leaf,\" increases ATK by 1000 until the end of the round."
+        },
+        "skill2": {
+            "name": "The Truth Beyond Revenge",
+            "desc": "At the start of Round 4, grants 4 chakra."
+        }
+    },
+    {
+        "id": "1-07",
+        "setNumber": 1,
+        "emblemNumber": 7,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Medical",
+            "Team 7"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Cherry Blossom Clash",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Cha!",
+            "desc": "Usable on Round 3.\nPermanently increases ATK by 2000."
+        },
+        "skill2": {
+            "name": "Boulder-Breaking Strength",
+            "desc": "When SP is used, increases your ATK by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "1-08",
+        "setNumber": 1,
+        "emblemNumber": 8,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Kamui",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "A New Sharingan Power",
+            "desc": "Usable on Round 4.\nPermanently decreases the enemy's DEF by 1000."
+        },
+        "skill2": {
+            "name": "Daring Preparation",
+            "desc": "Starting from Round 2, if not deployed as the AE,  grants 1 chakra at the end of the round."
+        }
+    },
+    {
+        "id": "1-09",
+        "setNumber": 1,
+        "emblemNumber": 9,
+        "name": "Might Guy",
+        "tags": [
+            "Leaf",
+            "Youth"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Asakujaku",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Sixth Gate of Joy",
+            "desc": "At the start of the round, if you have more than 5 chakra, increases your ATK by 2000 until end of the round."
+        },
+        "skill2": {
+            "name": "Hot-Blooded",
+            "desc": "At the end of Round 3, if \"Neji, \"Lee,\" and \"Tenten\" are on your team, grants 5 chakra."
+        }
+    },
+    {
+        "id": "1-10",
+        "setNumber": 1,
+        "emblemNumber": 10,
+        "name": "Gaara",
+        "tags": [
+            "Five Kage",
+            "Lil' bro",
+            "Sand"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Sand Coffin",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently increases your team's DEF by 1000."
+        },
+        "skill1": {
+            "name": "As the Kazekage of Hidden Sand",
+            "desc": "When deployed as the AE, increases your ATK by 300 for each \"Sand\" ally until the end of the round."
+        },
+        "skill2": {
+            "name": "Support: Sand Shinobi",
+            "desc": "At the start of Round 3, summons \"Kankuro\" and \"Temari.\""
+        }
+    },
+    {
+        "id": "1-11",
+        "setNumber": 1,
+        "emblemNumber": 11,
+        "name": "Itachi Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Big Bro",
+            "Sharingan"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Amaterasu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Crimson Eyes",
+            "desc": "When SP is used, permanently decreases the enemy AE's DEF by 1500."
+        },
+        "skill2": {
+            "name": "Immeasurable Ability",
+            "desc": "Starting from Round 4, permanently increases your ATK by 1000 at the start of the round."
+        }
+    },
+    {
+        "id": "1-12",
+        "setNumber": 1,
+        "emblemNumber": 12,
+        "name": "Deidara",
+        "tags": [
+            "Akatsuki",
+            "Art"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "C4 Karura",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's DEF by 1000."
+        },
+        "skill1": {
+            "name": "Art is an Explosion!",
+            "desc": "At the start of Round 5, increases your ATK by 2500 until end of the round."
+        },
+        "skill2": {
+            "name": "Sharingan-Countering Left Eye",
+            "desc": "When deployed as the AE, if  the enemy AE is \"Sharingan,\" increases your ATK by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "1-13",
+        "setNumber": 1,
+        "emblemNumber": 13,
+        "name": "Sasori",
+        "tags": [
+            "Akatsuki",
+            "Puppet"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Performance of a Hundred Puppets",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased based on your number of \"Puppet\" allies."
+        },
+        "skill1": {
+            "name": "I Destroyed an Entire Nation",
+            "desc": "Usable on Round 4. Permanently increases all \"Puppet\" allies' ATK by 1500 and DEF by 1500."
+        },
+        "skill2": {
+            "name": "Summoning Jutsu: Human Puppet",
+            "desc": "At the start of Round 4, summons 2 \"Human Puppets.\""
+        }
+    },
+    {
+        "id": "1-14",
+        "setNumber": 1,
+        "emblemNumber": 14,
+        "name": "Hiruzen Sarutobi",
+        "tags": [
+            "Hokage",
+            "Leaf",
+            "Weapon"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Fire Style: Dragon Flame Bombs",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "The Professor",
+            "desc": "At the start of Round 1, grants all \"Leaf\" allies 1 chakra and permanently increases ATK by 500."
+        },
+        "skill2": {
+            "name": "Summoning Jutsu: Enma",
+            "desc": "At the start of Round 2, summons \"Enma.\""
+        }
+    },
+    {
+        "id": "1-15",
+        "setNumber": 1,
+        "emblemNumber": 15,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Toad"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Giant Rasengan",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased based on your number of \"Naruto\" allies."
+        },
+        "skill1": {
+            "name": "Multi Shadow Clone Jutsu",
+            "desc": "At the start of Round 3, releases 2 shadow clones."
+        },
+        "skill2": {
+            "name": "Nine Tails' Chakra",
+            "desc": "At the end of the round, if you have more than 1 \"Naruto\" ally, grants 1 chakra."
+        }
+    },
+    {
+        "id": "1-16",
+        "setNumber": 1,
+        "emblemNumber": 16,
+        "name": "Jiraiya",
+        "tags": [
+            "Leaf",
+            "Legendary Sannin",
+            "Toad"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Belief in Naruto",
+            "desc": "Starting from Round 2, if ally AE is \"Naruto,\" grants ally AE 1 chakra."
+        },
+        "skill2": {
+            "name": "Summoning Jutsu: Gamabunta",
+            "desc": "At the start of Round 3, summons \"Gamabunta.\""
+        }
+    },
+    {
+        "id": "1-17",
+        "setNumber": 1,
+        "emblemNumber": 17,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Lil' bro",
+            "Sharingan",
+            "Sound"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Chidori Stream",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "The Moment of Rebellion",
+            "desc": "At the end of Round 4, if \"Orochimaru\" is an ally, all \"Orochimaru\"allies lose 5 chakra and +2500 your permanent ATK."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-18",
+        "setNumber": 1,
+        "emblemNumber": 18,
+        "name": "Orochimaru",
+        "tags": [
+            "Legendary Sannin",
+            "Sound"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Mandala of Snakes Formation",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "An Obsession with Sasuke",
+            "desc": "At the start of Round 4, if \"Sasuke\" is an ally, grants 2 chakra and permanently increases ATK by 1000."
+        },
+        "skill2": {
+            "name": "Summoning Jutsu: Manda",
+            "desc": "At the start of Round 3, summons \"Manda.\""
+        }
+    },
+    {
+        "id": "1-19",
+        "setNumber": 1,
+        "emblemNumber": 19,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Medical",
+            "Team 7"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Cherry Blossom Clash",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Inherited Strength",
+            "desc": "At the start of Round 5, grants 2 chakra and increases your ATK by 2500 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-20",
+        "setNumber": 1,
+        "emblemNumber": 20,
+        "name": "Tsunade",
+        "tags": [
+            "Hokage",
+            "Leaf",
+            "Legendary Sannin"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Heaven Kick of Pain",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Sakura's Lessons",
+            "desc": "At the end of the round, if deployed as the AE, permanently increases all \"Sakura\" allies' ATK by 500."
+        },
+        "skill2": {
+            "name": "Summoning Jutsu: Katsuyu",
+            "desc": "At the start of Round 3, summons \"Katsuyu.\""
+        }
+    },
+    {
+        "id": "1-21",
+        "setNumber": 1,
+        "emblemNumber": 21,
+        "name": "Rock Lee",
+        "tags": [
+            "Leaf",
+            "Youth"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Great Leaf Hurricane",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Eight Inner Gates",
+            "desc": "At the start of the round, if you have more than 7 chakra, activates \"Eight Inner Gates.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-22",
+        "setNumber": 1,
+        "emblemNumber": 22,
+        "name": "Might Guy",
+        "tags": [
+            "Leaf",
+            "Youth"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Severe Leaf Hurricanes",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Eight Inner Gates",
+            "desc": "At the start of the round, if you have more than 7 chakra, activates \"Eight Inner Gates.\""
+        },
+        "skill2": {
+            "name": "Lessons for Hot-Blooded Youth",
+            "desc": "At the end of Round 2, if there is 1 \"Lee\" on your team, grants your team's \"Lee\" 4 chakra."
+        }
+    },
+    {
+        "id": "1-23",
+        "setNumber": 1,
+        "emblemNumber": 23,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Sage Mode",
+            "desc": "Starting from Round 3, if you have more than 6 chakra at the start of the round, activates \"Sage Mode.\""
+        },
+        "skill2": {
+            "name": "Team 7's #1 Unpredictable Ninja",
+            "desc": "At the end of Round 2, grants 1 chakra for each \"Team 7\" ally."
+        }
+    },
+    {
+        "id": "1-24",
+        "setNumber": 1,
+        "emblemNumber": 24,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Lightning Style: Lightning Hound",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "The Hidden Leaf's Technician",
+            "desc": "When SP is used, permanently increases ATK by 1000."
+        },
+        "skill2": {
+            "name": "Team 7's Jonin Leader",
+            "desc": "At the end of Round 3, permanently increases ally ATK by 200 for each \"Team 7\" ally."
+        }
+    },
+    {
+        "id": "1-25",
+        "setNumber": 1,
+        "emblemNumber": 25,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Medical",
+            "Team 7"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Cherry Blossom Clash",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Honed Taijutsu",
+            "desc": "At the start of Round 3, permanently increases ATK by 1000."
+        },
+        "skill2": {
+            "name": "Team 7's Medical Ninja",
+            "desc": "At the end of Round 3, restores your team's HP by 300 for each \"Team 7\" ally."
+        }
+    },
+    {
+        "id": "1-26",
+        "setNumber": 1,
+        "emblemNumber": 26,
+        "name": "Sai",
+        "tags": [
+            "Art",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Super Beast Scroll",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Comrades",
+            "desc": "Usable on Round 5. \nGrants 3 chakra to each \"Team 7\" on your team and permanently increases ATK by 2000."
+        },
+        "skill2": {
+            "name": "Team 7's Newest Member",
+            "desc": "When SP is used, increases your ATK by 200 for each \"Team 7\" ally until the end of the round."
+        }
+    },
+    {
+        "id": "1-27",
+        "setNumber": 1,
+        "emblemNumber": 27,
+        "name": "Yamato",
+        "tags": [
+            "Leaf",
+            "Team 7",
+            "Wood Style"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Tree Bind Eternal Burial",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Wood Style: Domed Wall",
+            "desc": "At the start of Round 4, increases ATK by 1000 and DEF by 1000 until the end of the round."
+        },
+        "skill2": {
+            "name": "Team 7's Peacekeeper",
+            "desc": "At the start of Round 1, permanently increases all \"Team 7\" allies' DEF by 500."
+        }
+    },
+    {
+        "id": "1-28",
+        "setNumber": 1,
+        "emblemNumber": 28,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Toad"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Stopping Sasuke",
+            "desc": "When deployed as the AE,  if the enemy AE is \"Sasuke,\" increases your ATK by 1500 until end of the round."
+        },
+        "skill2": {
+            "name": "Nine Tails' Chakra",
+            "desc": "At the start of Round 3, grants 2 chakra."
+        }
+    },
+    {
+        "id": "1-29",
+        "setNumber": 1,
+        "emblemNumber": 29,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Lil' bro",
+            "Sharingan",
+            "Sound"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Chidori",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Severed Bonds",
+            "desc": "When deployed as the AE,  if the enemy AE is \"Naruto,\" increases your ATK by 1500 until end of the round."
+        },
+        "skill2": {
+            "name": "Godspeed Slash",
+            "desc": "At the start of Round 1, increases your ATK by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "1-30",
+        "setNumber": 1,
+        "emblemNumber": 30,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Lightning Blade",
+            "chakra": "8",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Piercing Insight",
+            "desc": "When deployed as the AE, slows down your team's timing gauge by 1 level until the end of the round."
+        },
+        "skill2": {
+            "name": "Lightning Blade",
+            "desc": "When deployed as the AE, if AE has a type advantage, increases your ATK by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "1-31",
+        "setNumber": 1,
+        "emblemNumber": 31,
+        "name": "Hinata Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Gentle Step Twin Lion Fists",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE and permanently decreases the enemy AE's ATK by 1000."
+        },
+        "skill1": {
+            "name": "3-Year Reunion",
+            "desc": "At the start of Round 3, permanently increases your ATK by 200 and DEF by 200 for each \"Naruto\" ally."
+        },
+        "skill2": {
+            "name": "Byakugan",
+            "desc": "During Round 3, you can check the enemy's selected AE."
+        }
+    },
+    {
+        "id": "1-32",
+        "setNumber": 1,
+        "emblemNumber": 32,
+        "name": "Neji Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "8 Trigrams 64 Palms",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's ATK by 1000."
+        },
+        "skill1": {
+            "name": "Genius of the Hyuga Clan",
+            "desc": "When deployed as the AE, permanently increases your ATK by 500."
+        },
+        "skill2": {
+            "name": "Byakugan",
+            "desc": "During Round 4, you can check the enemy's selected AE."
+        }
+    },
+    {
+        "id": "1-33",
+        "setNumber": 1,
+        "emblemNumber": 33,
+        "name": "Tenten",
+        "tags": [
+            "Leaf",
+            "Weapon"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Rising Twin Dragons",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE.The DMG is increased based on the number of \"Weapon\" on your team."
+        },
+        "skill1": {
+            "name": "Sky-Ripping Infinite Blades",
+            "desc": "Usable on Round 3. Permanently increases ATK of each \"Weapon\" on your team by 1500."
+        },
+        "skill2": {
+            "name": "Weapons Expert",
+            "desc": "When deployed as the AE, if the enemy AE is \"TECH,\" increases your ATK by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "1-34",
+        "setNumber": 1,
+        "emblemNumber": 34,
+        "name": "Gaara",
+        "tags": [
+            "Five Kage",
+            "Lil' bro",
+            "Sand"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Sand Prison",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE and permanently increases your DEF by 1000."
+        },
+        "skill1": {
+            "name": "The Sand Protecting the Village",
+            "desc": "When deployed as the AE, permanently increases all \"Sand\" allies' DEF by 500."
+        },
+        "skill2": {
+            "name": "Team: Sand Shinobi",
+            "desc": "At the end of Round 3, if \"Kankuro\" and \"Temari\" are allies, grants your team 2 chakra."
+        }
+    },
+    {
+        "id": "1-35",
+        "setNumber": 1,
+        "emblemNumber": 35,
+        "name": "Itachi Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Big Bro",
+            "Sharingan"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Tsukuyomi",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and decreases their chakra by 2."
+        },
+        "skill1": {
+            "name": "Mangekyo Sharingan User",
+            "desc": "When deployed as the AE, if  the enemy AE is not \"Sharingan,\" decreases enemy AE's DEF by 1000 until the end of the round."
+        },
+        "skill2": {
+            "name": "Warning to the Hidden Leaf",
+            "desc": "When deployed as the AE, if the enemy AE is \"Leaf,\" grants 2 chakra."
+        }
+    },
+    {
+        "id": "1-36",
+        "setNumber": 1,
+        "emblemNumber": 36,
+        "name": "Deidara",
+        "tags": [],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "C3",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Explosive Art",
+            "desc": "When deployed as the AE, if you have more than 6 chakra,  increases your ATK by 2000 until the end of the round."
+        },
+        "skill2": {
+            "name": "Fleeting Beauty",
+            "desc": "At the start of Round 3, if \"Sasori\" is on your team, grants 4 chakra."
+        }
+    },
+    {
+        "id": "1-37",
+        "setNumber": 1,
+        "emblemNumber": 37,
+        "name": "Sasori",
+        "tags": [
+            "Akatsuki",
+            "Puppet"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Iron Sand Unleash",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Puppet Body",
+            "desc": "At the end of the round, if deployed as the AE,  restores your team's HP by 500."
+        },
+        "skill2": {
+            "name": "Eternal Beauty",
+            "desc": "Starting from Round 3, if \"Deidara\" is on your team, grants 2 chakra at the start of the round."
+        }
+    },
+    {
+        "id": "1-38",
+        "setNumber": 1,
+        "emblemNumber": 38,
+        "name": "Suigetsu Hozuki",
+        "tags": [
+            "Taka",
+            "Weapon"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Water Gun: Double Blast",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Waterscopic Arm",
+            "desc": "When deployed as the AE, if the enemy AE is \"PWR,\" increases your ATK by 1500 until end of the round."
+        },
+        "skill2": {
+            "name": "Second Coming of the Demon",
+            "desc": "At the start of Round 3, grants 1 chakra and increases your ATK by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "1-39",
+        "setNumber": 1,
+        "emblemNumber": 39,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE.The DMG is increased based on your number of \"Naruto\" allies."
+        },
+        "skill1": {
+            "name": "Multi Shadow Clone Jutsu",
+            "desc": "At the start of Round 3, releases 2 shadow clones."
+        },
+        "skill2": {
+            "name": "Shadow Clone Coordination",
+            "desc": "When deployed as the AE, if there's more than 1 \"Naruto\" ally, increases your ATK by 1000 until end of the round."
+        }
+    },
+    {
+        "id": "1-40",
+        "setNumber": 1,
+        "emblemNumber": 40,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Hebi",
+            "Lil' bro",
+            "Sharingan"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Chidori",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Second State",
+            "desc": "At the start of Round 3, activates \"Second State.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-41",
+        "setNumber": 1,
+        "emblemNumber": 41,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Medical",
+            "Team 7"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Cherry Blossom Clash",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Medical Expertise",
+            "desc": "At the start of Round 2, restores your team's HP by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-42",
+        "setNumber": 1,
+        "emblemNumber": 42,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Lightning Blade",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Mangekyo Sharingan",
+            "desc": "At the start of the round, if you have more than 5 chakra, activates \"Mangekyo Sharingan.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-43",
+        "setNumber": 1,
+        "emblemNumber": 43,
+        "name": "Sai",
+        "tags": [
+            "Art",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Super Beast Scroll",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE. The DMG dealt is higher if any ally is \"Super Beast Scroll.\""
+        },
+        "skill1": {
+            "name": "Support: Super Beast Scroll",
+            "desc": "At the start of Round 2, releases 2 \"Super Beast Scrolls.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-44",
+        "setNumber": 1,
+        "emblemNumber": 44,
+        "name": "Yamato",
+        "tags": [
+            "Leaf",
+            "Team 7",
+            "Wood Style"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "10th Edict on Enlightenment",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE.If the enemy AE is \"Jinchuriki,\" permanently decreases AE's ATK by 1500."
+        },
+        "skill1": {
+            "name": "Kakashi's Replacement",
+            "desc": "If ally AE is \"Team 7,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-45",
+        "setNumber": 1,
+        "emblemNumber": 45,
+        "name": "Neji Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "8 Trigrams Hazan Strike",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Gentle Fist User",
+            "desc": "When deployed as the AE, if you win the Attack Battle, decreases the enemy AE's DEF by 1000 until the end of the round."
+        },
+        "skill2": {
+            "name": "Byakugan",
+            "desc": "During Round 2, you can check the enemy's selected AE."
+        }
+    },
+    {
+        "id": "1-46",
+        "setNumber": 1,
+        "emblemNumber": 46,
+        "name": "Rock Lee",
+        "tags": [
+            "Leaf",
+            "Youth"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Leaf Hurricane",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Enthusiastic Training",
+            "desc": "At the end of the round, if deployed as the AE, permanently increases your ATK by 500 and DEF by 500."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-47",
+        "setNumber": 1,
+        "emblemNumber": 47,
+        "name": "Tenten",
+        "tags": [
+            "Leaf",
+            "Weapon"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Weapon Control Tensasai",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE. The DMG is increased based on the number of \"Weapon\" on your team."
+        },
+        "skill1": {
+            "name": "Team 3's No-Nonsense Member",
+            "desc": "If ally AE is \"Neji,\" \"Lee,\" or \"Guy,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-48",
+        "setNumber": 1,
+        "emblemNumber": 48,
+        "name": "Kankuro",
+        "tags": [
+            "Lil' bro",
+            "Puppet",
+            "Sand"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Puppet Show Iron Maiden",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE.The DMG is increased if any ally is \"Puppet.\""
+        },
+        "skill1": {
+            "name": "Summoning Jutsu: Crow",
+            "desc": "At the start of Round 3, summons \"Crow.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-49",
+        "setNumber": 1,
+        "emblemNumber": 49,
+        "name": "Temari",
+        "tags": [
+            "Fan",
+            "Sand"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Wind Scythe Jutsu",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Overprotective Sister",
+            "desc": "If ally AE is \"Li'l Bro,\" increases ally AE's DEF by 1500 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-50",
+        "setNumber": 1,
+        "emblemNumber": 50,
+        "name": "Granny Chiyo",
+        "tags": [
+            "Big Sis",
+            "Puppet",
+            "Sand"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Chikamatsu's 10 Puppets",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE.The DMG is increased based on your number of \"Puppet\" allies."
+        },
+        "skill1": {
+            "name": "Human Puppet",
+            "desc": "If ally AE is \"Sakura,\" increases ally AE's ATK by 1500 until end of the round."
+        },
+        "skill2": {
+            "name": "Puppet Master's Secrets",
+            "desc": "At the start of Round 4, grants 2 chakra to each \"Puppet\" on your team."
+        }
+    },
+    {
+        "id": "1-51",
+        "setNumber": 1,
+        "emblemNumber": 51,
+        "name": "Kabuto Yakushi",
+        "tags": [
+            "Glasses",
+            "Medical",
+            "Sound"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Chakra Scalpel",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Sound Shinobi",
+            "desc": "At the start of Round 3, if \"Orochimaru\" is an ally, permanently increases ally \"Orochimaru\" ATK by 1500."
+        },
+        "skill2": {
+            "name": "Methodical Personality",
+            "desc": "At the end of the round, if deployed as the AE, restores your team's HP by 500."
+        }
+    },
+    {
+        "id": "1-52",
+        "setNumber": 1,
+        "emblemNumber": 52,
+        "name": "Kisame Hoshigaki",
+        "tags": [
+            "Akatsuki",
+            "Weapon"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Water Shark Bomb Jutsu",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Monster of the Hidden Mist",
+            "desc": "When deployed as the AE, if you win the Attack Battle, increases ATK by 1000 until the end of the round."
+        },
+        "skill2": {
+            "name": "A Pleasure to Meet You",
+            "desc": "At the end of Round 1, if deployed as the AE,  permanently increases your ATK by 1000."
+        }
+    },
+    {
+        "id": "1-53",
+        "setNumber": 1,
+        "emblemNumber": 53,
+        "name": "Deidara",
+        "tags": [
+            "Akatsuki",
+            "Art"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "C2",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Akatsuki",
+            "desc": "At the start of Round 2, summons \"Tobi.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-54",
+        "setNumber": 1,
+        "emblemNumber": 54,
+        "name": "Sasori",
+        "tags": [
+            "Akatsuki",
+            "Puppet"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Puppet Hiruko",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Human Puppet",
+            "desc": "At the end of Round 2, activates \"Human Puppet.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-55",
+        "setNumber": 1,
+        "emblemNumber": 55,
+        "name": "Karin",
+        "tags": [
+            "Glasses",
+            "Hebi"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Adamantine Sealing Chains",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's DEF by 500."
+        },
+        "skill1": {
+            "name": "Exceptional Perception",
+            "desc": "If ally AE has more than 5 chakra, increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-56",
+        "setNumber": 1,
+        "emblemNumber": 56,
+        "name": "Jugo",
+        "tags": [
+            "Animal",
+            "Hebi"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Living Wall Fist: Style One",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Bipolar Jugo",
+            "desc": "When used as AE, if enemy AE is \"SPD,\" ATK +2000 until end of round.\nIf enemy AE is \"TECH,\" DEF -1000 until end of round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-57",
+        "setNumber": 1,
+        "emblemNumber": 57,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE.The DMG is increased based on your number of \"Naruto\" allies."
+        },
+        "skill1": {
+            "name": "Multi Shadow Clone Jutsu",
+            "desc": "At the start of Round 2, releases 2 shadow clones."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-58",
+        "setNumber": 1,
+        "emblemNumber": 58,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Hebi",
+            "Lil' bro",
+            "Sharingan"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Lightning Speed Weapons",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Chakra Up: Round",
+            "desc": "At the start of Round 2, grants 2 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-59",
+        "setNumber": 1,
+        "emblemNumber": 59,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Medical",
+            "Team 7"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Cherry Blossom Clash",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Chakra Assist: Round",
+            "desc": "At the start of Round 3,  grants 1 chakra to each \"TECH\" on your team."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-60",
+        "setNumber": 1,
+        "emblemNumber": 60,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Water Style: Water Dragon Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Summoning Jutsu: Pakkun",
+            "desc": "At the start of Round 3, summons \"Pakkun.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-61",
+        "setNumber": 1,
+        "emblemNumber": 61,
+        "name": "Sai",
+        "tags": [
+            "Art",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Super Beast Scroll",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Enemy Type",
+            "desc": "If the enemy AE is \"TECH,\" increases ally AE's ATK by 1000 until the end of the\n round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-62",
+        "setNumber": 1,
+        "emblemNumber": 62,
+        "name": "Yamato",
+        "tags": [
+            "Leaf",
+            "Team 7",
+            "Wood Style"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Wood Style: Giant Forest",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team 7",
+            "desc": "At the start of Round 1, if \"Naruto,\" \"Sakura,\" and \"Sai\" are allies, permanently increases allies' ATK by 500."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-63",
+        "setNumber": 1,
+        "emblemNumber": 63,
+        "name": "Shikamaru Nara",
+        "tags": [
+            "Leaf",
+            "Shogi"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Shadow Stitching Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team 10",
+            "desc": "At the start of Round 3, if \"Choji\" and \"Ino\" are allies, permanently increases your ATK by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-64",
+        "setNumber": 1,
+        "emblemNumber": 64,
+        "name": "Shino Aburame",
+        "tags": [
+            "Insect",
+            "Leaf"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Hidden Jutsu Beetle Sphere",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team 8",
+            "desc": "At the start of Round 4, if \"Kiba\" and \"Hinata\" are allies, grants 3 chakra."
+        },
+        "skill2": {
+            "name": "ATK Up: Enemy Type",
+            "desc": "When deployed as the AE,  if the enemy AE is \"PWR,\" increases your ATK by 1000 until the end of the round."
+        }
+    },
+    {
+        "id": "1-65",
+        "setNumber": 1,
+        "emblemNumber": 65,
+        "name": "Neji Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "8 Trigrams Air Palm",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team 3",
+            "desc": "When deployed as the AE, if \"Lee,\" \"Tenten,\" or \"Guy\" are allies, increases your ATK by1000 until end of the round."
+        },
+        "skill2": {
+            "name": "Byakugan",
+            "desc": "During Round 3, you can check the enemy's selected AE."
+        }
+    },
+    {
+        "id": "1-66",
+        "setNumber": 1,
+        "emblemNumber": 66,
+        "name": "Might Guy",
+        "tags": [
+            "Leaf",
+            "Youth"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Severe Leaf Hurricanes",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Enemy Type",
+            "desc": "If the enemy AE is \"PWR,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-67",
+        "setNumber": 1,
+        "emblemNumber": 67,
+        "name": "Jiraiya",
+        "tags": [
+            "Leaf",
+            "Legendary Sannin",
+            "Toad"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Earth Style: Dark Swamp",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Toad Sage of Mount Myoboku",
+            "desc": "When deployed as the AE, increases your ATK by 300 for each \"Toad\" ally until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-68",
+        "setNumber": 1,
+        "emblemNumber": 68,
+        "name": "Orochimaru",
+        "tags": [
+            "Legendary Sannin",
+            "Sound"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Multiple Striking Shadow Snakes",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Prey in His Sights",
+            "desc": "When not deployed as the AE, decreases the enemy AE's DEF by 500 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-69",
+        "setNumber": 1,
+        "emblemNumber": 69,
+        "name": "Tsunade",
+        "tags": [
+            "Hokage",
+            "Leaf",
+            "Legendary Sannin"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Bodily Disorder Strike",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Big Payout",
+            "desc": "When deployed as the AE, if you win the Attack Battle, ATK +2000 until end of round. If you lose, DEF -2000 until end of round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-70",
+        "setNumber": 1,
+        "emblemNumber": 70,
+        "name": "Gaara",
+        "tags": [
+            "Five Kage",
+            "Lil' bro",
+            "Sand"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Sand Shower Barrage",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Sand Shinobi",
+            "desc": "At the start of Round 4, if \"Kankuro\" and \"Temari\" are your allies, permanently increases your team's DEF by 1500."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-71",
+        "setNumber": 1,
+        "emblemNumber": 71,
+        "name": "Granny Chiyo",
+        "tags": [
+            "Big Sis",
+            "Puppet",
+            "Sand"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Puppets: Father and Mother",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Timing Assist: Disadvantage",
+            "desc": "If ally AE is at a type disadvantage, slows down your team's timing gauge by 1 level until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-72",
+        "setNumber": 1,
+        "emblemNumber": 72,
+        "name": "Kabuto Yakushi",
+        "tags": [
+            "Glasses",
+            "Medical",
+            "Sound"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Chakra Scalpel",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Enemy Type",
+            "desc": "If the enemy AE is \"SPD,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-73",
+        "setNumber": 1,
+        "emblemNumber": 73,
+        "name": "Itachi Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Big Bro",
+            "Sharingan"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Fire Style: Fire Ball Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Akatsuki",
+            "desc": "If ally AE is \"Kisame,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-74",
+        "setNumber": 1,
+        "emblemNumber": 74,
+        "name": "Kisame Hoshigaki",
+        "tags": [
+            "Akatsuki",
+            "Weapon"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "The Great Blade: Shark Skin",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and decreases their chakra by 1."
+        },
+        "skill1": {
+            "name": "Team: Akatsuki",
+            "desc": "At the start of Round 2, grants all \"Itachi\" allies 1 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-75",
+        "setNumber": 1,
+        "emblemNumber": 75,
+        "name": "Deidara",
+        "tags": [
+            "Akatsuki",
+            "Art"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "C1",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Akatsuki",
+            "desc": "When deployed as the AE,  if \"Sasori\" is an ally, increases your ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-76",
+        "setNumber": 1,
+        "emblemNumber": 76,
+        "name": "Sasori",
+        "tags": [
+            "Akatsuki",
+            "Puppet"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Puppet Hiruko",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Akatsuki",
+            "desc": "At the start of Round 1, if \"Deidara\" is an ally, permanently increases your DEF by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-77",
+        "setNumber": 1,
+        "emblemNumber": 77,
+        "name": "Zabuza Momochi",
+        "tags": [
+            "Demon",
+            "Weapon"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Ninja Art Hidden Mist Jutsu",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Zabuza and Haku",
+            "desc": "At the start of Round 3, if \"Haku\" is an ally, increases your ATK by 1500 until the end of the round."
+        },
+        "skill2": {
+            "name": "Demon of the Hidden Mist",
+            "desc": "At the start of Round 2, grants 1 chakra and increases your ATK by 1000 until the end of the round."
+        }
+    },
+    {
+        "id": "1-78",
+        "setNumber": 1,
+        "emblemNumber": 78,
+        "name": "Haku",
+        "tags": [
+            "Ice Style",
+            "Mask"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Secret Jutsu Crystal Ice Mirrors",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Zabuza and Haku",
+            "desc": "At the start of Round 3, permanently increases all \"Zabuza\" allies' ATK by 1000."
+        },
+        "skill2": {
+            "name": "Ephemeral White Demon's Blade",
+            "desc": "When deployed as the AE, if the enemy AE is \"TECH,\" increases your ATK by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "1-79",
+        "setNumber": 1,
+        "emblemNumber": 79,
+        "name": "Kimimaro",
+        "tags": [
+            "Bone",
+            "Sound"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Camelia Dance",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Second State",
+            "desc": "At the start of Round 3, activates \"Second State.\""
+        },
+        "skill2": {
+            "name": "Chakra Assist: Round",
+            "desc": "At the start of Round 2, grants 1 chakra to each \"Sound\" on your team."
+        }
+    },
+    {
+        "id": "1-80",
+        "setNumber": 1,
+        "emblemNumber": 80,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Leaf",
+            "Team 7",
+            "Toad"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Summoning Jutsu: Gamabunta",
+            "desc": "At the start of Round 4, summons \"Gamabunta.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-81",
+        "setNumber": 1,
+        "emblemNumber": 81,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Hebi",
+            "Lil' bro",
+            "Sharingan"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Fire Style: Fire Ball Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Up: Round",
+            "desc": "At the start of Round 2, increases your ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-82",
+        "setNumber": 1,
+        "emblemNumber": 82,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Medical",
+            "Team 7"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Cherry Blossom Clash",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Enemy Type",
+            "desc": "If the enemy AE is \"SPD,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-83",
+        "setNumber": 1,
+        "emblemNumber": 83,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Fire Style: Fire Ball Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Up: Round",
+            "desc": "At the start of Round 3, increases your ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-84",
+        "setNumber": 1,
+        "emblemNumber": 84,
+        "name": "Choji Akimichi",
+        "tags": [
+            "Food",
+            "Leaf"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Partial Expansion Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "DEF Up: Round",
+            "desc": "At the start Round 2, increases your DEF by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-85",
+        "setNumber": 1,
+        "emblemNumber": 85,
+        "name": "Ino Yamanaka",
+        "tags": [
+            "Flower",
+            "Leaf"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Mind Transfer Jutsu",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's DEF by 500."
+        },
+        "skill1": {
+            "name": "Chakra Assist: Round",
+            "desc": "At the start of Round 3, grants allies 1 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-86",
+        "setNumber": 1,
+        "emblemNumber": 86,
+        "name": "Kiba Inuzuka",
+        "tags": [
+            "Animal",
+            "Leaf"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Fang Over Fang",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased if any ally is \"Animal.\""
+        },
+        "skill1": {
+            "name": "Support: Akamaru",
+            "desc": "At the start of Round 2, summons \"Akamaru.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-87",
+        "setNumber": 1,
+        "emblemNumber": 87,
+        "name": "Hinata Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Gentle Fist",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Byakugan",
+            "desc": "During Round 1, you can check the enemy's selected AE."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-88",
+        "setNumber": 1,
+        "emblemNumber": 88,
+        "name": "Rock Lee",
+        "tags": [
+            "Leaf",
+            "Youth"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Leaf Hurricane",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Up: Round",
+            "desc": "At the start of Round 1, increases your ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-89",
+        "setNumber": 1,
+        "emblemNumber": 89,
+        "name": "Tenten",
+        "tags": [
+            "Leaf",
+            "Weapon"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Unsealing Jutsu: Axe",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Enemy Type",
+            "desc": "If the enemy AE is \"PWR,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-90",
+        "setNumber": 1,
+        "emblemNumber": 90,
+        "name": "Anko Mitarashi",
+        "tags": [
+            "Food",
+            "Leaf"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Striking Shadow Snake",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Flashy Entrance",
+            "desc": "At the start of Round 1, grants 3 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-91",
+        "setNumber": 1,
+        "emblemNumber": 91,
+        "name": "Shizune",
+        "tags": [
+            "Animal",
+            "Leaf",
+            "Medical"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Poison Fog",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE and permanently decreases the enemy AE's DEF by 500."
+        },
+        "skill1": {
+            "name": "Tsunade's Attendant",
+            "desc": "At the end of the round, if ally AE is \"Tsunade,\" grants ally AE 2 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-92",
+        "setNumber": 1,
+        "emblemNumber": 92,
+        "name": "Kankuro",
+        "tags": [
+            "Lil' bro",
+            "Puppet",
+            "Sand"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Puppet: Crow",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE. The DMG is increased if any ally is \"Puppet.\""
+        },
+        "skill1": {
+            "name": "ATK Assist: Battle",
+            "desc": "If ally AE loses the Attack Battle, increases ally AE's DEF by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-93",
+        "setNumber": 1,
+        "emblemNumber": 93,
+        "name": "Temari",
+        "tags": [
+            "Big Sis",
+            "Fan",
+            "Sand"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Summoning: Blade Dance",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Enemy Type",
+            "desc": "If the enemy AE is \"TECH,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-94",
+        "setNumber": 1,
+        "emblemNumber": 94,
+        "name": "Suigetsu Hozuki",
+        "tags": [
+            "Hebi",
+            "Weapon"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "The Executioner's Blade",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Hebi",
+            "desc": "If ally AE is \"Sasuke,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-95",
+        "setNumber": 1,
+        "emblemNumber": 95,
+        "name": "Karin",
+        "tags": [
+            "Glasses",
+            "Hebi"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Adamantine Sealing Chains",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE and permanently decreases the enemy AE's DEF by 500."
+        },
+        "skill1": {
+            "name": "Team: Hebi",
+            "desc": "At the end the round, if ally AE is \"Sasuke,\" restores your team's HP by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-96",
+        "setNumber": 1,
+        "emblemNumber": 96,
+        "name": "Jugo",
+        "tags": [
+            "Animal",
+            "Hebi"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Pile Hammer, Living Wall Fist",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Hebi",
+            "desc": "At the start of Round 2, if \"Sasuke\" is an ally, grants all \"Sasuke\" allies 1 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-97",
+        "setNumber": 1,
+        "emblemNumber": 97,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "N.A.R.U.T.O. Uzumaki Barrage",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE. The DMG is increased based on your number of \"Naruto\" allies."
+        },
+        "skill1": {
+            "name": "Multi Shadow Clone Jutsu",
+            "desc": "At the start of round 4, releases 2 shadow clones."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-98",
+        "setNumber": 1,
+        "emblemNumber": 98,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Lions Barrage",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Naruto's Rival",
+            "desc": "When deployed as the AE, if \"Naruto\" is an ally, increases your ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-99",
+        "setNumber": 1,
+        "emblemNumber": 99,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Inner Sakura",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Feelings for Sasuke",
+            "desc": "If ally AE is \"Sasuke,\" permanently increases your ally AE's ATK by 500."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-100",
+        "setNumber": 1,
+        "emblemNumber": 100,
+        "name": "Shikamaru Nara",
+        "tags": [
+            "Leaf",
+            "Shogi"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Shadow Possession Jutsu",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Battle",
+            "desc": "If ally AE wins the Attack Battle, increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "1-101",
+        "setNumber": 1,
+        "emblemNumber": 101,
+        "name": "Neji Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "8 Trigrams 64 Palms",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE and permanently decreases the enemy AE's ATK by 1000."
+        },
+        "skill1": {
+            "name": "ATK Assist: Disadvantage",
+            "desc": "If ally AE is at a type disadvantage, increases ally AE's DEF by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-01",
+        "setNumber": 2,
+        "emblemNumber": 1,
+        "name": "Itachi Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Big Bro",
+            "Sharingan"
+        ],
+        "rarity": 6,
+        "specialAttack": {
+            "name": "Susano'o: Totsuka Blade",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's ATK by 1500."
+        },
+        "skill1": {
+            "name": "Final Words",
+            "desc": "Usable on Round 4. Permanently increases each \"Sharingan\" on your team's ATK by 2500 and DEF by 1500."
+        },
+        "skill2": {
+            "name": "Transfer Seal: Amaterasu",
+            "desc": "Can be used only once. If ally AE is \"Sasuke,\" permanently decreases enemy AE's DEF by 3000."
+        }
+    },
+    {
+        "id": "2-02",
+        "setNumber": 2,
+        "emblemNumber": 2,
+        "name": "Madara Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Sharingan"
+        ],
+        "rarity": 6,
+        "specialAttack": {
+            "name": "Perfect Susano'o",
+            "chakra": "8",
+            "desc": "Deals massive DMG to the enemy AE and permanently increases your ATK and DEF by 1000."
+        },
+        "skill1": {
+            "name": "The Strongest Uchiha",
+            "desc": "Can be used only once. When deployed as the AE, permanently increases your ATK and DEF by 400 for each enemy emblem."
+        },
+        "skill2": {
+            "name": "Uchiha Reflection",
+            "desc": "When deployed as the AE, if enemy AE is \"PWR,\" grants type advantage until the end of the round."
+        }
+    },
+    {
+        "id": "2-03",
+        "setNumber": 2,
+        "emblemNumber": 3,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Leaf",
+            "Sage Mode",
+            "Toad"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Wind Style: Rasen Shuriken",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "The Guts to Never Give Up",
+            "desc": "At the end of Round 3, if your team's HP is less than 8000, grants you 3 chakra."
+        },
+        "skill2": {
+            "name": "Blessings of Sage Jutsu Chakra",
+            "desc": "When deployed as the AE, increases your ATK and DEF by 200 for each of your chakra until the end of the round."
+        }
+    },
+    {
+        "id": "2-04",
+        "setNumber": 2,
+        "emblemNumber": 4,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Lightning Blade",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Akimichi Clan",
+            "desc": "At the end of Round 1, summons \"Choji\" and \"Choza.\""
+        },
+        "skill2": {
+            "name": "Desperate Support",
+            "desc": "If your team's HP is less than 8000, increases ally AE's DEF by 2000 until the end of the round."
+        }
+    },
+    {
+        "id": "2-05",
+        "setNumber": 2,
+        "emblemNumber": 5,
+        "name": "Hinata Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Gentle Step Twin Lion Fists",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's ATK by 1000."
+        },
+        "skill1": {
+            "name": "Because I Love You",
+            "desc": "Usable on Round 3. Grants 2 chakra and permanently increases ATK by 2000 for you and all \"Naruto\" allies."
+        },
+        "skill2": {
+            "name": "Byakugan",
+            "desc": "During Round 3, you can check the enemy's selected AE."
+        }
+    },
+    {
+        "id": "2-06",
+        "setNumber": 2,
+        "emblemNumber": 6,
+        "name": "Jiraiya",
+        "tags": [
+            "Leaf",
+            "Sage Mode",
+            "Toad"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Massive Rasengan",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased based on the number of \"SPD\" emblems on your team."
+        },
+        "skill1": {
+            "name": "Time for Selection",
+            "desc": "On Round 3, if you are the AE, your ATK +2000 until round's end. If you are not the AE, restores team's HP by 2000."
+        },
+        "skill2": {
+            "name": "Sage Art: Amphibian Jutsu",
+            "desc": "At the start of the round, if you have more than 1 \"Toad\" ally, grants you 1 chakra."
+        }
+    },
+    {
+        "id": "2-07",
+        "setNumber": 2,
+        "emblemNumber": 7,
+        "name": "Orochimaru",
+        "tags": [
+            "Legendary Sannin",
+            "Sound"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Eight-Headed Serpent Jutsu",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Persistence for Life",
+            "desc": "When deployed as the AE, if you lose the Attack Battle, restores your team's HP by 1500."
+        },
+        "skill2": {
+            "name": "The Snake Within Sasuke",
+            "desc": "If ally AE is \"Sasuke,\" grants you 1 chakra and permanently increases your ATK by 1000."
+        }
+    },
+    {
+        "id": "2-08",
+        "setNumber": 2,
+        "emblemNumber": 8,
+        "name": "Tsunade",
+        "tags": [
+            "Hokage",
+            "Leaf",
+            "Legendary Sannin"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Heaven Kick of Pain",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased based on the number of \"PWR\" emblems on your team."
+        },
+        "skill1": {
+            "name": "Everything in a Single Strike",
+            "desc": "When deployed as the AE, if you win the Attack Battle, increases your ATK by 1500 until the end of the round."
+        },
+        "skill2": {
+            "name": "\"Akatsuki\" Sweep Command",
+            "desc": "If enemy AE is \"Akatsuki,\" increases your team AE's ATK and DEF by 1000 until the end of the round."
+        }
+    },
+    {
+        "id": "2-09",
+        "setNumber": 2,
+        "emblemNumber": 9,
+        "name": "Deidara",
+        "tags": [
+            "Akatsuki",
+            "Art"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Detonating Clay: CO",
+            "chakra": "8",
+            "desc": "Deals massive DMG to the enemy AE. The DMG is increased based on the number of \"Art\" emblems on your team."
+        },
+        "skill1": {
+            "name": "Art is an Explosion!!!!",
+            "desc": "Usable on Round 4. Grants 4 chakra to each \"Art\" on your team and increases ATK by 1000 until the end of the round."
+        },
+        "skill2": {
+            "name": "Ultimate Art",
+            "desc": "When SP is used, increases your ATK by 500 for each of your chakra until the end of the round."
+        }
+    },
+    {
+        "id": "2-10",
+        "setNumber": 2,
+        "emblemNumber": 10,
+        "name": "Nagato",
+        "tags": [
+            "Akatsuki",
+            "Rinnegan"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Planetary Devastation",
+            "chakra": "9",
+            "desc": "Deals maximum DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Gedo Art of Rinne Rebirth",
+            "desc": "At the end of Round 3, restores your team's HP by 4000, grants allies 2 chakra and reduces your chakra by 9."
+        },
+        "skill2": {
+            "name": "Pupils of Six Paths",
+            "desc": "At the start of Round 3, grants you 2 chakra and increases your ATK by 1000 until the end of the round."
+        }
+    },
+    {
+        "id": "2-11",
+        "setNumber": 2,
+        "emblemNumber": 11,
+        "name": "Konan",
+        "tags": [
+            "Akatsuki",
+            "Paper"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Sacred Paper Emissary Jutsu",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Bridge to Peace",
+            "desc": "Usable on Round 3. Increases ally \"Nagato\" and \"Naruto\" ATK by 2000 and DEF by 2500 until the end of the round."
+        },
+        "skill2": {
+            "name": "600 Billion Paper Bombs",
+            "desc": "At the start of Round 4, if you have more than 6 chakra, increases your ATK by 2500 until the end of the round."
+        }
+    },
+    {
+        "id": "2-12",
+        "setNumber": 2,
+        "emblemNumber": 12,
+        "name": "Itachi Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Big Bro",
+            "Sharingan"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Susano'o",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently increases your DEF by 1500."
+        },
+        "skill1": {
+            "name": "Itachi's Trump Card",
+            "desc": "When SP is used, grants you 2 chakra and increases ATK by 1500 until the end of the round."
+        },
+        "skill2": {
+            "name": "Yata Mirror",
+            "desc": "When deployed as the AE, if enemy AE uses their SP, increases your DEF by 2500 until the end of the round."
+        }
+    },
+    {
+        "id": "2-13",
+        "setNumber": 2,
+        "emblemNumber": 13,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Hebi",
+            "Sharingan"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Kirin",
+            "chakra": "9",
+            "desc": "Deals maximum DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Lightning Down from the Heavens",
+            "desc": "When SP is used, if the enemy AE is \"PWR,\" increases your ATK by 2500 until the end of the round."
+        },
+        "skill2": {
+            "name": "The Final Jutsu",
+            "desc": "At the start of Round 4, grants you 3 chakra and increases your ATK by 1000 until the end of the round."
+        }
+    },
+    {
+        "id": "2-14",
+        "setNumber": 2,
+        "emblemNumber": 14,
+        "name": "Shisui Uchiha",
+        "tags": [
+            "Leaf",
+            "Sharingan"
+        ],
+        "rarity": 5,
+        "specialAttack": {
+            "name": "Fire Style: Fire Ball Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Shisui the Teleporter",
+            "desc": "At the start of a battle, if ally AE is \"PWR\" and the enemy AE is \"TECH,\" you can swap in for the ally AE."
+        },
+        "skill2": {
+            "name": "Koto Amatsukami",
+            "desc": "During Round 1, you can check the enemy's selected AE, and the enemy AE's DEF is decreased by 1500 until end of the round."
+        }
+    },
+    {
+        "id": "2-15",
+        "setNumber": 2,
+        "emblemNumber": 15,
+        "name": "Pain",
+        "tags": [
+            "Akatsuki",
+            "Rinnegan"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Almighty Push",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased based on your number of \"Pain\" allies."
+        },
+        "skill1": {
+            "name": "Support: The Six Paths of Pain",
+            "desc": "At the end of Round 2, summons 5 \"Pain.\""
+        },
+        "skill2": {
+            "name": "Akatsuki \"Zero\"",
+            "desc": "At the start of Round 4, for each \"Akatsuki\" on your team, permanently increases all team \"Akatsuki\" ATK by 200."
+        }
+    },
+    {
+        "id": "2-16",
+        "setNumber": 2,
+        "emblemNumber": 16,
+        "name": "Konan",
+        "tags": [
+            "Akatsuki",
+            "Paper"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Shikigami Dance",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Angel of the Hidden Rain",
+            "desc": "When deployed as the AE, permanently increases all allies' ATK and DEF by 500."
+        },
+        "skill2": {
+            "name": "Akatsuki \"White\"",
+            "desc": "At the end of Round 3, restores your team's HP by 400 for each \"Akatsuki\" on your team."
+        }
+    },
+    {
+        "id": "2-17",
+        "setNumber": 2,
+        "emblemNumber": 17,
+        "name": "Itachi Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Big Bro",
+            "Sharingan"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Amaterasu",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "The Black Flame that Burns All",
+            "desc": "When SP is used, permanently decreases enemy team's DEF by 1000."
+        },
+        "skill2": {
+            "name": "Akatsuki \"Crimson\"",
+            "desc": "When deployed as the AE, for each \"Akatsuki\" on your team, increases your ATK by 300 until the end of the round. "
+        }
+    },
+    {
+        "id": "2-18",
+        "setNumber": 2,
+        "emblemNumber": 18,
+        "name": "Kisame Hoshigaki",
+        "tags": [
+            "Akatsuki",
+            "Weapon"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Water Style: Five Hungry Sharks",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "The Chakra-Devouring Blade",
+            "desc": "Starting from Round 2, when you deal damage, permanently increases ATK of each \"Weapon\" on your team by 1000."
+        },
+        "skill2": {
+            "name": "Akatsuki \"South\"",
+            "desc": "At the start of Round 2, if you have more than 1 \"Akatsuki\" ally, permanently increases your team's DEF by 1000."
+        }
+    },
+    {
+        "id": "2-19",
+        "setNumber": 2,
+        "emblemNumber": 19,
+        "name": "Deidara",
+        "tags": [
+            "Akatsuki",
+            "Art"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "C3",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Artistic Explosion",
+            "desc": "When SP is used, grants you 2 chakra."
+        },
+        "skill2": {
+            "name": "Akatsuki \"Blue\"",
+            "desc": "Starting from Round 2, when deployed as the AE and with more than 1 \"Akatsuki\" ally, ATK is permanently increased by 1000."
+        }
+    },
+    {
+        "id": "2-20",
+        "setNumber": 2,
+        "emblemNumber": 20,
+        "name": "Sasori",
+        "tags": [
+            "Akatsuki",
+            "Puppet"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Iron Sand Block Attack",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Human Puppet",
+            "desc": "At the start of the round, if you have more than 7 chakra, activates \"Human Puppet.\""
+        },
+        "skill2": {
+            "name": "Akatsuki \"Jewel\"",
+            "desc": "At the end of Round 2, grants you 1 chakra for each \"Akatsuki\" on your team."
+        }
+    },
+    {
+        "id": "2-21",
+        "setNumber": 2,
+        "emblemNumber": 21,
+        "name": "Hidan",
+        "tags": [
+            "Akatsuki",
+            "Immortal",
+            "Weapon"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Cursed Art: Blood Rite Death",
+            "chakra": "8",
+            "desc": "Deals massive DMG to the enemy AE. The DMG is increased if your team has less than 8000 HP."
+        },
+        "skill1": {
+            "name": "Ritual Preparation",
+            "desc": "When you deal damage, grants you 2 chakra."
+        },
+        "skill2": {
+            "name": "Akatsuki \"Three\"",
+            "desc": "When you take damage, if you have more than 1 \"Akatsuki\" ally, restores your team's HP by 1000."
+        }
+    },
+    {
+        "id": "2-22",
+        "setNumber": 2,
+        "emblemNumber": 22,
+        "name": "Kakuzu",
+        "tags": [
+            "Akatsuki",
+            "Money"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Fire Style: Searing Migraine",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Jiongu",
+            "desc": "At the end of Round 3, activates\"Jiongu Form.\""
+        },
+        "skill2": {
+            "name": "Akatsuki \"North\"",
+            "desc": "At the start of Round 3, if you have more than 1 \"Akatsuki\" ally, grants 2 chakra to each \"Akatsuki\" on your team."
+        }
+    },
+    {
+        "id": "2-23",
+        "setNumber": 2,
+        "emblemNumber": 23,
+        "name": "Zetsu",
+        "tags": [
+            "Akatsuki",
+            "Mystery"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Sporulation Jutsu",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy team's DEF by 500."
+        },
+        "skill1": {
+            "name": "Battlefield Recorder",
+            "desc": "At the end of the round, if not deployed as the AE, permanently decreases enemy AE's DEF by 500."
+        },
+        "skill2": {
+            "name": "Akatsuki \"Boar\"",
+            "desc": "At the start of Round 1, increases \"Akatsuki\" allies' ATK by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "2-24",
+        "setNumber": 2,
+        "emblemNumber": 24,
+        "name": "Tobi",
+        "tags": [
+            "Akatsuki",
+            "Mask"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Ninja Art: Whack-A-Mole Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Masked Jester",
+            "desc": "When deployed as the AE, speeds up enemy team's timing gauge by 2 levels until the end of the round."
+        },
+        "skill2": {
+            "name": "Akatsuki \"Jewel\"",
+            "desc": "When deployed as the AE, if you win the Attack Battle, grants \"Akatsuki\" allies 1 chakra."
+        }
+    },
+    {
+        "id": "2-25",
+        "setNumber": 2,
+        "emblemNumber": 25,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Lightning Blade",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Team 7",
+            "desc": "At the end of Round 2, summons \"Naruto,\" \"Sasuke,\" and \"Sakura.\""
+        },
+        "skill2": {
+            "name": "Kakashi the Copy Ninja",
+            "desc": "At the start of Round 3, permanently increases your ATK by 200 for each ally trait."
+        }
+    },
+    {
+        "id": "2-26",
+        "setNumber": 2,
+        "emblemNumber": 26,
+        "name": "Asuma Sarutobi",
+        "tags": [
+            "Leaf",
+            "Shogi",
+            "Weapon"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Fire Style: Burning Ash",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Team 10",
+            "desc": "At the end of Round 2, summons \"Shikamaru,\" \"Choji,\" and \"Ino.\""
+        },
+        "skill2": {
+            "name": "Change in Chakra Nature: Wind",
+            "desc": "When deployed as the AE, if the enemy AE is \"SPD,\" increases your ATK by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "2-27",
+        "setNumber": 2,
+        "emblemNumber": 27,
+        "name": "Kurenai Yuhi",
+        "tags": [
+            "Flower",
+            "Leaf"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Demonic Illusion: Tree Trap",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE and permanently decreases the enemy AE's DEF by 1000."
+        },
+        "skill1": {
+            "name": "Support: Team 8",
+            "desc": "At the end of Round 2, summons \"Shino,\" \"Kiba,\" and \"Hinata.\""
+        },
+        "skill2": {
+            "name": "Genjutsu User",
+            "desc": "When deployed as the AE, if you win the Attack Battle, reduces enemy AE's chakra by 1."
+        }
+    },
+    {
+        "id": "2-28",
+        "setNumber": 2,
+        "emblemNumber": 28,
+        "name": "Might Guy",
+        "tags": [
+            "Leaf",
+            "Youth"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Asakujaku",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Team 3",
+            "desc": "At the end of Round 2, summons \"Neji,\" \"Lee,\" and \"Tenten.\""
+        },
+        "skill2": {
+            "name": "Countermeasure Against Kakashi",
+            "desc": "When deployed as the AE, if the enemy AE is \"Sharingan,\" increases your ATK by 2000 until the end of the round."
+        }
+    },
+    {
+        "id": "2-29",
+        "setNumber": 2,
+        "emblemNumber": 29,
+        "name": "Yamato",
+        "tags": [
+            "Leaf",
+            "Team 7",
+            "Wood Style"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Tree Bind Eternal Burial",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Team 7",
+            "desc": "At the end of Round 2, summons \"Naruto,\" \"Sakura,\" and \"Sai.\""
+        },
+        "skill2": {
+            "name": "Careful Strategic Instructions",
+            "desc": "At the start of Round 3, increases allies' DEF by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "2-30",
+        "setNumber": 2,
+        "emblemNumber": 30,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Hebi",
+            "Lil' bro",
+            "Sharingan"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Chidori",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Hebi",
+            "desc": "At the end of Round 2, summons \"Suigetsu,\" \"Karin,\" and \"Jugo.\""
+        },
+        "skill2": {
+            "name": "Polished Visual Prowess",
+            "desc": "When deployed as the AE, if  the enemy AE is not \"Sharingan,\" decreases enemy AE's DEF by 1000 until the end of the round."
+        }
+    },
+    {
+        "id": "2-31",
+        "setNumber": 2,
+        "emblemNumber": 31,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE. The DMG is increased based on your number of \"Naruto\" allies."
+        },
+        "skill1": {
+            "name": "Multi Shadow Clone Jutsu",
+            "desc": "At the start of Round 3, releases 4 shadow clones."
+        },
+        "skill2": {
+            "name": "Shadow Clone All-Out Attack",
+            "desc": "Starting from Round 3, when deployed as the AE, increases ATK by 200 until end of round for each \"Naruto\" on your team."
+        }
+    },
+    {
+        "id": "2-32",
+        "setNumber": 2,
+        "emblemNumber": 32,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Hebi",
+            "Lil' bro",
+            "Sharingan"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Chidori Stream",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Hebi",
+            "desc": "At the start of Round 4, if \"Suigetsu,\" \"Karin,\" and \"Jugo\" are allies, permanently increases team's ATK by 1500."
+        },
+        "skill2": {
+            "name": "Itachi's Pursuer",
+            "desc": "When deployed as the AE, if the enemy AE is \"Akatsuki,\" grants you 2 chakra."
+        }
+    },
+    {
+        "id": "2-33",
+        "setNumber": 2,
+        "emblemNumber": 33,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Medical",
+            "Team 7"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Cherry Blossom Clash",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Her Master's Competitive Spirit",
+            "desc": "At the end of Round 3, if your team's HP is less than 8000, permanently increases your ATK by 2000."
+        },
+        "skill2": {
+            "name": "Hospitable Treatment",
+            "desc": "At the start of Round 4, restores your team's HP by 2500."
+        }
+    },
+    {
+        "id": "2-34",
+        "setNumber": 2,
+        "emblemNumber": 34,
+        "name": "Shikamaru Nara",
+        "tags": [
+            "Leaf",
+            "Shogi"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Shadow Pull Jutsu",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Entrusted with the Will of Fire",
+            "desc": "Usable on Round 5. Grants 2 chakra to \"Shikamaru,\" \"Choji,\" and \"Ino,\" and increases ATK by 3000 until end of the round."
+        },
+        "skill2": {
+            "name": "Worthy of Becoming Hokage",
+            "desc": "At the start of Round 3, permanently increases \"Leaf\" allies' ATK by 1000."
+        }
+    },
+    {
+        "id": "2-35",
+        "setNumber": 2,
+        "emblemNumber": 35,
+        "name": "Ino Yamanaka",
+        "tags": [
+            "Flower",
+            "Leaf"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Mind Transfer Jutsu",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's DEF by 1000."
+        },
+        "skill1": {
+            "name": "Team 10",
+            "desc": "At the start of Round 3, if \"Shikamaru,\" \"Choji,\" and \"Asuma\" are allies, grants 3 chakra to your team."
+        },
+        "skill2": {
+            "name": "A Caring Girl",
+            "desc": "If ally AE is \"PWR\" or \"TECH,\" increases ally AE's ATK by 1000 until the end of the round."
+        }
+    },
+    {
+        "id": "2-36",
+        "setNumber": 2,
+        "emblemNumber": 36,
+        "name": "Iruka Umino",
+        "tags": [
+            "Leaf",
+            "Teacher"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Seal and Capture Perimeter",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Naruto",
+            "desc": "At the start of Round 3, if \"Naruto\" is an ally, permanently increases your and \"Naruto\" allies' ATK by 1000."
+        },
+        "skill2": {
+            "name": "Academy Instructor",
+            "desc": "At the start of Round 1, permanently increases \"Leaf\" allies' ATK and DEF by 500."
+        }
+    },
+    {
+        "id": "2-37",
+        "setNumber": 2,
+        "emblemNumber": 37,
+        "name": "Jiraiya",
+        "tags": [
+            "Leaf",
+            "Legendary Sannin",
+            "Toad"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Art of the Raging Lion's Mane",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Summoning Jutsu: Gamaken",
+            "desc": "At the start of Round 2, summons \"Gamaken.\""
+        },
+        "skill2": {
+            "name": "Decisive Pose",
+            "desc": "When deployed as the AE, if you have more than 5 chakra, increases your ATK by 1500 until the end of the round."
+        }
+    },
+    {
+        "id": "2-38",
+        "setNumber": 2,
+        "emblemNumber": 38,
+        "name": "Killer Bee",
+        "tags": [
+            "Cloud",
+            "Jinchuriki",
+            "Music"
+        ],
+        "rarity": 4,
+        "specialAttack": {
+            "name": "Lightning Style: Lariat",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "WHEEEEE!!!",
+            "desc": "Usable on Round 3. Grants 2 chakra to each \"Jinchuriki\" on your team and permanently increases ATK and DEF by 1000."
+        },
+        "skill2": {
+            "name": "Perfect Jinchuriki",
+            "desc": "At the start of Round 1, grants you 2 chakra."
+        }
+    },
+    {
+        "id": "2-39",
+        "setNumber": 2,
+        "emblemNumber": 39,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased based on your number of \"Naruto\" allies."
+        },
+        "skill1": {
+            "name": "Transform: Sage Mode",
+            "desc": "At the start of the round, if you have more than 6 chakra, activates \"Sage Mode.\""
+        },
+        "skill2": {
+            "name": "Chakra Build from Shadow Clones",
+            "desc": "At the end of the round, if you have more than 1 \"Naruto\" ally, grants you  1 chakra."
+        }
+    },
+    {
+        "id": "2-40",
+        "setNumber": 2,
+        "emblemNumber": 40,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Lil' bro",
+            "Sharingan"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Snake Sword: Chidori Blade",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Lightning-Wrapped Blade",
+            "desc": "When deployed as the AE, if you win the Attack Battle, permanently decreases enemy AE's DEF by 500."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-41",
+        "setNumber": 2,
+        "emblemNumber": 41,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Medical",
+            "Team 7"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Cherry Blossom Clash",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Devoted Treatment",
+            "desc": "At the start of Round 4, if your team's HP is less than 6000, restore your team's HP by 2000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-42",
+        "setNumber": 2,
+        "emblemNumber": 42,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Lightning Style: Lightning Hound",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Skillful Analysis",
+            "desc": "At the end of Round 2, if not deployed as the AE, permanently decreases enemy team's DEF by 500."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-43",
+        "setNumber": 2,
+        "emblemNumber": 43,
+        "name": "Sai",
+        "tags": [
+            "Art",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Super Beast Scroll",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased based on the number of \"Art\" and \"Ink\" emblems on your team."
+        },
+        "skill1": {
+            "name": "Team 7",
+            "desc": "At the start of Round 3, if \"Naruto,\" \"Sakura,\" and \"Yamato\" are allies, permanently increases \"Team 7\" ATK by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-44",
+        "setNumber": 2,
+        "emblemNumber": 44,
+        "name": "Choji Akimichi",
+        "tags": [
+            "Food",
+            "Leaf"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Spiky Human Boulder",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Expansion Jutsu",
+            "desc": "At the end of Round 2, activates \"Expansion Form.\""
+        },
+        "skill2": {
+            "name": "Thoughtful, Loyal, and Kind",
+            "desc": "At the start of Round 1, permanently increases allies' DEF by 500."
+        }
+    },
+    {
+        "id": "2-45",
+        "setNumber": 2,
+        "emblemNumber": 45,
+        "name": "Hinata Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "8 Trigrams 32 Palms",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE and permanently decreases the enemy AE's ATK by 500."
+        },
+        "skill1": {
+            "name": "Team 8",
+            "desc": "If ally AE is \"Shino,\" \"Kiba,\" or \"Kurenai,\" increases ally AE's ATK by 1500 until the end of the round."
+        },
+        "skill2": {
+            "name": "Byakugan",
+            "desc": "During Round 4, you can check the enemy's selected AE."
+        }
+    },
+    {
+        "id": "2-46",
+        "setNumber": 2,
+        "emblemNumber": 46,
+        "name": "Shino Aburame",
+        "tags": [
+            "Insect",
+            "Leaf"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Hidden Jutsu: Beetle Sphere",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's DEF by 1000."
+        },
+        "skill1": {
+            "name": "Teeming with Insects",
+            "desc": "When deployed as the AE, speeds up enemy team's timing gauge by 1 level and decreases enemy AE's ATK by 1500 until end of round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-47",
+        "setNumber": 2,
+        "emblemNumber": 47,
+        "name": "Kiba Inuzuka",
+        "tags": [
+            "Animal",
+            "Leaf"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Fang Over Fang",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Akamaru",
+            "desc": "At the start of Round 1, summons \"Akamaru.\""
+        },
+        "skill2": {
+            "name": "Links Between Man and Beast",
+            "desc": "When deployed as the AE, if an \"Animal\" is an ally, increases your ATK by 1000 until the end of the round."
+        }
+    },
+    {
+        "id": "2-48",
+        "setNumber": 2,
+        "emblemNumber": 48,
+        "name": "Jiraiya",
+        "tags": [
+            "Leaf",
+            "Legendary Sannin",
+            "Toad"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Fire Style: Flame Bombs",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Sage Mode",
+            "desc": "At the start of the round, if you have more than 6 chakra, activates \"Sage Mode.\""
+        },
+        "skill2": {
+            "name": "Preparations for Sage Mode",
+            "desc": "At the end of Round 2, if not deployed as the AE, grants you 3 chakra."
+        }
+    },
+    {
+        "id": "2-49",
+        "setNumber": 2,
+        "emblemNumber": 49,
+        "name": "Orochimaru",
+        "tags": [
+            "Legendary Sannin",
+            "Sound"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Mandala of Snakes Formation",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Kabuto",
+            "desc": "At the start of Round 3, summons \"Kabuto.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-50",
+        "setNumber": 2,
+        "emblemNumber": 50,
+        "name": "Tsunade",
+        "tags": [
+            "Hokage",
+            "Leaf",
+            "Legendary Sannin"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Heaven Kick of Pain",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Shizune",
+            "desc": "At the start of Round 3, summons \"Shizune.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-51",
+        "setNumber": 2,
+        "emblemNumber": 51,
+        "name": "Itachi Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Big Bro",
+            "Sharingan"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Tsukuyomi",
+            "chakra": "8",
+            "desc": "Deals massive DMG to the enemy AE and decreases the enemy AE's chakra by 2."
+        },
+        "skill1": {
+            "name": "Complete Spiritual World Control",
+            "desc": "When SP is used, permanently decreases enemy AE's ATK by 1000."
+        },
+        "skill2": {
+            "name": "Team: Itachi's Partner",
+            "desc": "If ally AE is \"Juzo\" or \"Kisame,\" decreases enemy AE's DEF by 1000 until the end of the round."
+        }
+    },
+    {
+        "id": "2-52",
+        "setNumber": 2,
+        "emblemNumber": 52,
+        "name": "Pain",
+        "tags": [
+            "Akatsuki",
+            "Rinnegan"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Universal Pull",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Pain to the World",
+            "desc": "When deployed as the AE, if the enemy AE is \"Leaf,\" increases your ATK by 2000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-53",
+        "setNumber": 2,
+        "emblemNumber": 53,
+        "name": "Konan",
+        "tags": [
+            "Akatsuki",
+            "Paper"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Shikigami Dance",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Confetti Dancing in the Wind",
+            "desc": "If ally AE is \"Akatsuki,\" increases ally AE's DEF by 1500 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-54",
+        "setNumber": 2,
+        "emblemNumber": 54,
+        "name": "Deidara",
+        "tags": [
+            "Akatsuki",
+            "Art"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "C4 Karura",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's DEF by 1000."
+        },
+        "skill1": {
+            "name": "Nano Sized Explosives",
+            "desc": "When SP is used, permanently decreases enemy team's DEF by 500."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-55",
+        "setNumber": 2,
+        "emblemNumber": 55,
+        "name": "Juzo Biwa",
+        "tags": [
+            "Akatsuki",
+            "Weapon"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "The Executioner's Blade",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Akatsuki",
+            "desc": "At the start of Round 2, grants all \"Itachi\" allies 1 chakra."
+        },
+        "skill2": {
+            "name": "Former Seven Ninja Swordsman",
+            "desc": "At the start of round 1, grants you 1 chakra and increases ATK by 1000 until the end of the round."
+        }
+    },
+    {
+        "id": "2-56",
+        "setNumber": 2,
+        "emblemNumber": 56,
+        "name": "Suigetsu Hozuki",
+        "tags": [
+            "Akatsuki",
+            "Weapon"
+        ],
+        "rarity": 3,
+        "specialAttack": {
+            "name": "Water Gun: Double Blast",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Prodigy of the Hidden Mist",
+            "desc": "If the enemy AE is \"PWR,\" increases ally AE's ATK by 1500 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-57",
+        "setNumber": 2,
+        "emblemNumber": 57,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Toad"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased based on your number of \"Naruto\" allies."
+        },
+        "skill1": {
+            "name": "Summoning Jutsu: Gamabunta",
+            "desc": "At the start of Round 3, summons \"Gamabunta.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-58",
+        "setNumber": 2,
+        "emblemNumber": 58,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Hebi",
+            "Lil' bro",
+            "Sharingan"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Chidori Senbon",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Transform: Second State",
+            "desc": "At the start of Round 4, activates \"Second State.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-59",
+        "setNumber": 2,
+        "emblemNumber": 59,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Medical",
+            "Team 7"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Cherry Blossom Clash",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team 7",
+            "desc": "At the start of Round 4, if \"Naruto,\" \"Sai,\" and \"Yamato\" are allies, permanently increases team's ATK by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-60",
+        "setNumber": 2,
+        "emblemNumber": 60,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Lightning Blade",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Chakra Assist: Round",
+            "desc": "At the start of Round 2, grants 1 chakra to each\n\"Leaf\" on your team."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-61",
+        "setNumber": 2,
+        "emblemNumber": 61,
+        "name": "Choji Akimichi",
+        "tags": [
+            "Food",
+            "Leaf"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Partial Expansion Jutsu",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team 10",
+            "desc": "At the start of Round 3, if \"Shikamaru,\" \"Ino,\" and \"Asuma\" are allies, permanently increases team's DEF by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-62",
+        "setNumber": 2,
+        "emblemNumber": 62,
+        "name": "Ino Yamanaka",
+        "tags": [
+            "Flower",
+            "Leaf"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Mind Transfer Jutsu",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE and permanently decreases the enemy AE's DEF by 1000."
+        },
+        "skill1": {
+            "name": "Timing Assist: Disadvantage",
+            "desc": "If ally AE is at a type disadvantage, slows down your team's timing gauge by 1 level until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-63",
+        "setNumber": 2,
+        "emblemNumber": 63,
+        "name": "Asuma Sarutobi",
+        "tags": [
+            "Leaf",
+            "Shogi",
+            "Weapon"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Flying Swallow",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team 10",
+            "desc": "If ally AE is \"Shikamaru,\" \"Choji,\" or \"Ino,\" grants ally AE 1 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-64",
+        "setNumber": 2,
+        "emblemNumber": 64,
+        "name": "Kiba Inuzuka",
+        "tags": [
+            "Animal",
+            "Leaf"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Fang Over Fang",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Support: Akamaru",
+            "desc": "At the start of Round 1, summons \"Akamaru.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-65",
+        "setNumber": 2,
+        "emblemNumber": 65,
+        "name": "Hinata Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Gentle Fist",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "DEF Up: Round",
+            "desc": "At the start of Round 1, increases your DEF by 1000 until the end of the round."
+        },
+        "skill2": {
+            "name": "Byakugan",
+            "desc": "During Round 2, you can check the enemy's selected AE."
+        }
+    },
+    {
+        "id": "2-66",
+        "setNumber": 2,
+        "emblemNumber": 66,
+        "name": "Kurenai Yuhi",
+        "tags": [
+            "Flower",
+            "Leaf"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Demonic Illusion: Tree Trap",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's DEF by 1000."
+        },
+        "skill1": {
+            "name": "Team 8",
+            "desc": "At the end of Round 3, if \"Shino,\" \"Kiba,\" and \"Hinata\" are allies, restores your team's HP by 2000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-67",
+        "setNumber": 2,
+        "emblemNumber": 67,
+        "name": "Rock Lee",
+        "tags": [
+            "Leaf",
+            "Youth"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Leaf Hurricane",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team 3",
+            "desc": "At the start of Round 3, if \"Neji,\" \"Tenten,\" and \"Guy\" are allies, grants allies 2 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-68",
+        "setNumber": 2,
+        "emblemNumber": 68,
+        "name": "Tenten",
+        "tags": [
+            "Leaf",
+            "Weapon"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Weapon Control: Tensasai",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE. The DMG is increased based on the number of \"Weapon\" on your team."
+        },
+        "skill1": {
+            "name": "ATK Assist: Attack Battle",
+            "desc": "If ally AE wins the Attack Battle, increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-69",
+        "setNumber": 2,
+        "emblemNumber": 69,
+        "name": "Hiruzen Sarutobi",
+        "tags": [
+            "Hokage",
+            "Leaf",
+            "Weapon"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Adamantine Nyoi",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Indestructible Prison Wall",
+            "desc": "When an enemy AE uses SP, increases ally AE's DEF by 1500 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-70",
+        "setNumber": 2,
+        "emblemNumber": 70,
+        "name": "Itachi Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Big Bro",
+            "Sharingan"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Demonic Illusion: Shackle Stakes",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's DEF by 1000."
+        },
+        "skill1": {
+            "name": "Uncontrollable Jutsu Speed",
+            "desc": "On Round 1, speeds up enemy team's timing gauge\nby 2 levels until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-71",
+        "setNumber": 2,
+        "emblemNumber": 71,
+        "name": "Sasori",
+        "tags": [
+            "Akatsuki",
+            "Puppet"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Iron Sand Block Attack",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Enemy Type",
+            "desc": "If the enemy AE is \"TECH,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-72",
+        "setNumber": 2,
+        "emblemNumber": 72,
+        "name": "Hidan",
+        "tags": [
+            "Akatsuki",
+            "Immortal",
+            "Weapon"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Triple-Bladed Scythe",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Jashin's Teachings",
+            "desc": "When you deal damage, permanently increases your ATK by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-73",
+        "setNumber": 2,
+        "emblemNumber": 73,
+        "name": "Kakuzu",
+        "tags": [
+            "Akatsuki",
+            "Money"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Lightning Style: False Darkness",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Five Hearts",
+            "desc": "At the end of the round, if your team's HP is less than 5000, restores your team's HP by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-74",
+        "setNumber": 2,
+        "emblemNumber": 74,
+        "name": "Zetsu",
+        "tags": [
+            "Akatsuki",
+            "Mystery"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Sporulation Jutsu",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy team's DEF by 500."
+        },
+        "skill1": {
+            "name": "Team: Akatsuki",
+            "desc": "At the start of Round 2, if \"Tobi\" is an ally, permanently increases allies' ATK by 500."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-75",
+        "setNumber": 2,
+        "emblemNumber": 75,
+        "name": "Tobi",
+        "tags": [
+            "Akatsuki",
+            "Mask"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Ninja Art: Whack-A-Mole Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Akatsuki",
+            "desc": "At the start of Round 2, if \"Zetsu\" is an ally, grants allies 1 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-76",
+        "setNumber": 2,
+        "emblemNumber": 76,
+        "name": "Suigetsu Hozuki",
+        "tags": [
+            "Hebi",
+            "Weapon"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "The Executioner's Blade",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Type Advantage",
+            "desc": "If ally AE is at a type advantage, increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-77",
+        "setNumber": 2,
+        "emblemNumber": 77,
+        "name": "Karin",
+        "tags": [
+            "Glasses",
+            "Hebi"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Adamantine Sealing Chains",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE and permanently decreases the enemy AE's DEF by 500."
+        },
+        "skill1": {
+            "name": "Chakra Assist: Type Advantage",
+            "desc": "If ally AE is at a type advantage, grants ally AE 1 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-78",
+        "setNumber": 2,
+        "emblemNumber": 78,
+        "name": "Jugo",
+        "tags": [
+            "Animal",
+            "Hebi"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Pile Hammer, Living Wall Fist",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "HP Recovery: Type Advantage",
+            "desc": "If ally AE is at a type advantage, restores your team's HP by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-79",
+        "setNumber": 2,
+        "emblemNumber": 79,
+        "name": "Killer Bee",
+        "tags": [
+            "Cloud",
+            "Jinchuriki",
+            "Music"
+        ],
+        "rarity": 2,
+        "specialAttack": {
+            "name": "Acrobat",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE. The DMG is increased based on the number of \"Weapon\" on your team."
+        },
+        "skill1": {
+            "name": "Transform: Tailed Beast State",
+            "desc": "At the start of the round, if you have more than 8 chakra, activates \"Tailed Beast State.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-80",
+        "setNumber": 2,
+        "emblemNumber": 80,
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE. The DMG is increased based on your number of \"Naruto\" allies."
+        },
+        "skill1": {
+            "name": "Multi Shadow Clone Jutsu",
+            "desc": "At the start of Round 2, releases 2 shadow clones."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-81",
+        "setNumber": 2,
+        "emblemNumber": 81,
+        "name": "Sasuke Uchiha",
+        "tags": [
+            "Hebi",
+            "Lil' bro",
+            "Sharingan"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Twin Snakes Curse",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Chakra Up: Round",
+            "desc": "At the start of Round 1, grants you 1 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-82",
+        "setNumber": 2,
+        "emblemNumber": 82,
+        "name": "Sakura Haruno",
+        "tags": [
+            "Leaf",
+            "Medical",
+            "Team 7"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Cherry Blossom Clash",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Up: Enemy Type",
+            "desc": "When deployed as the AE, if the enemy AE is \"SPD,\" increases your ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-83",
+        "setNumber": 2,
+        "emblemNumber": 83,
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "A Thousand Years of Death",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team 7",
+            "desc": "When deployed as the AE, if \"Naruto,\" \"Sasuke,\" and \"Sakura\" are allies, increases your ATK and DEF by 1000 until round end."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-84",
+        "setNumber": 2,
+        "emblemNumber": 84,
+        "name": "Sai",
+        "tags": [
+            "Art",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Super Beast Scroll",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE. The DMG is increased based on the number of \"Art\" and \"Ink\" emblems on your team."
+        },
+        "skill1": {
+            "name": "Support: Super Beast Scroll",
+            "desc": "At the start of Round 2, releases 1 \"Super Beast Scroll.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-85",
+        "setNumber": 2,
+        "emblemNumber": 85,
+        "name": "Yamato",
+        "tags": [
+            "Leaf",
+            "Team 7",
+            "Wood Style"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Wood Style: Giant Forest",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "DEF Assist: Attack Battle",
+            "desc": "If ally AE loses the Attack Battle, increases ally AE's DEF by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-86",
+        "setNumber": 2,
+        "emblemNumber": 86,
+        "name": "Shikamaru Nara",
+        "tags": [
+            "Leaf",
+            "Shogi"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Shadow Stitching Jutsu",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team 10",
+            "desc": "At the start of Round 4, if \"Choji,\" \"Ino,\" and \"Asuma\" are allies, permanently increases your team's ATK by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-87",
+        "setNumber": 2,
+        "emblemNumber": 87,
+        "name": "Shino Aburame",
+        "tags": [
+            "Insect",
+            "Leaf"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Hidden Jutsu: Beetle Sphere",
+            "chakra": "6",
+            "desc": "Deals DMG to the enemy AE and permanently decreases the enemy AE's DEF by 1000."
+        },
+        "skill1": {
+            "name": "Chakra Assist: Round",
+            "desc": "At the start of Round 3,  grants 1 chakra to each \"TECH\" on your team."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-88",
+        "setNumber": 2,
+        "emblemNumber": 88,
+        "name": "Neji Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "8 Trigrams Air Palm",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Up: Enemy Type",
+            "desc": "When deployed as the AE, if the enemy AE is \"TECH\", increases your ATK by 1000 until the end  of the round."
+        },
+        "skill2": {
+            "name": "Byakugan",
+            "desc": "During Round 3, you can check the enemy's selected AE."
+        }
+    },
+    {
+        "id": "2-89",
+        "setNumber": 2,
+        "emblemNumber": 89,
+        "name": "Might Guy",
+        "tags": [
+            "Leaf",
+            "Youth"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Severe Leaf Hurricanes",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Summoning Justu: Ninja Tortoise",
+            "desc": "At the end of Round 2, summons \"Ninja Tortoise.\""
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-90",
+        "setNumber": 2,
+        "emblemNumber": 90,
+        "name": "Konohamaru Sarutobi",
+        "tags": [
+            "Leaf",
+            "Scarf"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Rasengan",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Naruto",
+            "desc": "At the start of Round 2, if \"Naruto\" is an ally, grants you  and \"Naruto\" allies 1 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-91",
+        "setNumber": 2,
+        "emblemNumber": 91,
+        "name": "Jiraiya",
+        "tags": [
+            "Leaf",
+            "Legendary Sannin",
+            "Toad"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Earth Style: Dark Swamp",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Enemy Type",
+            "desc": "If the enemy AE is \"SPD,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-92",
+        "setNumber": 2,
+        "emblemNumber": 92,
+        "name": "Orochimaru",
+        "tags": [
+            "Legendary Sannin",
+            "Sound"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Snake Sword",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Sound Shinobi",
+            "desc": "When deployed as the AE, if \"Kabuto\" is an ally, permanently increases your team's ATK by 500."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-93",
+        "setNumber": 2,
+        "emblemNumber": 93,
+        "name": "Tsunade",
+        "tags": [
+            "Hokage",
+            "Leaf",
+            "Legendary Sannin"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Bodily Disorder Strike",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Chakra Assist: Round",
+            "desc": "At the start of Round 3, grants allies 1 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-94",
+        "setNumber": 2,
+        "emblemNumber": 94,
+        "name": "Kabuto Yakushi",
+        "tags": [
+            "Glasses",
+            "Medical",
+            "Sound"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Chakra Scalpel",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Sound Shinobi",
+            "desc": "At the start of Round 3, if \"Orochimaru\" is an ally, increases your and \"Orochimaru\" allies' ATK by 1000 permanently."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-95",
+        "setNumber": 2,
+        "emblemNumber": 95,
+        "name": "Kisame Hoshigaki",
+        "tags": [
+            "Akatsuki",
+            "Weapon"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "The Great Blade: Shark Skin",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and decreases the enemy AE's chakra by 1."
+        },
+        "skill1": {
+            "name": "ATK Up: Round",
+            "desc": "At the start of Round 3, increases your ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-96",
+        "setNumber": 2,
+        "emblemNumber": 96,
+        "name": "Deidara",
+        "tags": [
+            "Akatsuki",
+            "Art"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "C1",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "ATK Assist: Enemy Type",
+            "desc": "If the enemy AE is \"PWR,\" increases ally AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-97",
+        "setNumber": 2,
+        "emblemNumber": 97,
+        "name": "Hinata Hyuga",
+        "tags": [
+            "Byakugan",
+            "Leaf"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Gentle Fist",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Byakugan",
+            "desc": "During Round 4, you can check the enemy's selected AE."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-98",
+        "setNumber": 2,
+        "emblemNumber": 98,
+        "name": "Rock Lee",
+        "tags": [
+            "Leaf",
+            "Youth"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Hidden Lotus",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Genius of Perseverance",
+            "desc": "At the end of the round, if deployed as the AE, permanently increases your ATK by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-99",
+        "setNumber": 2,
+        "emblemNumber": 99,
+        "name": "Gaara",
+        "tags": [
+            "Lil' bro",
+            "Sand"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Sand Tsunami",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Leaf-Sand Alliance",
+            "desc": "When deployed as the AE, if \"Lee\" is an ally, permanently increases allies' DEF by 1000."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-100",
+        "setNumber": 2,
+        "emblemNumber": 100,
+        "name": "Kankuro",
+        "tags": [
+            "Big Bro",
+            "Puppet",
+            "Sand"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Puppet Show: Iron Maiden",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Leaf-Sand Alliance",
+            "desc": "When deployed as the AE, if \"Kiba\" is an ally, grants you 2 chakra."
+        },
+        "skill2": {}
+    },
+    {
+        "id": "2-101",
+        "setNumber": 2,
+        "emblemNumber": 101,
+        "name": "Temari",
+        "tags": [
+            "Big Sis",
+            "Fan",
+            "Sand"
+        ],
+        "rarity": 1,
+        "specialAttack": {
+            "name": "Summoning Jutsu: Blade Dance",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Leaf-Sand Alliance",
+            "desc": "When deployed as the AE, if \"Shikamaru\" is an ally, increases your ATK by 1500 until the end of the round."
+        },
+        "skill2": {}
+    }
+]
