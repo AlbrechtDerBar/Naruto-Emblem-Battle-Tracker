@@ -2,7 +2,7 @@
   "name": "naruto-emblem-battle",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/AlbrechtDerBar/Naruto-Emblem-Battle-Tracker",
+  "homepage": "https://albrechtderbar.github.io/Naruto-Emblem-Battle-Tracker",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.4",
