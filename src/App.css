@@ -45,6 +45,7 @@
   justify-content: center;
   gap: 10px;
   padding: 20px;
+  margin: 0;
 }
 
 /* #region Emblem-Card */
@@ -111,3 +112,101 @@
 }
 
 /* #endregion */
+
+/* #region Filters */
+/* Filters Section Styling */
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box; /* Ensure padding is included in the container's width calculation */
+  /* Ensure filters stay centered even when no content */
+  display: flex;
+  justify-content: center;
+  border: 1px solid #282c34;
+}
+
+/* Each filter group (label + input/select) */
+.filter-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* Inline group for Set Number and Owned Status */
+.filter-group-inline {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Filter items inside inline group (Set and Owned dropdowns) */
+.filter-item {
+  flex: 1;
+}
+
+/* Label for filter inputs/select */
+.filter-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.filter-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+/* Dropdowns for Set Number and Owned Status */
+.filter-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.filter-dropdown:hover,
+.filter-dropdown:focus {
+  border-color: #61dafb;
+  outline: none;
+}
+
+/* Input for the Emblem Collection ID */
+.filter-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.filter-input:hover,
+.filter-input:focus {
+  border-color: #61dafb;
+  outline: none;
+}
+
+/* Optional: Add placeholder text styling for input */
+.filter-input::placeholder {
+  color: #888;
+  font-style: italic;
+}
+/* #endregion Filters */
