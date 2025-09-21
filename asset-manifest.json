@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Naruto-Emblem-Battle-Tracker/static/css/main.11c15448.css",
-    "main.js": "/Naruto-Emblem-Battle-Tracker/static/js/main.1773324a.js",
+    "main.js": "/Naruto-Emblem-Battle-Tracker/static/js/main.df133b48.js",
     "static/js/453.914006e6.chunk.js": "/Naruto-Emblem-Battle-Tracker/static/js/453.914006e6.chunk.js",
     "static/media/u2-13.webp": "/Naruto-Emblem-Battle-Tracker/static/media/u2-13.c64c29fa9b2f86f901f2.webp",
     "static/media/u2-08.webp": "/Naruto-Emblem-Battle-Tracker/static/media/u2-08.3be9a02aea4d3372a1a1.webp",
@@ -207,11 +207,11 @@
     "static/media/u1-92.webp": "/Naruto-Emblem-Battle-Tracker/static/media/u1-92.f9c47ec378bbb1793c9a.webp",
     "index.html": "/Naruto-Emblem-Battle-Tracker/index.html",
     "main.11c15448.css.map": "/Naruto-Emblem-Battle-Tracker/static/css/main.11c15448.css.map",
-    "main.1773324a.js.map": "/Naruto-Emblem-Battle-Tracker/static/js/main.1773324a.js.map",
+    "main.df133b48.js.map": "/Naruto-Emblem-Battle-Tracker/static/js/main.df133b48.js.map",
     "453.914006e6.chunk.js.map": "/Naruto-Emblem-Battle-Tracker/static/js/453.914006e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11c15448.css",
-    "static/js/main.1773324a.js"
+    "static/js/main.df133b48.js"
   ]
 }
