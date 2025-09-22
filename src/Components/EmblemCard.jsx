@@ -1,4 +1,3 @@
-// EmblemCard.jsx
 import React from 'react';
 
 export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
@@ -33,7 +32,18 @@ export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
           onChange={() => toggleOwned(emblem.id)}
         />
       </h2>
-      <img src={emblemIcon} alt={emblem.name} className='emblem-icon' owned={isOwned ? 'true' : 'false'} />
+
+      <img
+        src={emblemIcon}
+        alt={emblem.name}
+        className='emblem-icon'
+        owned={isOwned ? 'true' : 'false'}
+      />
+
+      {/* Star rarity display */}
+      <div className={`emblem-rarity ${rarityName()}`}>
+        {'★'.repeat(emblem.rarity)}
+      </div>
     </div>
   );
 }

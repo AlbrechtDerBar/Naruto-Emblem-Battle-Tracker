@@ -111,6 +111,47 @@
   background-color: mediumblue;
 }
 
+.emblem-rarity {
+  margin-top: 8px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 4px 0;
+  border-radius: 0 0 6px 6px;
+}
+
+.input-with-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.filter-input {
+  flex: 1;
+  padding-right: 2.5rem; /* Makes room visually for the button if needed */
+  box-sizing: border-box;
+}
+
+.copy-btn {
+  margin-left: -2.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+}
+
+.copy-btn:hover {
+  color: #000;
+}
+
 /* #endregion */
 
 /* #region Filters */
@@ -118,7 +159,6 @@
 .filters-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 20px;
   background-color: #f8f8f8;
   border-radius: 10px;
@@ -208,5 +248,97 @@
 .filter-input::placeholder {
   color: #888;
   font-style: italic;
+}
+
+.filters-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-toggle,
+.progress-toggle {
+  padding: 6px 12px;
+  background-color: #3a3a3a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.filter-toggle:hover,
+.progress-toggle:hover {
+  background-color: #505050;
+}
+
+.collection-progress {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+}
+
+.progress-filter {
+  margin-bottom: 10px;
+}
+
+.progress-filter select {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.rarity-progress .rarity-row {
+  padding: 4px 0;
+}
+
+#filter-section  {
+  margin-top: 10px;
+}
+
+.rarity-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rarity-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rarity-label {
+  width: 50px;
+  text-align: right;
+}
+
+.progress-bar-container {
+  flex: 1;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 4px 0 0 4px;
+}
+
+.progress-text {
+  width: 120px;
+  text-align: right;
+  font-size: 0.9em;
+}
+
+.overall-bar {
+  background-color: seagreen;
+}
+
+.overall-progress {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
 }
 /* #endregion Filters */

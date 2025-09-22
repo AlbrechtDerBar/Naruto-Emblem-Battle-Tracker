@@ -7,7 +7,11 @@ function App() {
   const [searchString, setSearchString] = useState("");
   const [setSelection, setSetSelection] = useState("both");
   const [OwnedStatus, setOwnedStatus] = useState("both");
-  const [emblemEncode, setEmblemEncode] = useState(""); // Base64 encoded string
+  const [emblemEncode, setEmblemEncode] = useState("");
+  const [showFilters, setShowFilters] = useState(false);
+  const [showProgress, setShowProgress] = useState(false);
+  const [progressSetFilter, setProgressSetFilter] = useState("both");
+  const [rarityFilter, setRarityFilter] = useState("all");
   const [ownedEmblems, setOwnedEmblems] = useState(() => {
     const stored = localStorage.getItem('emblemEncode');
     if (stored) {
@@ -18,6 +22,9 @@ function App() {
   });
 
   const [orderBy, setOrderBy] = useState("id");  // New state for sorting
+
+  const { rarities, overall } = getRarityProgress(progressSetFilter);
+
 
   useEffect(() => {
     const encoded = encodeEmblems();
@@ -148,108 +155,293 @@ function App() {
     }
   };
 
+  function getRarityProgress(setFilter) {
+    const rarityLevels = [1, 2, 3, 4, 5, 6];
+    const progressByRarity = [];
+  
+    let overallOwned = 0;
+    let overallTotal = 0;
+  
+    rarityLevels.forEach((rarity) => {
+      const filtered = emblems.filter((e) => {
+        const matchesSet =
+          setFilter === "both" ? true : e.setNumber === Number(setFilter);
+        return matchesSet && e.rarity === rarity;
+      });
+  
+      const owned = filtered.filter((e) => ownedEmblems.includes(e.id));
+  
+      progressByRarity.push({
+        rarity,
+        owned: owned.length,
+        total: filtered.length,
+      });
+  
+      overallOwned += owned.length;
+      overallTotal += filtered.length;
+    });
+  
+    const overallPercent = overallTotal > 0 ? (overallOwned / overallTotal) * 100 : 0;
+    
+    console.log({
+      owned: overallOwned,
+      total: overallTotal,
+      percent: overallPercent,
+    })
+    return {
+      rarities: progressByRarity,
+      overall: {
+        owned: overallOwned,
+        total: overallTotal,
+        percent: overallPercent,
+      },
+    };
+  }  
+
   return (
     <>
       <div id="filters" className="filters-container">
-        <div className="filter-group">
-          <label htmlFor="search" className="filter-label">Search:</label>
-          <input
-            type="text"
-            id="search"
-            placeholder="Search by name, tag, or ID"
-            value={searchString}
-            onChange={(e) => setSearchString(e.target.value)}
-            className="filter-input"
-          />
+        <div className="filters-header">
+          <button
+            className="filter-toggle"
+            onClick={() => {
+              if (showFilters) {
+                setShowFilters(false);
+              } else {
+                setShowFilters(true);
+                setShowProgress(false);
+              }
+            }}
+          >
+            {showFilters ? "Hide Filters" : "Show Filters"}
+          </button>
+
+          <button
+            className="progress-toggle"
+            onClick={() => {
+              if (showProgress) {
+                setShowProgress(false);
+              } else {
+                setShowProgress(true);
+                setShowFilters(false);
+              }
+            }}
+          >
+            {showProgress ? "Hide Progress" : "Show Progress"}
+          </button>
         </div>
 
-        <div className="filter-group filter-group-inline">
-          <div className="filter-item">
-            <label htmlFor="set" className="filter-label">Set Number:</label>
-            <select
-              name="set"
-              id="set"
-              value={setSelection}
-              onChange={(e) => setSetSelection(e.target.value)}
-              className="filter-dropdown"
-            >
-              <option value="both">Both</option>
-              <option value="1">Set 1</option>
-              <option value="2">Set 2</option>
-            </select>
+        {showFilters && (
+          <>
+            {/* Filter form goes here (everything that was originally inside filters-container) */}
+            <div id='filter-section'>
+              <div className="filter-group">
+                <label htmlFor="search" className="filter-label">Search:</label>
+                <input
+                  type="text"
+                  id="search"
+                  placeholder="Search by name, tag, or ID"
+                  value={searchString}
+                  onChange={(e) => setSearchString(e.target.value)}
+                  className="filter-input"
+                />
+              </div>
+
+              <div className="filter-group filter-group-inline">
+                <div className="filter-item">
+                  <label htmlFor="set" className="filter-label">Set Number:</label>
+                  <select
+                    name="set"
+                    id="set"
+                    value={setSelection}
+                    onChange={(e) => setSetSelection(e.target.value)}
+                    className="filter-dropdown"
+                  >
+                    <option value="both">Both</option>
+                    <option value="1">Set 1</option>
+                    <option value="2">Set 2</option>
+                  </select>
+                </div>
+
+                <div className="filter-item">
+                  <label htmlFor="owned" className="filter-label">Owned Status:</label>
+                  <select
+                    name="owned"
+                    id="owned"
+                    value={OwnedStatus}
+                    onChange={(e) => setOwnedStatus(e.target.value)}
+                    className="filter-dropdown"
+                  >
+                    <option value="both">Both</option>
+                    <option value="Owned">Owned</option>
+                    <option value="Unowned">Unowned</option>
+                  </select>
+                </div>
+
+                <div className="filter-item">
+                  <label htmlFor="orderBy" className="filter-label">Order By:</label>
+                  <select
+                    name="orderBy"
+                    id="orderBy"
+                    value={orderBy}
+                    onChange={(e) => setOrderBy(e.target.value)}
+                    className="filter-dropdown"
+                  >
+                    <option value="id">ID (Asc)</option>
+                    <option value="reverseId">ID (Desc)</option>
+                    <option value="alphabetical">A-Z</option>
+                    <option value="reverseAlphabetical">Z-A</option>
+                  </select>
+                </div>
+
+                <div className="filter-item">
+                  <label htmlFor="rarity" className="filter-label">Star Rarity:</label>
+                  <select
+                    name="rarity"
+                    id="rarity"
+                    value={rarityFilter}
+                    onChange={(e) => setRarityFilter(e.target.value)}
+                    className="filter-dropdown"
+                  >
+                    <option value="all">All</option>
+                    <option value="6">6★</option>
+                    <option value="5">5★</option>
+                    <option value="4">4★</option>
+                    <option value="3">3★</option>
+                    <option value="2">2★</option>
+                    <option value="1">1★</option>
+                  </select>
+                </div>
+              </div>
+
+              <div className="filter-group">
+                <label htmlFor="emblemEncode" className="filter-label">Emblem Collection ID:</label>
+                <div className="input-with-button">
+                  <input
+                    type="text"
+                    id="emblemEncode"
+                    value={emblemEncode}
+                    onChange={handleEmblemEncodeChange}
+                    onBlur={handleSaveEncodedValue}
+                    className="filter-input"
+                    placeholder="Enter collection ID"
+                  />
+                  <button
+                    type="button"
+                    className="copy-btn"
+                    onClick={() => {
+                      navigator.clipboard.writeText(emblemEncode)
+                        .then(() => alert('Copied to clipboard!'))
+                        .catch(() => alert('Failed to copy!'));
+                    }}
+                    aria-label="Copy emblem collection ID"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      width="20"
+                      fill="currentColor"
+                    >
+                      <path d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M16 1H8c-1.1 0-2 .9-2 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 
+                              2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-2c0-1.1-.9-2-2-2zm0 
+                              4h4v16H4V5h4v1h8V5zm-2-2v2H10V3h4z"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </>
+        )}
+
+
+        {showProgress && (
+          <div className="collection-progress">
+            <h3>Collection Progress</h3>
+
+            <div className="progress-filter">
+              <label htmlFor="progressSetFilter">View Set:</label>
+              <select
+                id="progressSetFilter"
+                value={progressSetFilter}
+                onChange={(e) => setProgressSetFilter(e.target.value)}
+              >
+                <option value="both">Both Sets</option>
+                <option value="1">Set 1</option>
+                <option value="2">Set 2</option>
+              </select>
+            </div>
+
+            <div className="rarity-progress">
+            <div className="rarity-row overall-progress">
+              <div className="rarity-label">
+                <strong>All</strong>
+              </div>
+              <div className="progress-bar-container">
+                <div
+                  className="progress-bar overall-bar"
+                  style={{ width: `${overall.percent}%` }}
+                ></div>
+              </div>
+              <div className="progress-text">
+                {overall.owned} / {overall.total} ({overall.percent.toFixed(1)}%)
+              </div>
+            </div>
+              {rarities.map(({ rarity, owned, total }) => {
+                const percent = total > 0 ? (owned / total) * 100 : 0;
+                const starClass =
+                  rarity === 6
+                    ? "six-star"
+                    : rarity === 5 || rarity === 4
+                    ? "five-star"
+                    : rarity === 3
+                    ? "three-star"
+                    : "two-star";
+
+                return (
+                  <div key={rarity} className="rarity-row">
+                    <div className="rarity-label">
+                      <strong>{rarity}★</strong>
+                    </div>
+                    <div className="progress-bar-container">
+                      <div className={`progress-bar ${starClass}`} style={{ width: `${percent}%` }}></div>
+                    </div>
+                    <div className="progress-text">
+                      {owned} / {total} ({percent.toFixed(1)}%)
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
-
-          <div className="filter-item">
-            <label htmlFor="owned" className="filter-label">Owned Status:</label>
-            <select
-              name="owned"
-              id="owned"
-              value={OwnedStatus}
-              onChange={(e) => setOwnedStatus(e.target.value)}
-              className="filter-dropdown"
-            >
-              <option value="both">Both</option>
-              <option value="Owned">Owned</option>
-              <option value="Unowned">Unowned</option>
-            </select>
-          </div>
-
-          <div className="filter-item">
-            <label htmlFor="orderBy" className="filter-label">Order By:</label>
-            <select
-              name="orderBy"
-              id="orderBy"
-              value={orderBy}
-              onChange={(e) => setOrderBy(e.target.value)}
-              className="filter-dropdown"
-            >
-              <option value="id">ID</option>
-              <option value="reverseId">Reverse ID</option>
-              <option value="alphabetical">Alphabetical</option>
-              <option value="reverseAlphabetical">Reverse Alphabetical</option>
-            </select>
-          </div>
-        </div>
-
-        
-
-        <div className="filter-group">
-          <label htmlFor="emblemEncode" className="filter-label">Emblem Collection ID:</label>
-          <input
-            type="text"
-            id="emblemEncode"
-            value={emblemEncode}
-            onChange={handleEmblemEncodeChange}
-            onBlur={handleSaveEncodedValue}
-            className="filter-input"
-            placeholder="Enter collection ID"
-          />
-        </div>
+        )}
       </div>
 
       <div className="card-list">
         {sortEmblems(
-          emblems
-            .filter((e) => {
-              const matchesSet =
-                setSelection === "both" ? true : e.setNumber === Number(setSelection);
-
-              const matchesOwned = () => {
-                if (OwnedStatus === "both") return true;
-                return OwnedStatus === "Owned"
-                  ? ownedEmblems.includes(e.id)
-                  : !ownedEmblems.includes(e.id);
-              };
-
-              const query = searchString.toLowerCase();
-
-              const matchesSearch =
-                e.name.toLowerCase().includes(query) ||
-                e.id.toLowerCase().includes(query) ||
-                e.tags.some((tag) => tag.toLowerCase().includes(query));
-
-              return matchesSet && matchesSearch && matchesOwned();
-            })
+          emblems.filter((e) => {
+            const matchesSet = setSelection === "both" ? true : e.setNumber === Number(setSelection);
+          
+            const matchesOwned = () => {
+              if (OwnedStatus === "both") return true;
+              return OwnedStatus === "Owned"
+                ? ownedEmblems.includes(e.id)
+                : !ownedEmblems.includes(e.id);
+            };
+          
+            const query = searchString.toLowerCase();
+          
+            const matchesSearch =
+              e.name.toLowerCase().includes(query) ||
+              e.id.toLowerCase().includes(query) ||
+              e.tags.some((tag) => tag.toLowerCase().includes(query));
+          
+            const matchesRarity = rarityFilter === "all" ? true : e.rarity === Number(rarityFilter);
+          
+            return matchesSet && matchesSearch && matchesOwned() && matchesRarity;
+          })
+          
         ).map((e) => (
           <EmblemCard
             key={e.id}
