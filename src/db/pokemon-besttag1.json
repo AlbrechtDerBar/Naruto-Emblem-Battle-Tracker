@@ -1,0 +1,1854 @@
+[
+  {
+    "id": "2-1-01",
+    "setWave": "2",
+    "set": "1",
+    "number": "01",
+    "name": "Mewtwo",
+    "img": "frienda/sets/besttag1/001.jpg",
+    "rating": "5",
+    "energy": "312",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Psystrike",
+        "type": "Psychic",
+        "icon": "pokedex-sv/type/icon/psychic.png"
+      }
+    ],
+    "stats": {
+      "hp": "169",
+      "atk": "117",
+      "def": "96",
+      "spAtk": "162",
+      "spDef": "96"
+    }
+  },
+  {
+    "id": "2-1-02",
+    "setWave": "2",
+    "set": "1",
+    "number": "02",
+    "name": "Solgaleo",
+    "img": "frienda/sets/besttag1/002.jpg",
+    "rating": "5",
+    "energy": "312",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Sunsteel Strike",
+        "type": "Steel",
+        "icon": "pokedex-sv/type/icon/steel.png"
+      }
+    ],
+    "stats": {
+      "hp": "200",
+      "atk": "144",
+      "def": "114",
+      "spAtk": "120",
+      "spDef": "95"
+    }
+  },
+  {
+    "id": "2-1-03",
+    "setWave": "2",
+    "set": "1",
+    "number": "03",
+    "name": "Lunala",
+    "img": "frienda/sets/besttag1/003.jpg",
+    "rating": "5",
+    "energy": "312",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Moongeist Beam",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png"
+      }
+    ],
+    "stats": {
+      "hp": "200",
+      "atk": "120",
+      "def": "95",
+      "spAtk": "144",
+      "spDef": "114"
+    }
+  },
+  {
+    "id": "2-1-04",
+    "setWave": "2",
+    "set": "1",
+    "number": "04",
+    "name": "Pecharunt",
+    "img": "frienda/sets/besttag1/004.jpg",
+    "rating": "5",
+    "energy": "288",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Malignant Chain",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png"
+      }
+    ],
+    "stats": {
+      "hp": "156",
+      "atk": "98",
+      "def": "174",
+      "spAtk": "98",
+      "spDef": "98"
+    }
+  },
+  {
+    "id": "2-1-05",
+    "setWave": "2",
+    "set": "1",
+    "number": "05",
+    "name": "Jirachi",
+    "img": "frienda/sets/besttag1/005.jpg",
+    "rating": "5",
+    "energy": "288",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Doom Desire",
+        "type": "Steel",
+        "icon": "pokedex-sv/type/icon/steel.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Corkscrew Crash",
+        "type": "St",
+        "icon": "pokedex-sv/type/icon/steel.png"
+      }
+    ],
+    "stats": {
+      "hp": "169",
+      "atk": "111",
+      "def": "111",
+      "spAtk": "111",
+      "spDef": "111"
+    }
+  },
+  {
+    "id": "2-1-06",
+    "setWave": "2",
+    "set": "1",
+    "number": "06",
+    "name": "Gengar",
+    "img": "frienda/sets/besttag1/006.jpg",
+    "rating": "5",
+    "energy": "260",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Shadow Ball",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Mega Gengar",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png",
+        "secondaryType": "Poison",
+        "secondaryIcon": "pokedex-sv/type/icon/poison.png"
+      }
+    ],
+    "stats": {
+      "hp": "133",
+      "atk": "77",
+      "def": "72",
+      "spAtk": "150",
+      "spDef": "89"
+    }
+  },
+  {
+    "id": "2-1-07",
+    "setWave": "2",
+    "set": "1",
+    "number": "07",
+    "name": "Gyarados",
+    "img": "frienda/sets/besttag1/007.jpg",
+    "rating": "5",
+    "energy": "272",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Crunch",
+        "type": "Dark",
+        "icon": "pokedex-sv/type/icon/dark.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Mega Gyarados",
+        "type": "Water",
+        "icon": "pokedex-sv/type/icon/water.png",
+        "secondaryType": "Dark",
+        "secondaryIcon": "pokedex-sv/type/icon/dark.png"
+      }
+    ],
+    "stats": {
+      "hp": "169",
+      "atk": "142",
+      "def": "91",
+      "spAtk": "71",
+      "spDef": "115"
+    }
+  },
+  {
+    "id": "2-1-08",
+    "setWave": "2",
+    "set": "1",
+    "number": "08",
+    "name": "Lucario",
+    "img": "frienda/sets/besttag1/008.jpg",
+    "rating": "5",
+    "energy": "268",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Close Combat",
+        "type": "Fighting",
+        "icon": "pokedex-sv/type/icon/fighting.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Mega Lucario",
+        "type": "Fighting",
+        "icon": "pokedex-sv/type/icon/fighting.png",
+        "secondaryType": "Steel",
+        "secondaryIcon": "pokedex-sv/type/icon/steel.png"
+      }
+    ],
+    "stats": {
+      "hp": "142",
+      "atk": "126",
+      "def": "82",
+      "spAtk": "131",
+      "spDef": "82"
+    }
+  },
+  {
+    "id": "2-1-09",
+    "setWave": "2",
+    "set": "1",
+    "number": "09",
+    "name": "Gardevoir",
+    "img": "frienda/sets/besttag1/009.jpg",
+    "rating": "5",
+    "energy": "264",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Dazzling Gleam",
+        "type": "Fairy",
+        "icon": "pokedex-sv/type/icon/fairy.png"
+      },
+      {
+        "moveType": "Tera",
+        "name": "Tera Blast",
+        "type": "Fairy",
+        "icon": "pokedex-sv/type/icon/fairy.png"
+      }
+    ],
+    "stats": {
+      "hp": "136",
+      "atk": "76",
+      "def": "76",
+      "spAtk": "142",
+      "spDef": "131"
+    }
+  },
+  {
+    "id": "2-1-10",
+    "setWave": "2",
+    "set": "1",
+    "number": "10",
+    "name": "Hydrapple",
+    "img": "frienda/sets/besttag1/010.jpg",
+    "rating": "5",
+    "energy": "272",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Fickle Beam",
+        "type": "Dragon",
+        "icon": "pokedex-sv/type/icon/dragon.png"
+      },
+      {
+        "moveType": "Tera",
+        "name": "Tera Blast",
+        "type": "Dragon",
+        "icon": "pokedex-sv/type/icon/dragon.png"
+      }
+    ],
+    "stats": {
+      "hp": "181",
+      "atk": "93",
+      "def": "126",
+      "spAtk": "137",
+      "spDef": "93"
+    }
+  },
+  {
+    "id": "2-1-11",
+    "setWave": "2",
+    "set": "1",
+    "number": "11",
+    "name": "Meganium",
+    "img": "frienda/sets/besttag1/011.jpg",
+    "rating": "4",
+    "energy": "244",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Solar Beam",
+        "type": "Grass",
+        "icon": "pokedex-sv/type/icon/grass.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Flower Trick",
+        "type": "Grass",
+        "icon": "pokedex-sv/type/icon/grass.png"
+      }
+    ],
+    "stats": {
+      "hp": "140",
+      "atk": "87",
+      "def": "105",
+      "spAtk": "88",
+      "spDef": "105"
+    }
+  },
+  {
+    "id": "2-1-12",
+    "setWave": "2",
+    "set": "1",
+    "number": "12",
+    "name": "Typhlosion",
+    "img": "frienda/sets/besttag1/012.jpg",
+    "rating": "4",
+    "energy": "248",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Flamethrower",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Torch Song",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png"
+      }
+    ],
+    "stats": {
+      "hp": "138",
+      "atk": "89",
+      "def": "83",
+      "spAtk": "114",
+      "spDef": "90"
+    }
+  },
+  {
+    "id": "2-1-13",
+    "setWave": "2",
+    "set": "1",
+    "number": "13",
+    "name": "Feraligatr",
+    "img": "frienda/sets/besttag1/013.jpg",
+    "rating": "4",
+    "energy": "248",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Hydro Pump",
+        "type": "Water",
+        "icon": "pokedex-sv/type/icon/water.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Aqua Step",
+        "type": "Water",
+        "icon": "pokedex-sv/type/icon/water.png"
+      }
+    ],
+    "stats": {
+      "hp": "145",
+      "atk": "110",
+      "def": "105",
+      "spAtk": "84",
+      "spDef": "88"
+    }
+  },
+  {
+    "id": "2-1-14",
+    "setWave": "2",
+    "set": "1",
+    "number": "14",
+    "name": "Nidoking",
+    "img": "frienda/sets/besttag1/014.jpg",
+    "rating": "4",
+    "energy": "236",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Earth Power",
+        "type": "Ground",
+        "icon": "pokedex-sv/type/icon/ground.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Earth Power",
+        "type": "Ground",
+        "icon": "pokedex-sv/type/icon/ground.png"
+      }
+    ],
+    "stats": {
+      "hp": "141",
+      "atk": "107",
+      "def": "82",
+      "spAtk": "90",
+      "spDef": "80"
+    }
+  },
+  {
+    "id": "2-1-15",
+    "setWave": "2",
+    "set": "1",
+    "number": "15",
+    "name": "Heracross",
+    "img": "frienda/sets/besttag1/015.jpg",
+    "rating": "4",
+    "energy": "228",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Megahorn",
+        "type": "Bug",
+        "icon": "pokedex-sv/type/icon/bug.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Mega Heracross",
+        "type": "Bug",
+        "icon": "pokedex-sv/type/icon/bug.png",
+        "secondaryType": "Fighting",
+        "secondaryIcon": "pokedex-sv/type/icon/fighting.png"
+      }
+    ],
+    "stats": {
+      "hp": "137",
+      "atk": "127",
+      "def": "78",
+      "spAtk": "44",
+      "spDef": "98"
+    }
+  },
+  {
+    "id": "2-1-16",
+    "setWave": "2",
+    "set": "1",
+    "number": "16",
+    "name": "Sableye",
+    "img": "frienda/sets/besttag1/016.jpg",
+    "rating": "4",
+    "energy": "212",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Shadow Ball",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Mega Sableye",
+        "type": "Dark",
+        "icon": "pokedex-sv/type/icon/dark.png",
+        "secondaryType": "Ghost",
+        "secondaryIcon": "pokedex-sv/type/icon/ghost.png"
+      }
+    ],
+    "stats": {
+      "hp": "126",
+      "atk": "92",
+      "def": "92",
+      "spAtk": "80",
+      "spDef": "80"
+    }
+  },
+  {
+    "id": "2-1-17",
+    "setWave": "2",
+    "set": "1",
+    "number": "17",
+    "name": "Mawile",
+    "img": "frienda/sets/besttag1/017.jpg",
+    "rating": "4",
+    "energy": "212",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Play Rough",
+        "type": "Fairy",
+        "icon": "pokedex-sv/type/icon/fairy.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Mega Mawile",
+        "type": "Steel",
+        "icon": "pokedex-sv/type/icon/steel.png",
+        "secondaryType": "Fairy",
+        "secondaryIcon": "pokedex-sv/type/icon/fairy.png"
+      }
+    ],
+    "stats": {
+      "hp": "126",
+      "atk": "103",
+      "def": "103",
+      "spAtk": "68",
+      "spDef": "68"
+    }
+  },
+  {
+    "id": "2-1-18",
+    "setWave": "2",
+    "set": "1",
+    "number": "18",
+    "name": "Pikachu",
+    "img": "frienda/sets/besttag1/018.jpg",
+    "rating": "4",
+    "energy": "208",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Thunderbolt",
+        "type": "Electric",
+        "icon": "pokedex-sv/type/icon/electric.png"
+      },
+      {
+        "moveType": "Tera",
+        "name": "Tera Blast",
+        "type": "Electric",
+        "icon": "pokedex-sv/type/icon/electric.png"
+      }
+    ],
+    "stats": {
+      "hp": "122",
+      "atk": "77",
+      "def": "57",
+      "spAtk": "71",
+      "spDef": "71"
+    }
+  },
+  {
+    "id": "2-1-19",
+    "setWave": "2",
+    "set": "1",
+    "number": "19",
+    "name": "Weavile",
+    "img": "frienda/sets/besttag1/019.jpg",
+    "rating": "4",
+    "energy": "240",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Throat Chop",
+        "type": "Dark",
+        "icon": "pokedex-sv/type/icon/dark.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Black Hole Eclipse",
+        "type": "Dark",
+        "icon": "pokedex-sv/type/icon/dark.png"
+      }
+    ],
+    "stats": {
+      "hp": "132",
+      "atk": "127",
+      "def": "71",
+      "spAtk": "50",
+      "spDef": "91"
+    }
+  },
+  {
+    "id": "2-1-20",
+    "setWave": "2",
+    "set": "1",
+    "number": "20",
+    "name": "Ninetales",
+    "img": "frienda/sets/besttag1/020.jpg",
+    "rating": "4",
+    "energy": "240",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Blizzard",
+        "type": "Ice",
+        "icon": "pokedex-sv/type/icon/ice.png"
+      }
+    ],
+    "stats": {
+      "hp": "135",
+      "atk": "73",
+      "def": "81",
+      "spAtk": "87",
+      "spDef": "1007"
+    }
+  },
+  {
+    "id": "2-1-21",
+    "setWave": "2",
+    "set": "1",
+    "number": "21",
+    "name": "Sirfetch'd",
+    "img": "frienda/sets/besttag1/021.jpg",
+    "rating": "4",
+    "energy": "240",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Meteor Assault",
+        "type": "Fighting",
+        "icon": "pokedex-sv/type/icon/fighting.png"
+      }
+    ],
+    "stats": {
+      "hp": "124",
+      "atk": "142",
+      "def": "101",
+      "spAtk": "74",
+      "spDef": "88"
+    }
+  },
+  {
+    "id": "2-1-22",
+    "setWave": "2",
+    "set": "1",
+    "number": "22",
+    "name": "Cyclizar",
+    "img": "frienda/sets/besttag1/022.jpg",
+    "rating": "4",
+    "energy": "236",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Dragon Rush",
+        "type": "Dragon",
+        "icon": "pokedex-sv/type/icon/dragon.png"
+      }
+    ],
+    "stats": {
+      "hp": "132",
+      "atk": "101",
+      "def": "71",
+      "spAtk": "91",
+      "spDef": "71"
+    }
+  },
+  {
+    "id": "2-1-23",
+    "setWave": "2",
+    "set": "1",
+    "number": "23",
+    "name": "Glimmora",
+    "img": "frienda/sets/besttag1/023.jpg",
+    "rating": "4",
+    "energy": "244",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Sludge Wave",
+        "type": "Poison",
+        "icon": "pokedex-sv/type/icon/poison.png"
+      }
+    ],
+    "stats": {
+      "hp": "143",
+      "atk": "60",
+      "def": "95",
+      "spAtk": "135",
+      "spDef": "86"
+    }
+  },
+  {
+    "id": "2-1-24",
+    "setWave": "2",
+    "set": "1",
+    "number": "24",
+    "name": "Farigiraf",
+    "img": "frienda/sets/besttag1/024.jpg",
+    "rating": "4",
+    "energy": "244",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Twin Beam",
+        "type": "Psychic",
+        "icon": "pokedex-sv/type/icon/psychic.png"
+      }
+    ],
+    "stats": {
+      "hp": "180",
+      "atk": "95",
+      "def": "75",
+      "spAtk": "115",
+      "spDef": "75"
+    }
+  },
+  {
+    "id": "2-1-25",
+    "setWave": "2",
+    "set": "1",
+    "number": "25",
+    "name": "Sinistcha",
+    "img": "frienda/sets/besttag1/025.jpg",
+    "rating": "4",
+    "energy": "240",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Shadow Ball",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png"
+      }
+    ],
+    "stats": {
+      "hp": "133",
+      "atk": "66",
+      "def": "113",
+      "spAtk": "128",
+      "spDef": "86"
+    }
+  },
+  {
+    "id": "2-1-26",
+    "setWave": "2",
+    "set": "1",
+    "number": "26",
+    "name": "Chikorita",
+    "img": "frienda/sets/besttag1/026.jpg",
+    "rating": "2",
+    "energy": "116",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Trailblaze",
+        "type": "Grass",
+        "icon": "pokedex-sv/type/icon/grass.png"
+      }
+    ],
+    "stats": {
+      "hp": "76",
+      "atk": "39",
+      "def": "50",
+      "spAtk": "39",
+      "spDef": "50"
+    }
+  },
+  {
+    "id": "2-1-27",
+    "setWave": "2",
+    "set": "1",
+    "number": "27",
+    "name": "Bayleef",
+    "img": "frienda/sets/besttag1/027.jpg",
+    "rating": "2",
+    "energy": "140",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Razor Leaf",
+        "type": "Grass",
+        "icon": "pokedex-sv/type/icon/grass.png"
+      }
+    ],
+    "stats": {
+      "hp": "87",
+      "atk": "48",
+      "def": "61",
+      "spAtk": "49",
+      "spDef": "61"
+    }
+  },
+  {
+    "id": "2-1-28",
+    "setWave": "2",
+    "set": "1",
+    "number": "28",
+    "name": "Meganium",
+    "img": "frienda/sets/besttag1/028.jpg",
+    "rating": "3",
+    "energy": "192",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Magical Leaf",
+        "type": "Grass",
+        "icon": "pokedex-sv/type/icon/grass.png"
+      }
+    ],
+    "stats": {
+      "hp": "111",
+      "atk": "68",
+      "def": "83",
+      "spAtk": "69",
+      "spDef": "83"
+    }
+  },
+  {
+    "id": "2-1-29",
+    "setWave": "2",
+    "set": "1",
+    "number": "29",
+    "name": "Cyndaquil",
+    "img": "frienda/sets/besttag1/029.jpg",
+    "rating": "2",
+    "energy": "116",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Ember",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png"
+      }
+    ],
+    "stats": {
+      "hp": "72",
+      "atk": "41",
+      "def": "35",
+      "spAtk": "47",
+      "spDef": "40"
+    }
+  },
+  {
+    "id": "2-1-30",
+    "setWave": "2",
+    "set": "1",
+    "number": "30",
+    "name": "Quilava",
+    "img": "frienda/sets/besttag1/030.jpg",
+    "rating": "2",
+    "energy": "140",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Flame Wheel",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png"
+      }
+    ],
+    "stats": {
+      "hp": "85",
+      "atk": "49",
+      "def": "45",
+      "spAtk": "61",
+      "spDef": "50"
+    }
+  },
+  {
+    "id": "2-1-31",
+    "setWave": "2",
+    "set": "1",
+    "number": "31",
+    "name": "Typhlosion",
+    "img": "frienda/sets/besttag1/031.jpg",
+    "rating": "3",
+    "energy": "196",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Burning Jealousy",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png"
+      }
+    ],
+    "stats": {
+      "hp": "109",
+      "atk": "70",
+      "def": "65",
+      "spAtk": "90",
+      "spDef": "71"
+    }
+  },
+  {
+    "id": "2-1-32",
+    "setWave": "2",
+    "set": "1",
+    "number": "32",
+    "name": "Totodile",
+    "img": "frienda/sets/besttag1/032.jpg",
+    "rating": "2",
+    "energy": "116",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Water Gun",
+        "type": "Water",
+        "icon": "pokedex-sv/type/icon/water.png"
+      }
+    ],
+    "stats": {
+      "hp": "80",
+      "atk": "50",
+      "def": "49",
+      "spAtk": "35",
+      "spDef": "38"
+    }
+  },
+  {
+    "id": "2-1-33",
+    "setWave": "2",
+    "set": "1",
+    "number": "33",
+    "name": "Croconaw",
+    "img": "frienda/sets/besttag1/033.jpg",
+    "rating": "2",
+    "energy": "140",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Water Pulse",
+        "type": "Water",
+        "icon": "pokedex-sv/type/icon/water.png"
+      }
+    ],
+    "stats": {
+      "hp": "90",
+      "atk": "61",
+      "def": "61",
+      "spAtk": "46",
+      "spDef": "49"
+    }
+  },
+  {
+    "id": "2-1-34",
+    "setWave": "2",
+    "set": "1",
+    "number": "34",
+    "name": "Feraligatr",
+    "img": "frienda/sets/besttag1/034.jpg",
+    "rating": "3",
+    "energy": "192",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Flip Turn",
+        "type": "Water",
+        "icon": "pokedex-sv/type/icon/water.png"
+      }
+    ],
+    "stats": {
+      "hp": "115",
+      "atk": "86",
+      "def": "83",
+      "spAtk": "66",
+      "spDef": "69"
+    }
+  },
+  {
+    "id": "2-1-35",
+    "setWave": "2",
+    "set": "1",
+    "number": "35",
+    "name": "Rellor",
+    "img": "frienda/sets/besttag1/035.jpg",
+    "rating": "2",
+    "energy": "104",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Struggle Bug",
+        "type": "Bug",
+        "icon": "pokedex-sv/type/icon/bug.png"
+      }
+    ],
+    "stats": {
+      "hp": "73",
+      "atk": "40",
+      "def": "47",
+      "spAtk": "26",
+      "spDef": "45"
+    }
+  },
+  {
+    "id": "2-1-36",
+    "setWave": "2",
+    "set": "1",
+    "number": "36",
+    "name": "Rabsca",
+    "img": "frienda/sets/besttag1/036.jpg",
+    "rating": "3",
+    "energy": "176",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Psybeam",
+        "type": "Psychic",
+        "icon": "pokedex-sv/type/icon/psychic.png"
+      }
+    ],
+    "stats": {
+      "hp": "107",
+      "atk": "44",
+      "def": "71",
+      "spAtk": "94",
+      "spDef": "83"
+    }
+  },
+  {
+    "id": "2-1-37",
+    "setWave": "2",
+    "set": "1",
+    "number": "37",
+    "name": "Cyclizar",
+    "img": "frienda/sets/besttag1/037.jpg",
+    "rating": "3",
+    "energy": "184",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Breaking Swipe",
+        "type": "Dragon",
+        "icon": "pokedex-sv/type/icon/dragon.png"
+      }
+    ],
+    "stats": {
+      "hp": "103",
+      "atk": "79",
+      "def": "55",
+      "spAtk": "71",
+      "spDef": "55"
+    }
+  },
+  {
+    "id": "2-1-38",
+    "setWave": "2",
+    "set": "1",
+    "number": "38",
+    "name": "Glimmet",
+    "img": "frienda/sets/besttag1/038.jpg",
+    "rating": "2",
+    "energy": "124",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Acid Spray",
+        "type": "Poison",
+        "icon": "pokedex-sv/type/icon/poison.png"
+      }
+    ],
+    "stats": {
+      "hp": "78",
+      "atk": "29",
+      "def": "34",
+      "spAtk": "78",
+      "spDef": "47"
+    }
+  },
+  {
+    "id": "2-1-39",
+    "setWave": "2",
+    "set": "1",
+    "number": "39",
+    "name": "Glimmora",
+    "img": "frienda/sets/besttag1/039.jpg",
+    "rating": "3",
+    "energy": "192",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Venoshock",
+        "type": "Poison",
+        "icon": "pokedex-sv/type/icon/poison.png"
+      }
+    ],
+    "stats": {
+      "hp": "113",
+      "atk": "47",
+      "def": "75",
+      "spAtk": "106",
+      "spDef": "68"
+    }
+  },
+  {
+    "id": "2-1-40",
+    "setWave": "2",
+    "set": "1",
+    "number": "40",
+    "name": "Girafarig",
+    "img": "frienda/sets/besttag1/040.jpg",
+    "rating": "2",
+    "energy": "156",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Confusion",
+        "type": "Psychic",
+        "icon": "pokedex-sv/type/icon/psychic.png"
+      }
+    ],
+    "stats": {
+      "hp": "94",
+      "atk": "61",
+      "def": "50",
+      "spAtk": "68",
+      "spDef": "50"
+    }
+  },
+  {
+    "id": "2-1-41",
+    "setWave": "2",
+    "set": "1",
+    "number": "41",
+    "name": "Farigiraf",
+    "img": "frienda/sets/besttag1/041.jpg",
+    "rating": "3",
+    "energy": "192",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Psybeam",
+        "type": "Psychic",
+        "icon": "pokedex-sv/type/icon/psychic.png"
+      }
+    ],
+    "stats": {
+      "hp": "142",
+      "atk": "75",
+      "def": "59",
+      "spAtk": "90",
+      "spDef": "59"
+    }
+  },
+  {
+    "id": "2-1-42",
+    "setWave": "2",
+    "set": "1",
+    "number": "42",
+    "name": "Poltchageist",
+    "img": "frienda/sets/besttag1/042.jpg",
+    "rating": "2",
+    "energy": "112",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Astonish",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png"
+      }
+    ],
+    "stats": {
+      "hp": "73",
+      "atk": "36",
+      "def": "36",
+      "spAtk": "56",
+      "spDef": "42"
+    }
+  },
+  {
+    "id": "2-1-43",
+    "setWave": "2",
+    "set": "1",
+    "number": "43",
+    "name": "Sinistcha",
+    "img": "frienda/sets/besttag1/043.jpg",
+    "rating": "3",
+    "energy": "188",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Hex",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png"
+      }
+    ],
+    "stats": {
+      "hp": "104",
+      "atk": "51",
+      "def": "87",
+      "spAtk": "99",
+      "spDef": "67"
+    }
+  },
+  {
+    "id": "2-1-44",
+    "setWave": "2",
+    "set": "1",
+    "number": "44",
+    "name": "Pikachu",
+    "img": "frienda/sets/besttag1/044.jpg",
+    "rating": "3",
+    "energy": "160",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Electroweb",
+        "type": "Electric",
+        "icon": "pokedex-sv/type/icon/electric.png"
+      }
+    ],
+    "stats": {
+      "hp": "93",
+      "atk": "58",
+      "def": "44",
+      "spAtk": "54",
+      "spDef": "54"
+    }
+  },
+  {
+    "id": "2-1-45",
+    "setWave": "2",
+    "set": "1",
+    "number": "45",
+    "name": "Eevee",
+    "img": "frienda/sets/besttag1/045.jpg",
+    "rating": "2",
+    "energy": "120",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Tackle",
+        "type": "Normal",
+        "icon": "pokedex-sv/type/icon/normal.png"
+      }
+    ],
+    "stats": {
+      "hp": "83",
+      "atk": "43",
+      "def": "40",
+      "spAtk": "36",
+      "spDef": "50"
+    }
+  },
+  {
+    "id": "2-1-46",
+    "setWave": "2",
+    "set": "1",
+    "number": "46",
+    "name": "Espeon",
+    "img": "frienda/sets/besttag1/046.jpg",
+    "rating": "3",
+    "energy": "192",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Psybeam",
+        "type": "Psychic",
+        "icon": "pokedex-sv/type/icon/psychic.png"
+      }
+    ],
+    "stats": {
+      "hp": "99",
+      "atk": "55",
+      "def": "51",
+      "spAtk": "106",
+      "spDef": "79"
+    }
+  },
+  {
+    "id": "2-1-47",
+    "setWave": "2",
+    "set": "1",
+    "number": "47",
+    "name": "Umbreon",
+    "img": "frienda/sets/besttag1/047.jpg",
+    "rating": "3",
+    "energy": "192",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Bite",
+        "type": "Dark",
+        "icon": "pokedex-sv/type/icon/dark.png"
+      }
+    ],
+    "stats": {
+      "hp": "123",
+      "atk": "55",
+      "def": "90",
+      "spAtk": "51",
+      "spDef": "106"
+    }
+  },
+  {
+    "id": "2-1-48",
+    "setWave": "2",
+    "set": "1",
+    "number": "48",
+    "name": "Gastly",
+    "img": "frienda/sets/besttag1/048.jpg",
+    "rating": "2",
+    "energy": "116",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Lick",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png"
+      }
+    ],
+    "stats": {
+      "hp": "66",
+      "atk": "29",
+      "def": "26",
+      "spAtk": "75",
+      "spDef": "29"
+    }
+  },
+  {
+    "id": "2-1-49",
+    "setWave": "2",
+    "set": "1",
+    "number": "49",
+    "name": "Haunter",
+    "img": "frienda/sets/besttag1/049.jpg",
+    "rating": "2",
+    "energy": "140",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Shadow Punch",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png"
+      }
+    ],
+    "stats": {
+      "hp": "76",
+      "atk": "40",
+      "def": "36",
+      "spAtk": "85",
+      "spDef": "43"
+    }
+  },
+  {
+    "id": "2-1-50",
+    "setWave": "2",
+    "set": "1",
+    "number": "50",
+    "name": "Gengar",
+    "img": "frienda/sets/besttag1/050.jpg",
+    "rating": "3",
+    "energy": "184",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Hex",
+        "type": "Ghost",
+        "icon": "pokedex-sv/type/icon/ghost.png"
+      }
+    ],
+    "stats": {
+      "hp": "95",
+      "atk": "55",
+      "def": "51",
+      "spAtk": "106",
+      "spDef": "63"
+    }
+  },
+  {
+    "id": "2-1-51",
+    "setWave": "2",
+    "set": "1",
+    "number": "51",
+    "name": "Swinub",
+    "img": "frienda/sets/besttag1/051.jpg",
+    "rating": "2",
+    "energy": "100",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Mud-Slap",
+        "type": "Ground",
+        "icon": "pokedex-sv/type/icon/ground.png"
+      }
+    ],
+    "stats": {
+      "hp": "80",
+      "atk": "40",
+      "def": "33",
+      "spAtk": "26",
+      "spDef": "26"
+    }
+  },
+  {
+    "id": "2-1-52",
+    "setWave": "2",
+    "set": "1",
+    "number": "52",
+    "name": "Piloswine",
+    "img": "frienda/sets/besttag1/052.jpg",
+    "rating": "2",
+    "energy": "156",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Mud Shot",
+        "type": "Ground",
+        "icon": "pokedex-sv/type/icon/ground.png"
+      }
+    ],
+    "stats": {
+      "hp": "115",
+      "atk": "75",
+      "def": "61",
+      "spAtk": "47",
+      "spDef": "47"
+    }
+  },
+  {
+    "id": "2-1-53",
+    "setWave": "2",
+    "set": "1",
+    "number": "53",
+    "name": "Mamoswine",
+    "img": "frienda/sets/besttag1/053.jpg",
+    "rating": "3",
+    "energy": "192",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Bulldoze",
+        "type": "Ground",
+        "icon": "pokedex-sv/type/icon/ground.png"
+      }
+    ],
+    "stats": {
+      "hp": "134",
+      "atk": "106",
+      "def": "67",
+      "spAtk": "59",
+      "spDef": "51"
+    }
+  },
+  {
+    "id": "2-1-54",
+    "setWave": "2",
+    "set": "1",
+    "number": "54",
+    "name": "Ralts",
+    "img": "frienda/sets/besttag1/054.jpg",
+    "rating": "2",
+    "energy": "84",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Disarming Voice",
+        "type": "Fairy",
+        "icon": "pokedex-sv/type/icon/fairy.png"
+      }
+    ],
+    "stats": {
+      "hp": "64",
+      "atk": "22",
+      "def": "22",
+      "spAtk": "36",
+      "spDef": "29"
+    }
+  },
+  {
+    "id": "2-1-55",
+    "setWave": "2",
+    "set": "1",
+    "number": "55",
+    "name": "Kirlia",
+    "img": "frienda/sets/besttag1/055.jpg",
+    "rating": "2",
+    "energy": "104",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Draining Kiss",
+        "type": "Fairy",
+        "icon": "pokedex-sv/type/icon/fairy.png"
+      }
+    ],
+    "stats": {
+      "hp": "71",
+      "atk": "29",
+      "def": "29",
+      "spAtk": "50",
+      "spDef": "43"
+    }
+  },
+  {
+    "id": "2-1-56",
+    "setWave": "2",
+    "set": "1",
+    "number": "56",
+    "name": "Gallade",
+    "img": "frienda/sets/besttag1/056.jpg",
+    "rating": "3",
+    "energy": "192",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Low Sweep",
+        "type": "Fighting",
+        "icon": "pokedex-sv/type/icon/fighting.png"
+      }
+    ],
+    "stats": {
+      "hp": "102",
+      "atk": "102",
+      "def": "55",
+      "spAtk": "55",
+      "spDef": "94"
+    }
+  },
+  {
+    "id": "2-1-57",
+    "setWave": "2",
+    "set": "1",
+    "number": "57",
+    "name": "Grubbin",
+    "img": "frienda/sets/besttag1/057.jpg",
+    "rating": "2",
+    "energy": "112",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Struggle Bug",
+        "type": "Bug",
+        "icon": "pokedex-sv/type/icon/bug.png"
+      }
+    ],
+    "stats": {
+      "hp": "77",
+      "atk": "48",
+      "def": "36",
+      "spAtk": "43",
+      "spDef": "36"
+    }
+  },
+  {
+    "id": "2-1-58",
+    "setWave": "2",
+    "set": "1",
+    "number": "58",
+    "name": "Charjabug",
+    "img": "frienda/sets/besttag1/058.jpg",
+    "rating": "2",
+    "energy": "140",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Pounce",
+        "type": "Bug",
+        "icon": "pokedex-sv/type/icon/bug.png"
+      }
+    ],
+    "stats": {
+      "hp": "84",
+      "atk": "62",
+      "def": "71",
+      "spAtk": "43",
+      "spDef": "57"
+    }
+  },
+  {
+    "id": "2-1-59",
+    "setWave": "2",
+    "set": "1",
+    "number": "59",
+    "name": "Vikavolt",
+    "img": "frienda/sets/besttag1/059.jpg",
+    "rating": "3",
+    "energy": "184",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Bug Bite",
+        "type": "Electric",
+        "icon": "pokedex-sv/type/icon/electric.png"
+      }
+    ],
+    "stats": {
+      "hp": "109",
+      "atk": "59",
+      "def": "75",
+      "spAtk": "118",
+      "spDef": "63"
+    }
+  },
+  {
+    "id": "2-1-60",
+    "setWave": "2",
+    "set": "1",
+    "number": "60",
+    "name": "Vulpix",
+    "img": "frienda/sets/besttag1/060.jpg",
+    "rating": "2",
+    "energy": "112",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Powder Snow",
+        "type": "Ice",
+        "icon": "pokedex-sv/type/icon/ice.png"
+      }
+    ],
+    "stats": {
+      "hp": "71",
+      "atk": "33",
+      "def": "33",
+      "spAtk": "40",
+      "spDef": "50"
+    }
+  },
+  {
+    "id": "2-1-61",
+    "setWave": "2",
+    "set": "1",
+    "number": "61",
+    "name": "Ninetales",
+    "img": "frienda/sets/besttag1/061.jpg",
+    "rating": "3",
+    "energy": "188",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Draining Kiss",
+        "type": "Fairy",
+        "icon": "pokedex-sv/type/icon/fairy.png"
+      }
+    ],
+    "stats": {
+      "hp": "105",
+      "atk": "57",
+      "def": "63",
+      "spAtk": "68",
+      "spDef": "83"
+    }
+  },
+  {
+    "id": "2-1-62",
+    "setWave": "2",
+    "set": "1",
+    "number": "62",
+    "name": "Grimer",
+    "img": "frienda/sets/besttag1/062.jpg",
+    "rating": "2",
+    "energy": "120",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Bite",
+        "type": "Dark",
+        "icon": "pokedex-sv/type/icon/dark.png"
+      }
+    ],
+    "stats": {
+      "hp": "101",
+      "atk": "61",
+      "def": "40",
+      "spAtk": "33",
+      "spDef": "40"
+    }
+  },
+  {
+    "id": "2-1-63",
+    "setWave": "2",
+    "set": "1",
+    "number": "63",
+    "name": "Muk",
+    "img": "frienda/sets/besttag1/063.jpg",
+    "rating": "3",
+    "energy": "184",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Knock Off",
+        "type": "Dark",
+        "icon": "pokedex-sv/type/icon/dark.png"
+      }
+    ],
+    "stats": {
+      "hp": "130",
+      "atk": "86",
+      "def": "63",
+      "spAtk": "55",
+      "spDef": "83"
+    }
+  },
+  {
+    "id": "2-1-64",
+    "setWave": "2",
+    "set": "1",
+    "number": "64",
+    "name": "Nosepass",
+    "img": "frienda/sets/besttag1/064.jpg",
+    "rating": "2",
+    "energy": "132",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Rock Throw",
+        "type": "Rock",
+        "icon": "pokedex-sv/type/icon/rock.png"
+      }
+    ],
+    "stats": {
+      "hp": "66",
+      "atk": "36",
+      "def": "99",
+      "spAtk": "36",
+      "spDef": "68"
+    }
+  },
+  {
+    "id": "2-1-65",
+    "setWave": "2",
+    "set": "1",
+    "number": "65",
+    "name": "Probopass",
+    "img": "frienda/sets/besttag1/065.jpg",
+    "rating": "3",
+    "energy": "192",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Rock Tomb",
+        "type": "Rock",
+        "icon": "pokedex-sv/type/icon/rock.png"
+      }
+    ],
+    "stats": {
+      "hp": "95",
+      "atk": "47",
+      "def": "118",
+      "spAtk": "63",
+      "spDef": "122"
+    }
+  },
+  {
+    "id": "2-1-66",
+    "setWave": "2",
+    "set": "1",
+    "number": "66",
+    "name": "Woobat",
+    "img": "frienda/sets/besttag1/066.jpg",
+    "rating": "2",
+    "energy": "116",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Confusion",
+        "type": "Psychic",
+        "icon": "pokedex-sv/type/icon/psychic.png"
+      }
+    ],
+    "stats": {
+      "hp": "90",
+      "atk": "36",
+      "def": "35",
+      "spAtk": "43",
+      "spDef": "35"
+    }
+  },
+  {
+    "id": "2-1-67",
+    "setWave": "2",
+    "set": "1",
+    "number": "67",
+    "name": "Swoobat",
+    "img": "frienda/sets/besttag1/067.jpg",
+    "rating": "3",
+    "energy": "160",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Air Cutter",
+        "type": "Flying",
+        "icon": "pokedex-sv/type/icon/flying.png"
+      }
+    ],
+    "stats": {
+      "hp": "101",
+      "atk": "49",
+      "def": "47",
+      "spAtk": "65",
+      "spDef": "47"
+    }
+  },
+  {
+    "id": "2-1-68",
+    "setWave": "2",
+    "set": "1",
+    "number": "68",
+    "name": "Mawile",
+    "img": "frienda/sets/besttag1/068.jpg",
+    "rating": "3",
+    "energy": "156",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Iron Head",
+        "type": "Steel",
+        "icon": "pokedex-sv/type/icon/steel.png"
+      }
+    ],
+    "stats": {
+      "hp": "92",
+      "atk": "74",
+      "def": "74",
+      "spAtk": "50",
+      "spDef": "50"
+    }
+  },
+  {
+    "id": "2-1-69",
+    "setWave": "2",
+    "set": "1",
+    "number": "69",
+    "name": "Oricorio",
+    "img": "frienda/sets/besttag1/069.jpg",
+    "rating": "3",
+    "energy": "176",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Air Cutter",
+        "type": "Flying",
+        "icon": "pokedex-sv/type/icon/flying.png"
+      }
+    ],
+    "stats": {
+      "hp": "107",
+      "atk": "59",
+      "def": "59",
+      "spAtk": "81",
+      "spDef": "59"
+    }
+  },
+  {
+    "id": "2-1-70",
+    "setWave": "2",
+    "set": "1",
+    "number": "70",
+    "name": "Togedemaru",
+    "img": "frienda/sets/besttag1/070.jpg",
+    "rating": "3",
+    "energy": "164",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Spark",
+        "type": "Electric",
+        "icon": "pokedex-sv/type/icon/electric.png"
+      }
+    ],
+    "stats": {
+      "hp": "99",
+      "atk": "81",
+      "def": "54",
+      "spAtk": "36",
+      "spDef": "61"
+    }
+  }
+]

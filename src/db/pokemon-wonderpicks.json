@@ -1,0 +1,432 @@
+[
+  {
+    "id": "1-2-W01",
+    "setWave": "1",
+    "set": "2",
+    "number": "W01",
+    "name": "Gengar",
+    "img": "frienda/sets/wonderpicks/001.jpg",
+    "rating": "5",
+    "energy": "212",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Shadow Ball",
+        "type": "Poison",
+        "icon": "pokedex-sv/type/icon/poison.png"
+      }
+    ],
+    "stats": {
+      "hp": "109",
+      "atk": "63",
+      "def": "59",
+      "spAtk": "122",
+      "spDef": "72"
+    }
+  },
+  {
+    "id": "1-2-W02",
+    "setWave": "1",
+    "set": "2",
+    "number": "W02",
+    "name": "Mimikyu",
+    "img": "frienda/sets/wonderpicks/002.jpg",
+    "rating": "5",
+    "energy": "204",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Play Rough",
+        "type": "Fairy",
+        "icon": "pokedex-sv/type/icon/fairy.png"
+      }
+    ],
+    "stats": {
+      "hp": "104",
+      "atk": "86",
+      "def": "77",
+      "spAtk": "50",
+      "spDef": "99"
+    }
+  },
+  {
+    "id": "1-2-W03",
+    "setWave": "1",
+    "set": "2",
+    "number": "W03",
+    "name": "Ceruledge",
+    "img": "frienda/sets/wonderpicks/003.jpg",
+    "rating": "5",
+    "energy": "220",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Bitter Blade",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png"
+      }
+    ],
+    "stats": {
+      "hp": "122",
+      "atk": "117",
+      "def": "77",
+      "spAtk": "59",
+      "spDef": "95"
+    }
+  },
+  {
+    "id": "1-3-W01",
+    "setWave": "1",
+    "set": "3",
+    "number": "W01",
+    "name": "Rayquaza",
+    "img": "frienda/sets/wonderpicks/004.jpg",
+    "rating": "5",
+    "energy": "272",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Dragon Ascent",
+        "type": "Flying",
+        "icon": "pokedex-sv/type/icon/flying.png"
+      }
+    ],
+    "stats": {
+      "hp": "146",
+      "atk": "137",
+      "def": "84",
+      "spAtk": "137",
+      "spDef": "84"
+    }
+  },
+  {
+    "id": "1-3-W02",
+    "setWave": "1",
+    "set": "3",
+    "number": "W02",
+    "name": "Rayquaza",
+    "img": "frienda/sets/wonderpicks/005.jpg",
+    "rating": "5",
+    "energy": "272",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Dragon Ascent",
+        "type": "Flying",
+        "icon": "pokedex-sv/type/icon/flying.png"
+      }
+    ],
+    "stats": {
+      "hp": "146",
+      "atk": "137",
+      "def": "84",
+      "spAtk": "137",
+      "spDef": "84"
+    }
+  },
+  {
+    "id": "1-4-W01",
+    "setWave": "1",
+    "set": "4",
+    "number": "W01",
+    "name": "Vaporeon",
+    "img": "frienda/sets/wonderpicks/006.jpg",
+    "rating": "5",
+    "energy": "240",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Hydro Pump",
+        "type": "Water",
+        "icon": "pokedex-sv/type/icon/water.png"
+      }
+    ],
+    "stats": {
+      "hp": "186",
+      "atk": "68",
+      "def": "63",
+      "spAtk": "112",
+      "spDef": "98"
+    }
+  },
+  {
+    "id": "1-4-W02",
+    "setWave": "1",
+    "set": "4",
+    "number": "W02",
+    "name": "Jolteon",
+    "img": "frienda/sets/wonderpicks/007.jpg",
+    "rating": "5",
+    "energy": "240",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Thunderbolt",
+        "type": "Electric",
+        "icon": "pokedex-sv/type/icon/electric.png"
+      }
+    ],
+    "stats": {
+      "hp": "122",
+      "atk": "68",
+      "def": "63",
+      "spAtk": "112",
+      "spDef": "98"
+    }
+  },
+  {
+    "id": "1-4-W03",
+    "setWave": "1",
+    "set": "4",
+    "number": "W03",
+    "name": "Flareon",
+    "img": "frienda/sets/wonderpicks/008.jpg",
+    "rating": "5",
+    "energy": "240",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Flamethrower",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png"
+      }
+    ],
+    "stats": {
+      "hp": "122",
+      "atk": "132",
+      "def": "63",
+      "spAtk": "98",
+      "spDef": "112"
+    }
+  },
+  {
+    "id": "1-4-W04",
+    "setWave": "1",
+    "set": "4",
+    "number": "W04",
+    "name": "Sylveon",
+    "img": "frienda/sets/wonderpicks/009.jpg",
+    "rating": "5",
+    "energy": "240",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Moonblast",
+        "type": "Fairy",
+        "icon": "pokedex-sv/type/icon/fairy.png"
+      }
+    ],
+    "stats": {
+      "hp": "152",
+      "atk": "68",
+      "def": "68",
+      "spAtk": "112",
+      "spDef": "132"
+    }
+  },
+  {
+    "id": "1-5-W01",
+    "setWave": "1",
+    "set": "5",
+    "number": "W01",
+    "name": "Venusaur",
+    "img": "frienda/sets/wonderpicks/010.jpg",
+    "rating": "5",
+    "energy": "260",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Leaf Storm",
+        "type": "Grass",
+        "icon": "pokedex-sv/type/icon/grass.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Mega Venusaur",
+        "type": "Grass",
+        "icon": "pokedex-sv/type/icon/grass.png",
+        "secondaryType": "Poison",
+        "secondaryIcon": "pokedex-sv/type/icon/poison.png"
+      }
+    ],
+    "stats": {
+      "hp": "150",
+      "atk": "93",
+      "def": "94",
+      "spAtk": "113",
+      "spDef": "113"
+    }
+  },
+  {
+    "id": "1-5-W02",
+    "setWave": "1",
+    "set": "5",
+    "number": "W02",
+    "name": "Charizard",
+    "img": "frienda/sets/wonderpicks/011.jpg",
+    "rating": "5",
+    "energy": "264",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Crunch",
+        "type": "Dark",
+        "icon": "pokedex-sv/type/icon/dark.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Mega Charizard X",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png",
+        "secondaryType": "Dragon",
+        "secondaryIcon": "pokedex-sv/type/icon/dragon.png"
+      }
+    ],
+    "stats": {
+      "hp": "148",
+      "atk": "95",
+      "def": "89",
+      "spAtk": "122",
+      "spDef": "96"
+    }
+  },
+  {
+    "id": "1-5-W03",
+    "setWave": "1",
+    "set": "5",
+    "number": "W03",
+    "name": "Charizard",
+    "img": "frienda/sets/wonderpicks/012.jpg",
+    "rating": "5",
+    "energy": "264",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Flamethrower",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Mega Charizard Y",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png",
+        "secondaryType": "Flying",
+        "secondaryIcon": "pokedex-sv/type/icon/flying.png"
+      }
+    ],
+    "stats": {
+      "hp": "148",
+      "atk": "95",
+      "def": "89",
+      "spAtk": "122",
+      "spDef": "96"
+    }
+  },
+  {
+    "id": "1-5-W04",
+    "setWave": "1",
+    "set": "5",
+    "number": "W04",
+    "name": "Blastoise",
+    "img": "frienda/sets/wonderpicks/013.jpg",
+    "rating": "5",
+    "energy": "264",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Hydro Pump",
+        "type": "Water",
+        "icon": "pokedex-sv/type/icon/water.png"
+      },
+      {
+        "moveType": "Move",
+        "name": "Mega Blastoise",
+        "type": "Water",
+        "icon": "pokedex-sv/type/icon/water.png"
+      }
+    ],
+    "stats": {
+      "hp": "149",
+      "atk": "94",
+      "def": "113",
+      "spAtk": "96",
+      "spDef": "118"
+    }
+  },
+  {
+    "id": "2-1-W01",
+    "setWave": "2",
+    "set": "1",
+    "number": "W01",
+    "name": "Articuno",
+    "img": "frienda/sets/wonderpicks/014.jpg",
+    "rating": "5",
+    "energy": "284",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Blizzard",
+        "type": "Ice",
+        "icon": "pokedex-sv/type/icon/ice.png"
+      }
+    ],
+    "stats": {
+      "hp": "161",
+      "atk": "96",
+      "def": "113",
+      "spAtk": "107",
+      "spDef": "140"
+    }
+  },
+  {
+    "id": "2-1-W02",
+    "setWave": "2",
+    "set": "1",
+    "number": "W02",
+    "name": "Zapdos",
+    "img": "frienda/sets/wonderpicks/015.jpg",
+    "rating": "5",
+    "energy": "284",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Thunderbolt",
+        "type": "Electric",
+        "icon": "pokedex-sv/type/icon/electric.png"
+      }
+    ],
+    "stats": {
+      "hp": "161",
+      "atk": "102",
+      "def": "96",
+      "spAtk": "140",
+      "spDef": "102"
+    }
+  },
+  {
+    "id": "2-1-W03",
+    "setWave": "2",
+    "set": "1",
+    "number": "W03",
+    "name": "Moltres",
+    "img": "frienda/sets/wonderpicks/016.jpg",
+    "rating": "5",
+    "energy": "284",
+    "moves": [
+      {
+        "moveType": "Move",
+        "name": "Fire Blast",
+        "type": "Fire",
+        "icon": "pokedex-sv/type/icon/fire.png"
+      }
+    ],
+    "stats": {
+      "hp": "161",
+      "atk": "113",
+      "def": "102",
+      "spAtk": "140",
+      "spDef": "96"
+    }
+  }
+]

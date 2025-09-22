@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
-  const emblemIcon = require(`../Images/u${emblem.id}.webp`);
+  const emblemIcon = require(`../Images/NarutoEmblemBattle/Volume${emblem.id[0]}/u${emblem.id}.webp`);
 
   const rarityName = () => {
     switch (emblem.rarity) {
