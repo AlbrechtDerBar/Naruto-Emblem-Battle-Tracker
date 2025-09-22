@@ -1,7 +1,8 @@
 import React from 'react';
+import styles from './Naruto.module.css'
 
-export default function FriendaCard({ emblem, isOwned, toggleOwned }) {
-  const emblemIcon = require(`../Images/${emblem.img}`);
+export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
+  const emblemIcon = require(`../../Images/NarutoEmblemBattle/Volume${emblem.id[0]}/u${emblem.id}.webp`);
 
   const rarityName = () => {
     switch (emblem.rarity) {
@@ -23,8 +24,8 @@ export default function FriendaCard({ emblem, isOwned, toggleOwned }) {
   };
 
   return (
-    <div className={'emblem-container ' + rarityName()}>
-      <h2 className='emblem-name'>
+    <div className={`${styles['emblem-container']} ${styles[rarityName()]}`}>
+      <h2 className={styles['emblem-name']}>
         {emblem.id}{' '}
         <input
           type="checkbox"
@@ -36,12 +37,12 @@ export default function FriendaCard({ emblem, isOwned, toggleOwned }) {
       <img
         src={emblemIcon}
         alt={emblem.name}
-        className='emblem-icon'
+        className={styles['emblem-icon']}
         owned={isOwned ? 'true' : 'false'}
       />
 
       {/* Star rarity display */}
-      <div className={`emblem-rarity ${rarityName()}`}>
+      <div className={`${styles['emblem-rarity']} ${styles[rarityName()]}`}>
         {'★'.repeat(emblem.rarity)}
       </div>
     </div>

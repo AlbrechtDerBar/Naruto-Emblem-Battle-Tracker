@@ -1,21 +1,22 @@
 import React from 'react';
+import styles from './Pokemon.module.css'
 
-export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
-  const emblemIcon = require(`../Images/NarutoEmblemBattle/Volume${emblem.id[0]}/u${emblem.id}.webp`);
+export default function FriendaCard({ emblem, isOwned, toggleOwned }) {
+  const emblemIcon = require(`../../Images/${emblem.img}`);
 
   const rarityName = () => {
     switch (emblem.rarity) {
-      case 6:
+      case "6":
         return 'six-star';
-      case 5:
+      case "5":
         return 'five-star';
-      case 4:
+      case "4":
         return 'four-star';
-      case 3:
+      case "3":
         return 'three-star';
-      case 2:
+      case "2":
         return 'two-star';
-      case 1:
+      case "1":
         return 'one-star';
       default:
         return '';
@@ -23,8 +24,8 @@ export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
   };
 
   return (
-    <div className={'emblem-container ' + rarityName()}>
-      <h2 className='emblem-name'>
+    <div className={`${styles['emblem-container']} ${styles[rarityName()]}`}>
+      <h2 className={styles['emblem-name']}>
         {emblem.id}{' '}
         <input
           type="checkbox"
@@ -36,12 +37,11 @@ export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
       <img
         src={emblemIcon}
         alt={emblem.name}
-        className='emblem-icon'
+        className={styles['emblem-icon']}
         owned={isOwned ? 'true' : 'false'}
       />
 
-      {/* Star rarity display */}
-      <div className={`emblem-rarity ${rarityName()}`}>
+      <div className={`${styles['emblem-rarity']} ${styles[rarityName()]}`}>
         {'★'.repeat(emblem.rarity)}
       </div>
     </div>

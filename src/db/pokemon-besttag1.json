@@ -6,7 +6,7 @@
     "number": "01",
     "name": "Mewtwo",
     "img": "frienda/sets/besttag1/001.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "312",
     "moves": [
       {
@@ -31,7 +31,7 @@
     "number": "02",
     "name": "Solgaleo",
     "img": "frienda/sets/besttag1/002.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "312",
     "moves": [
       {
@@ -56,7 +56,7 @@
     "number": "03",
     "name": "Lunala",
     "img": "frienda/sets/besttag1/003.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "312",
     "moves": [
       {
@@ -81,7 +81,7 @@
     "number": "04",
     "name": "Pecharunt",
     "img": "frienda/sets/besttag1/004.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "288",
     "moves": [
       {
@@ -106,7 +106,7 @@
     "number": "05",
     "name": "Jirachi",
     "img": "frienda/sets/besttag1/005.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "288",
     "moves": [
       {
@@ -137,7 +137,7 @@
     "number": "06",
     "name": "Gengar",
     "img": "frienda/sets/besttag1/006.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "260",
     "moves": [
       {
@@ -170,7 +170,7 @@
     "number": "07",
     "name": "Gyarados",
     "img": "frienda/sets/besttag1/007.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "272",
     "moves": [
       {
@@ -203,7 +203,7 @@
     "number": "08",
     "name": "Lucario",
     "img": "frienda/sets/besttag1/008.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "268",
     "moves": [
       {
@@ -236,7 +236,7 @@
     "number": "09",
     "name": "Gardevoir",
     "img": "frienda/sets/besttag1/009.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "264",
     "moves": [
       {
@@ -267,7 +267,7 @@
     "number": "10",
     "name": "Hydrapple",
     "img": "frienda/sets/besttag1/010.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "272",
     "moves": [
       {
@@ -298,7 +298,7 @@
     "number": "11",
     "name": "Meganium",
     "img": "frienda/sets/besttag1/011.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "244",
     "moves": [
       {
@@ -329,7 +329,7 @@
     "number": "12",
     "name": "Typhlosion",
     "img": "frienda/sets/besttag1/012.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "248",
     "moves": [
       {
@@ -360,7 +360,7 @@
     "number": "13",
     "name": "Feraligatr",
     "img": "frienda/sets/besttag1/013.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "248",
     "moves": [
       {
@@ -391,7 +391,7 @@
     "number": "14",
     "name": "Nidoking",
     "img": "frienda/sets/besttag1/014.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "236",
     "moves": [
       {
@@ -422,7 +422,7 @@
     "number": "15",
     "name": "Heracross",
     "img": "frienda/sets/besttag1/015.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "228",
     "moves": [
       {
@@ -455,7 +455,7 @@
     "number": "16",
     "name": "Sableye",
     "img": "frienda/sets/besttag1/016.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "212",
     "moves": [
       {
@@ -488,7 +488,7 @@
     "number": "17",
     "name": "Mawile",
     "img": "frienda/sets/besttag1/017.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "212",
     "moves": [
       {
@@ -521,7 +521,7 @@
     "number": "18",
     "name": "Pikachu",
     "img": "frienda/sets/besttag1/018.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "208",
     "moves": [
       {
@@ -552,7 +552,7 @@
     "number": "19",
     "name": "Weavile",
     "img": "frienda/sets/besttag1/019.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "240",
     "moves": [
       {
@@ -583,7 +583,7 @@
     "number": "20",
     "name": "Ninetales",
     "img": "frienda/sets/besttag1/020.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "240",
     "moves": [
       {
@@ -608,7 +608,7 @@
     "number": "21",
     "name": "Sirfetch'd",
     "img": "frienda/sets/besttag1/021.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "240",
     "moves": [
       {
@@ -633,7 +633,7 @@
     "number": "22",
     "name": "Cyclizar",
     "img": "frienda/sets/besttag1/022.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "236",
     "moves": [
       {
@@ -658,7 +658,7 @@
     "number": "23",
     "name": "Glimmora",
     "img": "frienda/sets/besttag1/023.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "244",
     "moves": [
       {
@@ -683,7 +683,7 @@
     "number": "24",
     "name": "Farigiraf",
     "img": "frienda/sets/besttag1/024.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "244",
     "moves": [
       {
@@ -708,7 +708,7 @@
     "number": "25",
     "name": "Sinistcha",
     "img": "frienda/sets/besttag1/025.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "240",
     "moves": [
       {
@@ -733,7 +733,7 @@
     "number": "26",
     "name": "Chikorita",
     "img": "frienda/sets/besttag1/026.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "116",
     "moves": [
       {
@@ -758,7 +758,7 @@
     "number": "27",
     "name": "Bayleef",
     "img": "frienda/sets/besttag1/027.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "140",
     "moves": [
       {
@@ -783,7 +783,7 @@
     "number": "28",
     "name": "Meganium",
     "img": "frienda/sets/besttag1/028.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "192",
     "moves": [
       {
@@ -808,7 +808,7 @@
     "number": "29",
     "name": "Cyndaquil",
     "img": "frienda/sets/besttag1/029.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "116",
     "moves": [
       {
@@ -833,7 +833,7 @@
     "number": "30",
     "name": "Quilava",
     "img": "frienda/sets/besttag1/030.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "140",
     "moves": [
       {
@@ -858,7 +858,7 @@
     "number": "31",
     "name": "Typhlosion",
     "img": "frienda/sets/besttag1/031.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "196",
     "moves": [
       {
@@ -883,7 +883,7 @@
     "number": "32",
     "name": "Totodile",
     "img": "frienda/sets/besttag1/032.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "116",
     "moves": [
       {
@@ -908,7 +908,7 @@
     "number": "33",
     "name": "Croconaw",
     "img": "frienda/sets/besttag1/033.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "140",
     "moves": [
       {
@@ -933,7 +933,7 @@
     "number": "34",
     "name": "Feraligatr",
     "img": "frienda/sets/besttag1/034.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "192",
     "moves": [
       {
@@ -958,7 +958,7 @@
     "number": "35",
     "name": "Rellor",
     "img": "frienda/sets/besttag1/035.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "104",
     "moves": [
       {
@@ -983,7 +983,7 @@
     "number": "36",
     "name": "Rabsca",
     "img": "frienda/sets/besttag1/036.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "176",
     "moves": [
       {
@@ -1008,7 +1008,7 @@
     "number": "37",
     "name": "Cyclizar",
     "img": "frienda/sets/besttag1/037.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "184",
     "moves": [
       {
@@ -1033,7 +1033,7 @@
     "number": "38",
     "name": "Glimmet",
     "img": "frienda/sets/besttag1/038.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "124",
     "moves": [
       {
@@ -1058,7 +1058,7 @@
     "number": "39",
     "name": "Glimmora",
     "img": "frienda/sets/besttag1/039.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "192",
     "moves": [
       {
@@ -1083,7 +1083,7 @@
     "number": "40",
     "name": "Girafarig",
     "img": "frienda/sets/besttag1/040.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "156",
     "moves": [
       {
@@ -1108,7 +1108,7 @@
     "number": "41",
     "name": "Farigiraf",
     "img": "frienda/sets/besttag1/041.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "192",
     "moves": [
       {
@@ -1133,7 +1133,7 @@
     "number": "42",
     "name": "Poltchageist",
     "img": "frienda/sets/besttag1/042.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "112",
     "moves": [
       {
@@ -1158,7 +1158,7 @@
     "number": "43",
     "name": "Sinistcha",
     "img": "frienda/sets/besttag1/043.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "188",
     "moves": [
       {
@@ -1183,7 +1183,7 @@
     "number": "44",
     "name": "Pikachu",
     "img": "frienda/sets/besttag1/044.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "160",
     "moves": [
       {
@@ -1208,7 +1208,7 @@
     "number": "45",
     "name": "Eevee",
     "img": "frienda/sets/besttag1/045.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "120",
     "moves": [
       {
@@ -1233,7 +1233,7 @@
     "number": "46",
     "name": "Espeon",
     "img": "frienda/sets/besttag1/046.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "192",
     "moves": [
       {
@@ -1258,7 +1258,7 @@
     "number": "47",
     "name": "Umbreon",
     "img": "frienda/sets/besttag1/047.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "192",
     "moves": [
       {
@@ -1283,7 +1283,7 @@
     "number": "48",
     "name": "Gastly",
     "img": "frienda/sets/besttag1/048.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "116",
     "moves": [
       {
@@ -1308,7 +1308,7 @@
     "number": "49",
     "name": "Haunter",
     "img": "frienda/sets/besttag1/049.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "140",
     "moves": [
       {
@@ -1333,7 +1333,7 @@
     "number": "50",
     "name": "Gengar",
     "img": "frienda/sets/besttag1/050.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "184",
     "moves": [
       {
@@ -1358,7 +1358,7 @@
     "number": "51",
     "name": "Swinub",
     "img": "frienda/sets/besttag1/051.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "100",
     "moves": [
       {
@@ -1383,7 +1383,7 @@
     "number": "52",
     "name": "Piloswine",
     "img": "frienda/sets/besttag1/052.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "156",
     "moves": [
       {
@@ -1408,7 +1408,7 @@
     "number": "53",
     "name": "Mamoswine",
     "img": "frienda/sets/besttag1/053.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "192",
     "moves": [
       {
@@ -1433,7 +1433,7 @@
     "number": "54",
     "name": "Ralts",
     "img": "frienda/sets/besttag1/054.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "84",
     "moves": [
       {
@@ -1458,7 +1458,7 @@
     "number": "55",
     "name": "Kirlia",
     "img": "frienda/sets/besttag1/055.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "104",
     "moves": [
       {
@@ -1483,7 +1483,7 @@
     "number": "56",
     "name": "Gallade",
     "img": "frienda/sets/besttag1/056.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "192",
     "moves": [
       {
@@ -1508,7 +1508,7 @@
     "number": "57",
     "name": "Grubbin",
     "img": "frienda/sets/besttag1/057.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "112",
     "moves": [
       {
@@ -1533,7 +1533,7 @@
     "number": "58",
     "name": "Charjabug",
     "img": "frienda/sets/besttag1/058.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "140",
     "moves": [
       {
@@ -1558,7 +1558,7 @@
     "number": "59",
     "name": "Vikavolt",
     "img": "frienda/sets/besttag1/059.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "184",
     "moves": [
       {
@@ -1583,7 +1583,7 @@
     "number": "60",
     "name": "Vulpix",
     "img": "frienda/sets/besttag1/060.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "112",
     "moves": [
       {
@@ -1608,7 +1608,7 @@
     "number": "61",
     "name": "Ninetales",
     "img": "frienda/sets/besttag1/061.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "188",
     "moves": [
       {
@@ -1633,7 +1633,7 @@
     "number": "62",
     "name": "Grimer",
     "img": "frienda/sets/besttag1/062.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "120",
     "moves": [
       {
@@ -1658,7 +1658,7 @@
     "number": "63",
     "name": "Muk",
     "img": "frienda/sets/besttag1/063.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "184",
     "moves": [
       {
@@ -1683,7 +1683,7 @@
     "number": "64",
     "name": "Nosepass",
     "img": "frienda/sets/besttag1/064.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "132",
     "moves": [
       {
@@ -1708,7 +1708,7 @@
     "number": "65",
     "name": "Probopass",
     "img": "frienda/sets/besttag1/065.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "192",
     "moves": [
       {
@@ -1733,7 +1733,7 @@
     "number": "66",
     "name": "Woobat",
     "img": "frienda/sets/besttag1/066.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "116",
     "moves": [
       {
@@ -1758,7 +1758,7 @@
     "number": "67",
     "name": "Swoobat",
     "img": "frienda/sets/besttag1/067.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "160",
     "moves": [
       {
@@ -1783,7 +1783,7 @@
     "number": "68",
     "name": "Mawile",
     "img": "frienda/sets/besttag1/068.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "156",
     "moves": [
       {
@@ -1808,7 +1808,7 @@
     "number": "69",
     "name": "Oricorio",
     "img": "frienda/sets/besttag1/069.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "176",
     "moves": [
       {
@@ -1833,7 +1833,7 @@
     "number": "70",
     "name": "Togedemaru",
     "img": "frienda/sets/besttag1/070.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "164",
     "moves": [
       {

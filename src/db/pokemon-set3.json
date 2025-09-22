@@ -6,7 +6,7 @@
     "number": "01",
     "name": "Terapagos",
     "img": "frienda/sets/set3/001.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "256",
     "moves": [
       {
@@ -31,7 +31,7 @@
     "number": "02",
     "name": "Ogerpon",
     "img": "frienda/sets/set3/002.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "240",
     "moves": [
       {
@@ -62,7 +62,7 @@
     "number": "03",
     "name": "Deoxys",
     "img": "frienda/sets/set3/003.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "260",
     "moves": [
       {
@@ -93,7 +93,7 @@
     "number": "04",
     "name": "Keldeo",
     "img": "frienda/sets/set3/004.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "248",
     "moves": [
       {
@@ -124,7 +124,7 @@
     "number": "05",
     "name": "Zarude",
     "img": "frienda/sets/set3/005.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "256",
     "moves": [
       {
@@ -149,7 +149,7 @@
     "number": "06",
     "name": "Kingambit",
     "img": "frienda/sets/set3/006.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "240",
     "moves": [
       {
@@ -174,7 +174,7 @@
     "number": "07",
     "name": "Charizard",
     "img": "frienda/sets/set3/007.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "232",
     "moves": [
       {
@@ -205,7 +205,7 @@
     "number": "08",
     "name": "Roaring Moon",
     "img": "frienda/sets/set3/008.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "252",
     "moves": [
       {
@@ -236,7 +236,7 @@
     "number": "09",
     "name": "Iron Valiant",
     "img": "frienda/sets/set3/009.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "252",
     "moves": [
       {
@@ -267,7 +267,7 @@
     "number": "10",
     "name": "Rayquaza",
     "img": "frienda/sets/set3/010.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "272",
     "moves": [
       {
@@ -292,7 +292,7 @@
     "number": "11",
     "name": "Torterra",
     "img": "frienda/sets/set3/011.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "200",
     "moves": [
       {
@@ -323,7 +323,7 @@
     "number": "12",
     "name": "Infernape",
     "img": "frienda/sets/set3/012.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "204",
     "moves": [
       {
@@ -354,7 +354,7 @@
     "number": "13",
     "name": "Empoleon",
     "img": "frienda/sets/set3/013.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "204",
     "moves": [
       {
@@ -385,7 +385,7 @@
     "number": "14",
     "name": "Great Tusk",
     "img": "frienda/sets/set3/014.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "212",
     "moves": [
       {
@@ -410,7 +410,7 @@
     "number": "15",
     "name": "Slither Wing",
     "img": "frienda/sets/set3/015.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "212",
     "moves": [
       {
@@ -435,7 +435,7 @@
     "number": "16",
     "name": "Iron Jugulis",
     "img": "frienda/sets/set3/016.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "212",
     "moves": [
       {
@@ -460,7 +460,7 @@
     "number": "17",
     "name": "Iron Thorns",
     "img": "frienda/sets/set3/017.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "212",
     "moves": [
       {
@@ -485,7 +485,7 @@
     "number": "18",
     "name": "Grafaiai",
     "img": "frienda/sets/set3/018.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "196",
     "moves": [
       {
@@ -510,7 +510,7 @@
     "number": "19",
     "name": "Espathra",
     "img": "frienda/sets/set3/019.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "196",
     "moves": [
       {
@@ -535,7 +535,7 @@
     "number": "20",
     "name": "Lokix",
     "img": "frienda/sets/set3/020.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "188",
     "moves": [
       {
@@ -560,7 +560,7 @@
     "number": "21",
     "name": "Wigglytuff",
     "img": "frienda/sets/set3/021.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "184",
     "moves": [
       {
@@ -591,7 +591,7 @@
     "number": "22",
     "name": "Gothitelle",
     "img": "frienda/sets/set3/022.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "196",
     "moves": [
       {
@@ -622,7 +622,7 @@
     "number": "23",
     "name": "Ceruledge",
     "img": "frienda/sets/set3/023.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "200",
     "moves": [
       {
@@ -653,7 +653,7 @@
     "number": "24",
     "name": "Arboliva",
     "img": "frienda/sets/set3/024.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "196",
     "moves": [
       {
@@ -678,7 +678,7 @@
     "number": "25",
     "name": "Moltres",
     "img": "frienda/sets/set3/025.jpg",
-    "rating": "4",
+    "rarity": "4",
     "energy": "216",
     "moves": [
       {
@@ -703,7 +703,7 @@
     "number": "26",
     "name": "Turtwig",
     "img": "frienda/sets/set3/026.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "96",
     "moves": [
       {
@@ -728,7 +728,7 @@
     "number": "27",
     "name": "Grotle",
     "img": "frienda/sets/set3/027.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "116",
     "moves": [
       {
@@ -753,7 +753,7 @@
     "number": "28",
     "name": "Torterra",
     "img": "frienda/sets/set3/028.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "156",
     "moves": [
       {
@@ -778,7 +778,7 @@
     "number": "29",
     "name": "Chimchar",
     "img": "frienda/sets/set3/029.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "92",
     "moves": [
       {
@@ -803,7 +803,7 @@
     "number": "30",
     "name": "Monferno",
     "img": "frienda/sets/set3/030.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "116",
     "moves": [
       {
@@ -828,7 +828,7 @@
     "number": "31",
     "name": "Infernape",
     "img": "frienda/sets/set3/031.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "160",
     "moves": [
       {
@@ -853,7 +853,7 @@
     "number": "32",
     "name": "Piplup",
     "img": "frienda/sets/set3/032.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "96",
     "moves": [
       {
@@ -878,7 +878,7 @@
     "number": "33",
     "name": "Prinplup",
     "img": "frienda/sets/set3/033.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "116",
     "moves": [
       {
@@ -903,7 +903,7 @@
     "number": "34",
     "name": "Empoleon",
     "img": "frienda/sets/set3/034.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "156",
     "moves": [
       {
@@ -928,7 +928,7 @@
     "number": "35",
     "name": "Lechonk",
     "img": "frienda/sets/set3/035.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "80",
     "moves": [
       {
@@ -953,7 +953,7 @@
     "number": "36",
     "name": "Oinkologne",
     "img": "frienda/sets/set3/036.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "148",
     "moves": [
       {
@@ -978,7 +978,7 @@
     "number": "37",
     "name": "Nymble",
     "img": "frienda/sets/set3/037.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "72",
     "moves": [
       {
@@ -1003,7 +1003,7 @@
     "number": "38",
     "name": "Lokix",
     "img": "frienda/sets/set3/038.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "136",
     "moves": [
       {
@@ -1028,7 +1028,7 @@
     "number": "39",
     "name": "Shroodle",
     "img": "frienda/sets/set3/039.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "88",
     "moves": [
       {
@@ -1053,7 +1053,7 @@
     "number": "40",
     "name": "Grafaiai",
     "img": "frienda/sets/set3/040.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "144",
     "moves": [
       {
@@ -1078,7 +1078,7 @@
     "number": "41",
     "name": "Flittle",
     "img": "frienda/sets/set3/041.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "80",
     "moves": [
       {
@@ -1103,7 +1103,7 @@
     "number": "42",
     "name": "Espathra",
     "img": "frienda/sets/set3/042.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "144",
     "moves": [
       {
@@ -1128,7 +1128,7 @@
     "number": "43",
     "name": "Bombirdier",
     "img": "frienda/sets/set3/043.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "144",
     "moves": [
       {
@@ -1153,7 +1153,7 @@
     "number": "44",
     "name": "Tauros",
     "img": "frienda/sets/set3/044.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "148",
     "moves": [
       {
@@ -1178,7 +1178,7 @@
     "number": "45",
     "name": "Slowpoke",
     "img": "frienda/sets/set3/045.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "96",
     "moves": [
       {
@@ -1203,7 +1203,7 @@
     "number": "46",
     "name": "Slowbro",
     "img": "frienda/sets/set3/046.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "146",
     "moves": [
       {
@@ -1228,7 +1228,7 @@
     "number": "47",
     "name": "Slowking",
     "img": "frienda/sets/set3/047.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "146",
     "moves": [
       {
@@ -1253,7 +1253,7 @@
     "number": "48",
     "name": "Lillipup",
     "img": "frienda/sets/set3/048.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "88",
     "moves": [
       {
@@ -1278,7 +1278,7 @@
     "number": "49",
     "name": "Herdier",
     "img": "frienda/sets/set3/049.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "108",
     "moves": [
       {
@@ -1303,7 +1303,7 @@
     "number": "50",
     "name": "Stoutland",
     "img": "frienda/sets/set3/050.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "148",
     "moves": [
       {
@@ -1328,7 +1328,7 @@
     "number": "51",
     "name": "Igglybuff",
     "img": "frienda/sets/set3/051.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "72",
     "moves": [
       {
@@ -1353,7 +1353,7 @@
     "number": "52",
     "name": "Jigglypuff",
     "img": "frienda/sets/set3/052.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "84",
     "moves": [
       {
@@ -1378,7 +1378,7 @@
     "number": "53",
     "name": "Wigglytuff",
     "img": "frienda/sets/set3/053.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "132",
     "moves": [
       {
@@ -1403,7 +1403,7 @@
     "number": "54",
     "name": "Riolu",
     "img": "frienda/sets/set3/054.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "88",
     "moves": [
       {
@@ -1428,7 +1428,7 @@
     "number": "55",
     "name": "Lucario",
     "img": "frienda/sets/set3/055.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "156",
     "moves": [
       {
@@ -1453,7 +1453,7 @@
     "number": "56",
     "name": "Rattata",
     "img": "frienda/sets/set3/056.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "80",
     "moves": [
       {
@@ -1478,7 +1478,7 @@
     "number": "57",
     "name": "Raticate",
     "img": "frienda/sets/set3/057.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "128",
     "moves": [
       {
@@ -1503,7 +1503,7 @@
     "number": "58",
     "name": "Houndour",
     "img": "frienda/sets/set3/058.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "100",
     "moves": [
       {
@@ -1528,7 +1528,7 @@
     "number": "59",
     "name": "Houndoom",
     "img": "frienda/sets/set3/059.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "148",
     "moves": [
       {
@@ -1553,7 +1553,7 @@
     "number": "60",
     "name": "Gulpin",
     "img": "frienda/sets/set3/060.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "92",
     "moves": [
       {
@@ -1578,7 +1578,7 @@
     "number": "61",
     "name": "Swalot",
     "img": "frienda/sets/set3/061.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "140",
     "moves": [
       {
@@ -1603,7 +1603,7 @@
     "number": "62",
     "name": "Cacnea",
     "img": "frienda/sets/set3/062.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "100",
     "moves": [
       {
@@ -1628,7 +1628,7 @@
     "number": "63",
     "name": "Cacturne",
     "img": "frienda/sets/set3/063.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "144",
     "moves": [
       {
@@ -1653,7 +1653,7 @@
     "number": "64",
     "name": "Bronzor",
     "img": "frienda/sets/set3/064.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "92",
     "moves": [
       {
@@ -1678,7 +1678,7 @@
     "number": "65",
     "name": "Bronzong",
     "img": "frienda/sets/set3/065.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "148",
     "moves": [
       {
@@ -1703,7 +1703,7 @@
     "number": "66",
     "name": "Ponyta",
     "img": "frienda/sets/set3/066.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "116",
     "moves": [
       {
@@ -1728,7 +1728,7 @@
     "number": "67",
     "name": "Rapidash",
     "img": "frienda/sets/set3/067.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "148",
     "moves": [
       {
@@ -1753,7 +1753,7 @@
     "number": "68",
     "name": "Clobbopus",
     "img": "frienda/sets/set3/068.jpg",
-    "rating": "2",
+    "rarity": "2",
     "energy": "96",
     "moves": [
       {
@@ -1778,7 +1778,7 @@
     "number": "69",
     "name": "Grapploct",
     "img": "frienda/sets/set3/069.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "144",
     "moves": [
       {
@@ -1803,7 +1803,7 @@
     "number": "70",
     "name": "Falinks",
     "img": "frienda/sets/set3/070.jpg",
-    "rating": "3",
+    "rarity": "3",
     "energy": "144",
     "moves": [
       {

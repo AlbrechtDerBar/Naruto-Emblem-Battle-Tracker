@@ -1,19 +1,20 @@
 import { useEffect, useState } from 'react';
-import './CSS/Naruto.css';
-import set1 from '../db/pokemon-set1.json';
-import set2 from '../db/pokemon-set2.json';
-import set3 from '../db/pokemon-set3.json';
-import set4 from '../db/pokemon-set4.json';
-import set5 from '../db/pokemon-set5.json';
-import wonderpicks from '../db/pokemon-wonderpicks.json';
-import besttag1 from '../db/pokemon-besttag1.json';
-import FriendaCard from '../Components/FriendaCard';
+import styles from './Pokemon.module.css';
+import set1 from '../../db/pokemon-set1.json';
+import set2 from '../../db/pokemon-set2.json';
+import set3 from '../../db/pokemon-set3.json';
+import set4 from '../../db/pokemon-set4.json';
+import set5 from '../../db/pokemon-set5.json';
+import wonderpicks from '../../db/pokemon-wonderpicks.json';
+import besttag1 from '../../db/pokemon-besttag1.json';
+import FriendaCard from './FriendaCard';
 
 const emblems = [...set1, ...set2, ...set3, ...set4, ...set5, ...besttag1, ...wonderpicks];
 
 function FriendaPage() {
   const [searchString, setSearchString] = useState("");
-  const [setSelection, setSetSelection] = useState("both");
+  const [setSelection, setSetSelection] = useState(set1);
+  const [setSelectionValue, setSetSelectionValue] = useState(set1);
   const [OwnedStatus, setOwnedStatus] = useState("both");
   const [emblemEncode, setEmblemEncode] = useState("");
   const [showFilters, setShowFilters] = useState(false);
@@ -21,7 +22,7 @@ function FriendaPage() {
   const [progressSetFilter, setProgressSetFilter] = useState("both");
   const [rarityFilter, setRarityFilter] = useState("all");
   const [ownedEmblems, setOwnedEmblems] = useState(() => {
-    const stored = localStorage.getItem('emblemEncode');
+    const stored = localStorage.getItem('friendaEncode');
     if (stored) {
       setEmblemEncode(stored);
       return decodeEmblems(stored);
@@ -36,7 +37,7 @@ function FriendaPage() {
 
   useEffect(() => {
     const encoded = encodeEmblems();
-    localStorage.setItem('emblemEncode', encoded);
+    localStorage.setItem('friendaEncode', encoded);
     setEmblemEncode(encoded);
   }, [ownedEmblems]);
 
@@ -102,7 +103,6 @@ function FriendaPage() {
     const reversedBinary = binary.split('').reverse().join('');
     const updatedOwnedEmblems = [];
     for (let i = 0; i < reversedBinary.length; i++) {
-      console.log(emblems[i])
       if (reversedBinary[i] === '1') updatedOwnedEmblems.push(emblems[i]?.id);
     }
     return updatedOwnedEmblems;
@@ -164,7 +164,7 @@ function FriendaPage() {
   };
 
   function getRarityProgress(setFilter) {
-    const rarityLevels = [1, 2, 3, 4, 5, 6];
+    const rarityLevels = [1, 2, 3, 4, 5];
     const progressByRarity = [];
   
     let overallOwned = 0;
@@ -206,12 +206,37 @@ function FriendaPage() {
     };
   }  
 
+  function updateSetSelection(selection) {
+        switch(selection) {
+            case "1":
+                setSetSelectionValue("1");
+                setSetSelection(set1);
+                break;
+            case "2":
+                setSetSelectionValue("2");
+                setSetSelection(set2);
+                break;
+            case "3":
+                setSetSelectionValue("3");
+                setSetSelection(set3);
+                break;
+            case "4":
+                setSetSelectionValue("4");
+                setSetSelection(set4);
+                break;
+            case "5":
+                setSetSelectionValue("5");
+                setSetSelection(set5);
+                break;
+        }
+  }
+
   return (
     <>
-      <div id="filters" className="filters-container">
-        <div className="filters-header">
+      <div id="filters" className={styles["filters-container"]}>
+        <div className={styles["filters-header"]}>
           <button
-            className="filter-toggle"
+            className={styles["filter-toggle"]}
             onClick={() => {
               if (showFilters) {
                 setShowFilters(false);
@@ -225,7 +250,7 @@ function FriendaPage() {
           </button>
 
           <button
-            className="progress-toggle"
+            className={styles["progress-toggle"]}
             onClick={() => {
               if (showProgress) {
                 setShowProgress(false);
@@ -243,42 +268,44 @@ function FriendaPage() {
           <>
             {/* Filter form goes here (everything that was originally inside filters-container) */}
             <div id='filter-section'>
-              <div className="filter-group">
-                <label htmlFor="search" className="filter-label">Search:</label>
+              <div className={styles["filter-group"]}>
+                <label htmlFor="search" className={styles["filter-label"]}>Search:</label>
                 <input
                   type="text"
                   id="search"
                   placeholder="Search by name, tag, or ID"
                   value={searchString}
                   onChange={(e) => setSearchString(e.target.value)}
-                  className="filter-input"
+                  className={styles["filter-input"]}
                 />
               </div>
 
-              <div className="filter-group filter-group-inline">
-                <div className="filter-item">
-                  <label htmlFor="set" className="filter-label">Set Number:</label>
+              <div className={`${styles["filter-group"]}  ${styles["filter-group-inline"]}`}>
+                <div className={styles["filter-item"]}>
+                  <label htmlFor="set" className={styles["filter-label"]}>Set Number:</label>
                   <select
                     name="set"
                     id="set"
-                    value={setSelection}
-                    onChange={(e) => setSetSelection(e.target.value)}
-                    className="filter-dropdown"
+                    value={setSelectionValue}
+                    onChange={(e) => updateSetSelection(e.target.value)}
+                    className={styles["filter-dropdown"]}
                   >
-                    <option value="both">Both</option>
                     <option value="1">Set 1</option>
                     <option value="2">Set 2</option>
+                    <option value="3">Set 3</option>
+                    <option value="4">Set 4</option>
+                    <option value="5">Set 5</option>
                   </select>
                 </div>
 
-                <div className="filter-item">
-                  <label htmlFor="owned" className="filter-label">Owned Status:</label>
+                <div className={styles["filter-item"]}>
+                  <label htmlFor="owned" className={styles["filter-label"]}>Owned Status:</label>
                   <select
                     name="owned"
                     id="owned"
                     value={OwnedStatus}
                     onChange={(e) => setOwnedStatus(e.target.value)}
-                    className="filter-dropdown"
+                    className={styles["filter-dropdown"]}
                   >
                     <option value="both">Both</option>
                     <option value="Owned">Owned</option>
@@ -286,14 +313,14 @@ function FriendaPage() {
                   </select>
                 </div>
 
-                <div className="filter-item">
-                  <label htmlFor="orderBy" className="filter-label">Order By:</label>
+                <div className={styles["filter-item"]}>
+                  <label htmlFor="orderBy" className={styles["filter-label"]}>Order By:</label>
                   <select
                     name="orderBy"
                     id="orderBy"
                     value={orderBy}
                     onChange={(e) => setOrderBy(e.target.value)}
-                    className="filter-dropdown"
+                    className={styles["filter-dropdown"]}
                   >
                     <option value="id">ID (Asc)</option>
                     <option value="reverseId">ID (Desc)</option>
@@ -302,14 +329,14 @@ function FriendaPage() {
                   </select>
                 </div>
 
-                <div className="filter-item">
-                  <label htmlFor="rarity" className="filter-label">Star Rarity:</label>
+                <div className={styles["filter-item"]}>
+                  <label htmlFor="rarity" className={styles["filter-label"]}>Star Rarity:</label>
                   <select
                     name="rarity"
                     id="rarity"
                     value={rarityFilter}
                     onChange={(e) => setRarityFilter(e.target.value)}
-                    className="filter-dropdown"
+                    className={styles["filter-dropdown"]}
                   >
                     <option value="all">All</option>
                     <option value="6">6★</option>
@@ -322,21 +349,21 @@ function FriendaPage() {
                 </div>
               </div>
 
-              <div className="filter-group">
-                <label htmlFor="emblemEncode" className="filter-label">Emblem Collection ID:</label>
-                <div className="input-with-button">
+              <div className={styles["filter-group"]}>
+                <label htmlFor="emblemEncode" className={styles["filter-label"]}>Emblem Collection ID:</label>
+                <div className={styles["input-with-button"]}>
                   <input
                     type="text"
                     id="emblemEncode"
                     value={emblemEncode}
                     onChange={handleEmblemEncodeChange}
                     onBlur={handleSaveEncodedValue}
-                    className="filter-input"
+                    className={styles["filter-input"]}
                     placeholder="Enter collection ID"
                   />
                   <button
                     type="button"
-                    className="copy-btn"
+                    className={styles["copy-btn"]}
                     onClick={() => {
                       navigator.clipboard.writeText(emblemEncode)
                         .then(() => alert('Copied to clipboard!'))
@@ -365,10 +392,10 @@ function FriendaPage() {
 
 
         {showProgress && (
-          <div className="collection-progress">
+          <div className={styles["collection-progress"]}>
             <h3>Collection Progress</h3>
 
-            <div className="progress-filter">
+            <div className={styles["progress-filter"]}>
               <label htmlFor="progressSetFilter">View Set:</label>
               <select
                 id="progressSetFilter"
@@ -381,41 +408,39 @@ function FriendaPage() {
               </select>
             </div>
 
-            <div className="rarity-progress">
-            <div className="rarity-row overall-progress">
-              <div className="rarity-label">
+            <div className={styles["rarity-progress"]}>
+            <div className={`${styles["rarity-row"]}  ${styles["overall-progress"]}`}>
+              <div className={styles["rarity-label"]}>
                 <strong>All</strong>
               </div>
-              <div className="progress-bar-container">
+              <div className={styles["progress-bar-container"]}>
                 <div
-                  className="progress-bar overall-bar"
+                  className={`${styles["progress-bar"]}  ${styles["overall-bar"]}`}
                   style={{ width: `${overall.percent}%` }}
                 ></div>
               </div>
-              <div className="progress-text">
+              <div className={styles["progress-text"]}>
                 {overall.owned} / {overall.total} ({overall.percent.toFixed(1)}%)
               </div>
             </div>
               {rarities.map(({ rarity, owned, total }) => {
                 const percent = total > 0 ? (owned / total) * 100 : 0;
                 const starClass =
-                  rarity === 6
-                    ? "six-star"
-                    : rarity === 5 || rarity === 4
+                    rarity === 5 || rarity === 4
                     ? "five-star"
                     : rarity === 3
                     ? "three-star"
                     : "two-star";
 
                 return (
-                  <div key={rarity} className="rarity-row">
-                    <div className="rarity-label">
+                  <div key={rarity} className={styles["rarity-row"]}>
+                    <div className={styles["rarity-label"]}>
                       <strong>{rarity}★</strong>
                     </div>
-                    <div className="progress-bar-container">
-                      <div className={`progress-bar ${starClass}`} style={{ width: `${percent}%` }}></div>
+                    <div className={styles["progress-bar-container"]}>
+                      <div className={`${styles["progress-bar"]}  ${styles[`${starClass}`]}`} style={{ width: `${percent}%` }}></div>
                     </div>
-                    <div className="progress-text">
+                    <div className={styles["progress-text"]}>
                       {owned} / {total} ({percent.toFixed(1)}%)
                     </div>
                   </div>
@@ -426,10 +451,9 @@ function FriendaPage() {
         )}
       </div>
 
-      <div className="card-list">
+      <div className={styles["card-list"]}>
         {sortEmblems(
-          emblems.filter((e) => {
-            const matchesSet = setSelection === "both" ? true : e.set === Number(setSelection);
+          setSelection.filter((e) => {
           
             const matchesOwned = () => {
               if (OwnedStatus === "both") return true;
@@ -447,7 +471,7 @@ function FriendaPage() {
           
             const matchesRarity = rarityFilter === "all" ? true : e.rarity === Number(rarityFilter);
           
-            return matchesSet && matchesSearch && matchesOwned() && matchesRarity;
+            return matchesSearch && matchesOwned() && matchesRarity;
           })
           
         ).map((e) => (

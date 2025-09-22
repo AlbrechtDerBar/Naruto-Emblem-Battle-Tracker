@@ -9,7 +9,6 @@
   
   /* #region Emblem-Card */
   .emblem-container {
-    background-color: #61dafb;
     border: 1px solid #282c34;
     border-radius: 15px;
     width: 250px;
@@ -22,7 +21,6 @@
   
   .id {
     margin: unset;
-    
   }
   
   .emblem-name {

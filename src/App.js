@@ -1,8 +1,8 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
-import EmblemPage from './Pages/EmblemPage';
-import FriendaPage from './Pages/FriendaPage';
+import EmblemPage from './Pages/EmblemPage/EmblemPage';
+import FriendaPage from './Pages/FriendaPage/FriendaPage';
 import Home from './Pages/Home';
 
 function App() {

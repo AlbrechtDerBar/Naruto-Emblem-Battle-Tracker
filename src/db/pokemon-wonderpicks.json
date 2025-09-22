@@ -6,7 +6,7 @@
     "number": "W01",
     "name": "Gengar",
     "img": "frienda/sets/wonderpicks/001.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "212",
     "moves": [
       {
@@ -31,7 +31,7 @@
     "number": "W02",
     "name": "Mimikyu",
     "img": "frienda/sets/wonderpicks/002.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "204",
     "moves": [
       {
@@ -56,7 +56,7 @@
     "number": "W03",
     "name": "Ceruledge",
     "img": "frienda/sets/wonderpicks/003.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "220",
     "moves": [
       {
@@ -81,7 +81,7 @@
     "number": "W01",
     "name": "Rayquaza",
     "img": "frienda/sets/wonderpicks/004.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "272",
     "moves": [
       {
@@ -106,7 +106,7 @@
     "number": "W02",
     "name": "Rayquaza",
     "img": "frienda/sets/wonderpicks/005.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "272",
     "moves": [
       {
@@ -131,7 +131,7 @@
     "number": "W01",
     "name": "Vaporeon",
     "img": "frienda/sets/wonderpicks/006.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "240",
     "moves": [
       {
@@ -156,7 +156,7 @@
     "number": "W02",
     "name": "Jolteon",
     "img": "frienda/sets/wonderpicks/007.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "240",
     "moves": [
       {
@@ -181,7 +181,7 @@
     "number": "W03",
     "name": "Flareon",
     "img": "frienda/sets/wonderpicks/008.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "240",
     "moves": [
       {
@@ -206,7 +206,7 @@
     "number": "W04",
     "name": "Sylveon",
     "img": "frienda/sets/wonderpicks/009.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "240",
     "moves": [
       {
@@ -231,7 +231,7 @@
     "number": "W01",
     "name": "Venusaur",
     "img": "frienda/sets/wonderpicks/010.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "260",
     "moves": [
       {
@@ -264,7 +264,7 @@
     "number": "W02",
     "name": "Charizard",
     "img": "frienda/sets/wonderpicks/011.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "264",
     "moves": [
       {
@@ -297,7 +297,7 @@
     "number": "W03",
     "name": "Charizard",
     "img": "frienda/sets/wonderpicks/012.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "264",
     "moves": [
       {
@@ -330,7 +330,7 @@
     "number": "W04",
     "name": "Blastoise",
     "img": "frienda/sets/wonderpicks/013.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "264",
     "moves": [
       {
@@ -361,7 +361,7 @@
     "number": "W01",
     "name": "Articuno",
     "img": "frienda/sets/wonderpicks/014.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "284",
     "moves": [
       {
@@ -386,7 +386,7 @@
     "number": "W02",
     "name": "Zapdos",
     "img": "frienda/sets/wonderpicks/015.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "284",
     "moves": [
       {
@@ -411,7 +411,7 @@
     "number": "W03",
     "name": "Moltres",
     "img": "frienda/sets/wonderpicks/016.jpg",
-    "rating": "5",
+    "rarity": "5",
     "energy": "284",
     "moves": [
       {

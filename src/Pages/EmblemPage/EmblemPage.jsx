@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import './CSS/Naruto.css';
-import EmblemCard from '../Components/EmblemCard';
-import emblems from '../db/emblems';
+import styles from './Naruto.module.css';
+import EmblemCard from './EmblemCard';
+import emblems from '../../db/emblems';
 
 function EmblemPage() {
   const [searchString, setSearchString] = useState("");
@@ -200,10 +200,10 @@ function EmblemPage() {
 
   return (
     <>
-      <div id="filters" className="filters-container">
-        <div className="filters-header">
+      <div id="filters" className={styles["filters-container"]}>
+        <div className={styles["filters-header"]}>
           <button
-            className="filter-toggle"
+            className={styles["filter-toggle"]}
             onClick={() => {
               if (showFilters) {
                 setShowFilters(false);
@@ -217,7 +217,7 @@ function EmblemPage() {
           </button>
 
           <button
-            className="progress-toggle"
+            className={styles["progress-toggle"]}
             onClick={() => {
               if (showProgress) {
                 setShowProgress(false);
@@ -235,27 +235,27 @@ function EmblemPage() {
           <>
             {/* Filter form goes here (everything that was originally inside filters-container) */}
             <div id='filter-section'>
-              <div className="filter-group">
-                <label htmlFor="search" className="filter-label">Search:</label>
+              <div className={styles["filter-group"]}>
+                <label htmlFor="search" className={styles["filter-label"]}>Search:</label>
                 <input
                   type="text"
                   id="search"
                   placeholder="Search by name, tag, or ID"
                   value={searchString}
                   onChange={(e) => setSearchString(e.target.value)}
-                  className="filter-input"
+                  className={styles["filter-input"]}
                 />
               </div>
 
-              <div className="filter-group filter-group-inline">
-                <div className="filter-item">
-                  <label htmlFor="set" className="filter-label">Set Number:</label>
+              <div className={`${styles["filter-group"]}  ${styles["filter-group-inline"]}`}>
+                <div className={styles["filter-item"]}>
+                  <label htmlFor="set" className={styles["filter-label"]}>Set Number:</label>
                   <select
                     name="set"
                     id="set"
                     value={setSelection}
                     onChange={(e) => setSetSelection(e.target.value)}
-                    className="filter-dropdown"
+                    className={styles["filter-dropdown"]}
                   >
                     <option value="both">Both</option>
                     <option value="1">Set 1</option>
@@ -263,14 +263,14 @@ function EmblemPage() {
                   </select>
                 </div>
 
-                <div className="filter-item">
-                  <label htmlFor="owned" className="filter-label">Owned Status:</label>
+                <div className={styles["filter-item"]}>
+                  <label htmlFor="owned" className={styles["filter-label"]}>Owned Status:</label>
                   <select
                     name="owned"
                     id="owned"
                     value={OwnedStatus}
                     onChange={(e) => setOwnedStatus(e.target.value)}
-                    className="filter-dropdown"
+                    className={styles["filter-dropdown"]}
                   >
                     <option value="both">Both</option>
                     <option value="Owned">Owned</option>
@@ -278,14 +278,14 @@ function EmblemPage() {
                   </select>
                 </div>
 
-                <div className="filter-item">
-                  <label htmlFor="orderBy" className="filter-label">Order By:</label>
+                <div className={styles["filter-item"]}>
+                  <label htmlFor="orderBy" className={styles["filter-label"]}>Order By:</label>
                   <select
                     name="orderBy"
                     id="orderBy"
                     value={orderBy}
                     onChange={(e) => setOrderBy(e.target.value)}
-                    className="filter-dropdown"
+                    className={styles["filter-dropdown"]}
                   >
                     <option value="id">ID (Asc)</option>
                     <option value="reverseId">ID (Desc)</option>
@@ -294,14 +294,14 @@ function EmblemPage() {
                   </select>
                 </div>
 
-                <div className="filter-item">
-                  <label htmlFor="rarity" className="filter-label">Star Rarity:</label>
+                <div className={styles["filter-item"]}>
+                  <label htmlFor="rarity" className={styles["filter-label"]}>Star Rarity:</label>
                   <select
                     name="rarity"
                     id="rarity"
                     value={rarityFilter}
                     onChange={(e) => setRarityFilter(e.target.value)}
-                    className="filter-dropdown"
+                    className={styles["filter-dropdown"]}
                   >
                     <option value="all">All</option>
                     <option value="6">6★</option>
@@ -314,21 +314,21 @@ function EmblemPage() {
                 </div>
               </div>
 
-              <div className="filter-group">
-                <label htmlFor="emblemEncode" className="filter-label">Emblem Collection ID:</label>
-                <div className="input-with-button">
+              <div className={styles["filter-group"]}>
+                <label htmlFor="emblemEncode" className={styles["filter-label"]}>Emblem Collection ID:</label>
+                <div className={styles["input-with-button"]}>
                   <input
                     type="text"
                     id="emblemEncode"
                     value={emblemEncode}
                     onChange={handleEmblemEncodeChange}
                     onBlur={handleSaveEncodedValue}
-                    className="filter-input"
+                    className={styles["filter-input"]}
                     placeholder="Enter collection ID"
                   />
                   <button
                     type="button"
-                    className="copy-btn"
+                    className={styles["copy-btn"]}
                     onClick={() => {
                       navigator.clipboard.writeText(emblemEncode)
                         .then(() => alert('Copied to clipboard!'))
@@ -357,10 +357,10 @@ function EmblemPage() {
 
 
         {showProgress && (
-          <div className="collection-progress">
+          <div className={styles["collection-progress"]}>
             <h3>Collection Progress</h3>
 
-            <div className="progress-filter">
+            <div className={styles["progress-filter"]}>
               <label htmlFor="progressSetFilter">View Set:</label>
               <select
                 id="progressSetFilter"
@@ -373,18 +373,18 @@ function EmblemPage() {
               </select>
             </div>
 
-            <div className="rarity-progress">
-            <div className="rarity-row overall-progress">
-              <div className="rarity-label">
+            <div className={styles["rarity-progress"]}>
+            <div className={`${styles["rarity-row"]}  ${styles["overall-progress"]}`}>
+              <div className={styles["rarity-label"]}>
                 <strong>All</strong>
               </div>
-              <div className="progress-bar-container">
+              <div className={styles["progress-bar-container"]}>
                 <div
-                  className="progress-bar overall-bar"
+                  className={`${styles["progress-bar"]}  ${styles["overall-bar"]}`}
                   style={{ width: `${overall.percent}%` }}
                 ></div>
               </div>
-              <div className="progress-text">
+              <div className={styles["progress-text"]}>
                 {overall.owned} / {overall.total} ({overall.percent.toFixed(1)}%)
               </div>
             </div>
@@ -400,14 +400,14 @@ function EmblemPage() {
                     : "two-star";
 
                 return (
-                  <div key={rarity} className="rarity-row">
-                    <div className="rarity-label">
+                  <div key={rarity} className={styles["rarity-row"]}>
+                    <div className={styles["rarity-label"]}>
                       <strong>{rarity}★</strong>
                     </div>
-                    <div className="progress-bar-container">
-                      <div className={`progress-bar ${starClass}`} style={{ width: `${percent}%` }}></div>
+                    <div className={styles["progress-bar-container"]}>
+                      <div className={`${styles["progress-bar"]}  ${styles[`${starClass}`]}`} style={{ width: `${percent}%` }}></div>
                     </div>
-                    <div className="progress-text">
+                    <div className={styles["progress-text"]}>
                       {owned} / {total} ({percent.toFixed(1)}%)
                     </div>
                   </div>
@@ -418,7 +418,7 @@ function EmblemPage() {
         )}
       </div>
 
-      <div className="card-list">
+      <div className={styles["card-list"]}>
         {sortEmblems(
           emblems.filter((e) => {
             const matchesSet = setSelection === "both" ? true : e.setNumber === Number(setSelection);
