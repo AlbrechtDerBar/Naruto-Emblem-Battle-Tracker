@@ -26,13 +26,18 @@ export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
   return (
     <div className={`${styles['emblem-container']} ${styles[rarityName()]}`}>
       <h2 className={styles['emblem-name']}>
-        {emblem.id}{' '}
-        <input
-          type="checkbox"
-          checked={isOwned}
-          onChange={() => toggleOwned(emblem.id)}
-        />
+        {emblem.name}{' '}
       </h2>
+      <h3 className={styles['emblem-name']}>
+        {emblem.id}
+      </h3>
+
+      <input
+        type="checkbox"
+        checked={isOwned}
+        className={styles['emblem-toggle']}
+        onChange={() => toggleOwned(emblem.id)}
+      />
 
       <img
         src={emblemIcon}
@@ -41,8 +46,10 @@ export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
         owned={isOwned ? 'true' : 'false'}
       />
 
+      <p className={`${styles['emblem-name']} ${styles['emblem-tags']}`}>{emblem.tags.join(", ")}</p>
+
       {/* Star rarity display */}
-      <div className={`${styles['emblem-rarity']} ${styles[rarityName()]}`}>
+      <div className={`${styles['emblem-rarity']}`}>
         {'★'.repeat(emblem.rarity)}
       </div>
     </div>

@@ -11,8 +11,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="naruto-emblem-battle" element={<EmblemPage />} />
-        <Route path="pokemon-frienda" element={<FriendaPage />} />
+        <Route path="/naruto-emblem-battle" element={<EmblemPage />} />
+        <Route path="/pokemon-frienda" element={<FriendaPage />} />
       </Routes>
     </Router>
   );

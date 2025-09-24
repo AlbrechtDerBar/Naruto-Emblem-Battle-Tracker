@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
   }
   
   .id {
@@ -31,6 +32,12 @@
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     user-select: none;
   }
+
+  .emblem-toggle  {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
   
   .images {
     width: 150px;
@@ -39,13 +46,29 @@
     user-select: none;
   }
   
-  .emblem-icon {
+  .emblem-icon-container {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .emblem-icon-5, .emblem-icon-4  {
     width: 100%;
     max-width: 200px;
-    height: 200px;
-    object-fit: contain;
     display: block;
     margin: 0 auto;
+    border-radius: 8px 8px 8px 25px;
+  }
+
+  .emblem-icon-3, .emblem-icon-2  {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px 8px 25px 8px;
   }
   
   [owned="false"] {
@@ -77,9 +100,10 @@
     font-size: 1.2rem;
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: gold;
     padding: 4px 0;
     border-radius: 0 0 6px 6px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   
   .input-with-button {

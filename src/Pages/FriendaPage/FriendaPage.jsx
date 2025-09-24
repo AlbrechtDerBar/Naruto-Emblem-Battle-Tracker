@@ -14,12 +14,12 @@ const emblems = [...set1, ...set2, ...set3, ...set4, ...set5, ...besttag1, ...wo
 function FriendaPage() {
   const [searchString, setSearchString] = useState("");
   const [setSelection, setSetSelection] = useState(set1);
-  const [setSelectionValue, setSetSelectionValue] = useState(set1);
+  const [setSelectionValue, setSetSelectionValue] = useState("1");
   const [OwnedStatus, setOwnedStatus] = useState("both");
   const [emblemEncode, setEmblemEncode] = useState("");
   const [showFilters, setShowFilters] = useState(false);
   const [showProgress, setShowProgress] = useState(false);
-  const [progressSetFilter, setProgressSetFilter] = useState("both");
+  const [progressSetFilter, setProgressSetFilter] = useState("1");
   const [rarityFilter, setRarityFilter] = useState("all");
   const [ownedEmblems, setOwnedEmblems] = useState(() => {
     const stored = localStorage.getItem('friendaEncode');
@@ -78,7 +78,6 @@ function FriendaPage() {
 
     const firstChar = base64.findIndex(item => item !== "0");
 
-    console.log(base64.slice(firstChar).join(""))
     return base64.slice(firstChar).join("") || '0';
   }
 
@@ -164,7 +163,7 @@ function FriendaPage() {
   };
 
   function getRarityProgress(setFilter) {
-    const rarityLevels = [1, 2, 3, 4, 5];
+    const rarityLevels = ["2", "3", "4", "5"];
     const progressByRarity = [];
   
     let overallOwned = 0;
@@ -172,8 +171,34 @@ function FriendaPage() {
   
     rarityLevels.forEach((rarity) => {
       const filtered = emblems.filter((e) => {
-        const matchesSet =
-          setFilter === "both" ? true : e.setNumber === Number(setFilter);
+        let waveSetFilter = false;
+
+        switch(setFilter) {
+            case "1":
+                waveSetFilter = e.set === "1" && e.setWave === "1" && !e.number.includes("W");
+                break;
+            case "2":
+                waveSetFilter = e.set === "2" && e.setWave === "1" && !e.number.includes("W");
+                break;
+            case "3":
+                waveSetFilter = e.set === "3" && e.setWave === "1" && !e.number.includes("W");
+                break;
+            case "4":
+                waveSetFilter = e.set === "4" && e.setWave === "1" && !e.number.includes("W");
+                break;
+            case "5":
+                waveSetFilter = e.set === "5" && e.setWave === "1" && !e.number.includes("W");
+                break;
+            case "6":
+                waveSetFilter = e.set === "1" && e.setWave === "2" && !e.number.includes("W");
+                break;
+            case "7":
+                waveSetFilter = e.number.includes("W"); 
+                break;
+        }
+
+        console.log(e.set === "1")
+        const matchesSet = waveSetFilter;
         return matchesSet && e.rarity === rarity;
       });
   
@@ -191,11 +216,6 @@ function FriendaPage() {
   
     const overallPercent = overallTotal > 0 ? (overallOwned / overallTotal) * 100 : 0;
     
-    console.log({
-      owned: overallOwned,
-      total: overallTotal,
-      percent: overallPercent,
-    })
     return {
       rarities: progressByRarity,
       overall: {
@@ -227,6 +247,14 @@ function FriendaPage() {
             case "5":
                 setSetSelectionValue("5");
                 setSetSelection(set5);
+                break;
+            case "6":
+                setSetSelectionValue("6");
+                setSetSelection(besttag1);
+                break;
+            case "7":
+                setSetSelectionValue("7");
+                setSetSelection(wonderpicks);
                 break;
         }
   }
@@ -290,11 +318,13 @@ function FriendaPage() {
                     onChange={(e) => updateSetSelection(e.target.value)}
                     className={styles["filter-dropdown"]}
                   >
-                    <option value="1">Set 1</option>
-                    <option value="2">Set 2</option>
-                    <option value="3">Set 3</option>
-                    <option value="4">Set 4</option>
-                    <option value="5">Set 5</option>
+                    <option value="1">Set 1-1</option>
+                    <option value="2">Set 1-2</option>
+                    <option value="3">Set 1-3</option>
+                    <option value="4">Set 1-4</option>
+                    <option value="5">Set 1-5</option>
+                    <option value="6">Set 2-1</option>
+                    <option value="7">Wonder Picks</option>
                   </select>
                 </div>
 
@@ -339,12 +369,10 @@ function FriendaPage() {
                     className={styles["filter-dropdown"]}
                   >
                     <option value="all">All</option>
-                    <option value="6">6★</option>
                     <option value="5">5★</option>
                     <option value="4">4★</option>
                     <option value="3">3★</option>
                     <option value="2">2★</option>
-                    <option value="1">1★</option>
                   </select>
                 </div>
               </div>
@@ -402,9 +430,13 @@ function FriendaPage() {
                 value={progressSetFilter}
                 onChange={(e) => setProgressSetFilter(e.target.value)}
               >
-                <option value="both">Both Sets</option>
-                <option value="1">Set 1</option>
-                <option value="2">Set 2</option>
+                <option value="1">Set 1-1</option>
+                <option value="2">Set 1-2</option>
+                <option value="3">Set 1-3</option>
+                <option value="4">Set 1-4</option>
+                <option value="5">Set 1-5</option>
+                <option value="6">Set 2-1</option>
+                <option value="7">Wonder Picks</option>
               </select>
             </div>
 

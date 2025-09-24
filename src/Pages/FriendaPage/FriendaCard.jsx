@@ -26,20 +26,26 @@ export default function FriendaCard({ emblem, isOwned, toggleOwned }) {
   return (
     <div className={`${styles['emblem-container']} ${styles[rarityName()]}`}>
       <h2 className={styles['emblem-name']}>
-        {emblem.id}{' '}
-        <input
+        {emblem.name}{' '}
+      </h2>
+      <h3 className={styles['emblem-name']}>
+        {emblem.id}
+      </h3>
+      <input
           type="checkbox"
           checked={isOwned}
+          className={styles['emblem-toggle']}
           onChange={() => toggleOwned(emblem.id)}
         />
-      </h2>
 
-      <img
-        src={emblemIcon}
-        alt={emblem.name}
-        className={styles['emblem-icon']}
-        owned={isOwned ? 'true' : 'false'}
-      />
+      <div className={styles['emblem-icon-container']}>
+        <img
+          src={emblemIcon}
+          alt={emblem.name}
+          className={styles[`emblem-icon-${emblem.rarity}`]}
+          owned={isOwned ? 'true' : 'false'}
+        />
+      </div>
 
       <div className={`${styles['emblem-rarity']} ${styles[rarityName()]}`}>
         {'★'.repeat(emblem.rarity)}
