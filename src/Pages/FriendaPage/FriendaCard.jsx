@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Pokemon.module.css'
 
 export default function FriendaCard({ emblem, isOwned, toggleOwned }) {
-  const emblemIcon = require(`../../Images/${emblem.img}`);
+  const emblemIcon = `/Naruto-Emblem-Battle-Tracker/Images/${emblem.img}`;
 
   const rarityName = () => {
     switch (emblem.rarity) {
@@ -47,7 +47,7 @@ export default function FriendaCard({ emblem, isOwned, toggleOwned }) {
         />
       </div>
 
-      <div className={`${styles['emblem-rarity']} ${styles[rarityName()]}`}>
+      <div className={`${styles['rarity-stars']}`}>
         {'★'.repeat(emblem.rarity)}
       </div>
     </div>

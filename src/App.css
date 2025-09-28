@@ -38,3 +38,31 @@
   }
 }
 /* #endregion */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;            /* full viewport height */
+  text-align: center;
+}
+
+.logo {
+  margin: 1rem 0;
+  height: 20vh;
+  padding: 10vh 0vh;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+
+#root {
+  background-color: #333;
+}
+
+html {
+  background-color: #333;
+}

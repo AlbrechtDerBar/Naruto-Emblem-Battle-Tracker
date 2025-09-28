@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Naruto.module.css'
 
-export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
-  const emblemIcon = require(`../../Images/NarutoEmblemBattle/Volume${emblem.id[0]}/u${emblem.id}.webp`);
+export default function EmblemCard({ emblem, isOwned, toggleOwned, openEmblemInfo }) {
+  const emblemIcon = `/Naruto-Emblem-Battle-Tracker/Images/NarutoEmblemBattle/Volume${emblem.id[0]}/u${emblem.id}.webp`;
 
   const rarityName = () => {
     switch (emblem.rarity) {
@@ -44,12 +44,13 @@ export default function EmblemCard({ emblem, isOwned, toggleOwned }) {
         alt={emblem.name}
         className={styles['emblem-icon']}
         owned={isOwned ? 'true' : 'false'}
+        onClick={() => openEmblemInfo(emblem.id)}
       />
 
       <p className={`${styles['emblem-name']} ${styles['emblem-tags']}`}>{emblem.tags.join(", ")}</p>
 
       {/* Star rarity display */}
-      <div className={`${styles['emblem-rarity']}`}>
+      <div className={`${styles['rarity-stars']}`}>
         {'★'.repeat(emblem.rarity)}
       </div>
     </div>

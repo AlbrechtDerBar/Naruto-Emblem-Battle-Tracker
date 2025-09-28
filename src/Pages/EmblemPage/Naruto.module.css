@@ -65,29 +65,35 @@
   }
   
   .six-star {
-    background-color: darkgoldenrod;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
   }
   
-  .five-star, .four-star {
-    background-color: darkred;
-  }
+  .five-star, .four-star{
+    background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #b32a2a 0%,
+      #8c1d1d 25%,
+      #6e1616 50%,
+      #4f0f0f 75%,
+      transparent 90%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #c74444 0%,
+      #a22121 30%,
+      #6e1616 70%,
+      #4f0f0f 100%
+    );
+  }  
   
   .three-star {
-    background-color: #CF770A;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FFD580 0%, #FFA500 8%, #FF8C00 30%, #CC7000 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFF5E1 0%, #FFDAB9 8%, #CF770A 25%, #A65300 62.5%, #663300 100%);
   }
   
   .two-star, .one-star {
     background-color: mediumblue;
-  }
-  
-  .emblem-rarity {
-    font-size: 1.2rem;
-    text-align: center;
-    font-weight: bold;
-    color: gold;
-    padding: 4px 0;
-    border-radius: 0 0 6px 6px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   
   .input-with-button {
@@ -99,7 +105,7 @@
   
   .filter-input {
     flex: 1;
-    padding-right: 2.5rem; /* Makes room visually for the button if needed */
+    padding-right: 2.5rem;
     box-sizing: border-box;
   }
   
@@ -120,7 +126,6 @@
   .copy-btn:hover {
     color: #000;
   }
-  
   /* #endregion */
   
   /* #region Filters */
@@ -130,7 +135,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #f8f8f8;
+    background-color: #333;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
@@ -242,11 +247,12 @@
   }
   
   .collection-progress {
-    background-color: #f9f9f9;
+    background-color: #333;
     padding: 15px;
     border-radius: 8px;
     margin: 20px 0;
-    border: 1px solid #ddd;
+    border: 1px solid #222;
+    color: white;
   }
   
   .progress-filter {
@@ -313,7 +319,7 @@
   }
   /* #endregion Filters */
   
-  /* src/Components/Navbar.css */
+  /* #region Navbar */
   .navbar {
     position: relative;
     background-color: #333;
@@ -351,3 +357,165 @@
     color: white;
     text-decoration: none;
   }
+  /* #endregion Navbar */
+
+/* #region Info */
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.info-container {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.emblem-modal {
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  max-width: 1200px;
+  width: 100%;
+}
+
+.modal-image {
+  flex: 0 0 336px;
+  background: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.modal-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.emblem-keywords {
+  margin-top: 1rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.emblem-keywords span {
+  background: #007bff;
+  color: white;
+  padding: 3px 8px;
+  margin: 2px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+
+.modal-content {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+  max-height: 700px;
+}
+
+.modal-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.emblem-rarity,
+.emblem-type {
+  margin-top: 0.5rem;
+}
+
+.rarity-stars {
+  font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: gold;
+    padding: 4px 0;
+    border-radius: 0 0 6px 6px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.rarity-stars .far {
+  color: #ccc;
+}
+
+.type {
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.type.tech {
+  background-color: #17a2b8;
+}
+
+.type.brave {
+  background-color: #dc3545;
+}
+
+.type.heart {
+  background-color: #ffc107;
+}
+
+.emblem-special-attack,
+.emblem-skills {
+  margin-top: 1.5rem;
+}
+
+.skill-desc {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+.chakra {
+  height: 1em;
+  vertical-align: middle;
+}
+
+.icon {
+  height: 2em;
+  vertical-align: middle;
+}
+
+/* #endregion Info */

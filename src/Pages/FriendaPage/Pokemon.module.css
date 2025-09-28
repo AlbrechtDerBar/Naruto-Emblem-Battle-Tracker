@@ -80,11 +80,25 @@
   }
   
   .five-star {
-    background-color: purple;
+    background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #5a2c84 0%,
+      #4b1f6e 20%,
+      #3a1755 45%,
+      #2c0f45 65%,
+      transparent 90%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #6a3798 0%,
+      #4b1f6e 25%,
+      #3a1755 60%,
+      #2c0f45 100%
+    );
   }
 
   .four-star {
-    background-color: darkblue;
+    background-color: #1956af;
   }
   
   .three-star {
@@ -104,6 +118,16 @@
     padding: 4px 0;
     border-radius: 0 0 6px 6px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  .rarity-stars {
+    font-size: 1.2rem;
+      text-align: center;
+      font-weight: bold;
+      color: gold;
+      padding: 4px 0;
+      border-radius: 0 0 6px 6px;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   
   .input-with-button {
@@ -146,7 +170,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #f8f8f8;
+    background-color: #333;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
@@ -258,11 +282,12 @@
   }
   
   .collection-progress {
-    background-color: #f9f9f9;
+    background-color: #333;
     padding: 15px;
     border-radius: 8px;
     margin: 20px 0;
-    border: 1px solid #ddd;
+    border: 1px solid #222;
+    color: white;
   }
   
   .progress-filter {

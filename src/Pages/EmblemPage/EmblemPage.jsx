@@ -2,15 +2,18 @@ import { useEffect, useState } from 'react';
 import styles from './Naruto.module.css';
 import EmblemCard from './EmblemCard';
 import emblems from '../../db/emblems';
+import EmblemInfo from './EmblemInfo';
 
 function EmblemPage() {
   const [searchString, setSearchString] = useState("");
-  const [setSelection, setSetSelection] = useState("both");
+  const [setSelection, setSetSelection] = useState("all");
   const [OwnedStatus, setOwnedStatus] = useState("both");
   const [emblemEncode, setEmblemEncode] = useState("");
   const [showFilters, setShowFilters] = useState(false);
   const [showProgress, setShowProgress] = useState(false);
-  const [progressSetFilter, setProgressSetFilter] = useState("both");
+  const [displayInfo, setDisplayInfo] = useState(false);
+  const [displayInfoID, setDisplayInfoID] = useState(0);
+  const [progressSetFilter, setProgressSetFilter] = useState("all");
   const [rarityFilter, setRarityFilter] = useState("all");
   const [ownedEmblems, setOwnedEmblems] = useState(() => {
     const stored = localStorage.getItem('emblemEncode');
@@ -165,7 +168,7 @@ function EmblemPage() {
     rarityLevels.forEach((rarity) => {
       const filtered = emblems.filter((e) => {
         const matchesSet =
-          setFilter === "both" ? true : e.setNumber === Number(setFilter);
+          setFilter === "all" ? true : e.setNumber === Number(setFilter);
         return matchesSet && e.rarity === rarity;
       });
   
@@ -197,6 +200,16 @@ function EmblemPage() {
       },
     };
   }  
+
+  function openEmblemInfo(id) {
+    setDisplayInfo(!displayInfo);
+    setDisplayInfoID(id);
+  }
+
+  function closeEmblemInfo() {
+    setDisplayInfo(false);
+    setDisplayInfoID(0);
+  }
 
   return (
     <>
@@ -257,9 +270,10 @@ function EmblemPage() {
                     onChange={(e) => setSetSelection(e.target.value)}
                     className={styles["filter-dropdown"]}
                   >
-                    <option value="both">Both</option>
+                    <option value="all">All</option>
                     <option value="1">Set 1</option>
                     <option value="2">Set 2</option>
+                    <option value="3">Set 3</option>
                   </select>
                 </div>
 
@@ -279,7 +293,7 @@ function EmblemPage() {
                 </div>
 
                 <div className={styles["filter-item"]}>
-                  <label htmlFor="orderBy" className={styles["filter-label"]}>Order By:</label>
+                  <label htmlFor="orderBy" className={styles["filter-label"]}>Order:</label>
                   <select
                     name="orderBy"
                     id="orderBy"
@@ -295,7 +309,7 @@ function EmblemPage() {
                 </div>
 
                 <div className={styles["filter-item"]}>
-                  <label htmlFor="rarity" className={styles["filter-label"]}>Star Rarity:</label>
+                  <label htmlFor="rarity" className={styles["filter-label"]}>Rarity:</label>
                   <select
                     name="rarity"
                     id="rarity"
@@ -367,9 +381,10 @@ function EmblemPage() {
                 value={progressSetFilter}
                 onChange={(e) => setProgressSetFilter(e.target.value)}
               >
-                <option value="both">Both Sets</option>
+                <option value="all">All Sets</option>
                 <option value="1">Set 1</option>
                 <option value="2">Set 2</option>
+                <option value="3">Set 3</option>
               </select>
             </div>
 
@@ -421,7 +436,7 @@ function EmblemPage() {
       <div className={styles["card-list"]}>
         {sortEmblems(
           emblems.filter((e) => {
-            const matchesSet = setSelection === "both" ? true : e.setNumber === Number(setSelection);
+            const matchesSet = setSelection === "all" ? true : e.setNumber === Number(setSelection);
           
             const matchesOwned = () => {
               if (OwnedStatus === "both") return true;
@@ -437,7 +452,7 @@ function EmblemPage() {
               e.id.toLowerCase().includes(query) ||
               e.tags.some((tag) => tag.toLowerCase().includes(query));
           
-            const matchesRarity = rarityFilter === "all" ? true : e.rarity === Number(rarityFilter);
+            const matchesRarity = rarityFilter === "all" ? true : e.rarity >= Number(rarityFilter);
           
             return matchesSet && matchesSearch && matchesOwned() && matchesRarity;
           })
@@ -448,9 +463,14 @@ function EmblemPage() {
             emblem={e}
             isOwned={ownedEmblems.includes(e.id)}
             toggleOwned={toggleOwned}
+            openEmblemInfo={openEmblemInfo}
           />
         ))}
       </div>
+      {
+        displayInfo && 
+        <EmblemInfo emblem={emblems.find((e) => e.id === displayInfoID)} closeEmblemInfo={closeEmblemInfo} />
+      }
     </>
   );
 }

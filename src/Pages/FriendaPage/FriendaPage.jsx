@@ -458,9 +458,11 @@ function FriendaPage() {
               {rarities.map(({ rarity, owned, total }) => {
                 const percent = total > 0 ? (owned / total) * 100 : 0;
                 const starClass =
-                    rarity === 5 || rarity === 4
+                    rarity === "5" 
                     ? "five-star"
-                    : rarity === 3
+                    : rarity === "4"
+                    ? "four-star"
+                    : rarity === "3"
                     ? "three-star"
                     : "two-star";
 
