@@ -55,13 +55,13 @@
     margin: 0;
     align-self: center;
   }
-  
-  [owned="false"] {
-    filter: brightness(30%);
+
+  #owned  {
+    width: 5ch;
   }
   
-  [owned="true"] {
-    filter: brightness(100%);
+  .unowned {
+    filter: brightness(30%);
   }
   
   .six-star {
@@ -171,7 +171,7 @@
   .filter-label {
     font-size: 1rem;
     font-weight: bold;
-    color: #333;
+    color: white;
     margin-bottom: 8px;
     display: block;
   }
@@ -377,13 +377,16 @@
 .info-container {
   position: relative;
   max-width: 90vw;
+  min-width: 50vw;
   max-height: 90%;
   padding: 1rem;
   box-sizing: border-box;
+  user-select: none;
 }
 
 .emblem-modal {
-  background: #f9f9f9;
+  background: #333;
+  color: white;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -396,9 +399,10 @@
 
 .modal-image {
   flex: 0 0 336px;
-  background: white;
+  background: #3a3a3a;
   padding: 1rem;
   text-align: center;
+  user-select: none;
 }
 
 .modal-image img {
@@ -499,13 +503,13 @@
   background: none;
   border: none;
   font-size: 2rem;
-  color: #333;
+  color: white;
   cursor: pointer;
   line-height: 1;
 }
 
 .close-btn:hover {
-  color: #000;
+  color: #B0B0B0;
 }
 
 .chakra {
@@ -519,3 +523,20 @@
 }
 
 /* #endregion Info */
+
+
+.counter-button {
+  border: unset;
+  cursor: pointer;
+}
+
+.counter-input {
+  text-align: center;
+  margin: 0px 10px;
+}
+
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}

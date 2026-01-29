@@ -1,15 +1,15 @@
 [
     {
         "id": "1-01",
-        "setNumber": 1,
-        "emblemNumber": 1,
+        "setNumber": "1",
+        "emblemNumber": "1",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Toad"
         ],
-        "rarity": 6,
+        "rarity": "6",
         "type": "PWR",
         "specialAttack": {
             "name": "Rasengan",
@@ -29,15 +29,15 @@
     },
     {
         "id": "1-02",
-        "setNumber": 1,
-        "emblemNumber": 2,
+        "setNumber": "1",
+        "emblemNumber": "2",
         "name": "Minato Namikaze",
         "tags": [
             "Flash",
             "Hokage",
             "Leaf"
         ],
-        "rarity": 6,
+        "rarity": "6",
         "type": "SPD",
         "specialAttack": {
             "name": "Flying Raijin: Level 2",
@@ -56,15 +56,15 @@
     },
     {
         "id": "1-03",
-        "setNumber": 1,
-        "emblemNumber": 3,
+        "setNumber": "1",
+        "emblemNumber": "3",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Toad"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "Wind Style: Rasen Shuriken",
@@ -84,15 +84,15 @@
     },
     {
         "id": "1-04",
-        "setNumber": 1,
-        "emblemNumber": 4,
+        "setNumber": "1",
+        "emblemNumber": "4",
         "name": "Naruto Uzumaki",
         "tags": [
             "Leaf",
             "Sage Mode",
             "Toad"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Sage Art: Giant Rasengan",
@@ -112,15 +112,15 @@
     },
     {
         "id": "1-05",
-        "setNumber": 1,
-        "emblemNumber": 5,
+        "setNumber": "1",
+        "emblemNumber": "5",
         "name": "Sasuke Uchiha",
         "tags": [
             "Lil' bro",
             "Sharingan",
             "Taka"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Snake Sword Chidori Blade",
@@ -140,15 +140,15 @@
     },
     {
         "id": "1-06",
-        "setNumber": 1,
-        "emblemNumber": 6,
+        "setNumber": "1",
+        "emblemNumber": "6",
         "name": "Sasuke Uchiha",
         "tags": [
             "Lil' bro",
             "Sharingan",
             "Taka"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Amaterasu",
@@ -167,15 +167,15 @@
     },
     {
         "id": "1-07",
-        "setNumber": 1,
-        "emblemNumber": 7,
+        "setNumber": "1",
+        "emblemNumber": "7",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -195,15 +195,15 @@
     },
     {
         "id": "1-08",
-        "setNumber": 1,
-        "emblemNumber": 8,
+        "setNumber": "1",
+        "emblemNumber": "8",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Kamui",
@@ -223,14 +223,14 @@
     },
     {
         "id": "1-09",
-        "setNumber": 1,
-        "emblemNumber": 9,
+        "setNumber": "1",
+        "emblemNumber": "9",
         "name": "Might Guy",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "Asakujaku",
@@ -250,15 +250,15 @@
     },
     {
         "id": "1-10",
-        "setNumber": 1,
-        "emblemNumber": 10,
+        "setNumber": "1",
+        "emblemNumber": "10",
         "name": "Gaara",
         "tags": [
             "Five Kage",
             "Lil' bro",
             "Sand"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Sand Coffin",
@@ -278,15 +278,15 @@
     },
     {
         "id": "1-11",
-        "setNumber": 1,
-        "emblemNumber": 11,
+        "setNumber": "1",
+        "emblemNumber": "11",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Amaterasu",
@@ -305,14 +305,14 @@
     },
     {
         "id": "1-12",
-        "setNumber": 1,
-        "emblemNumber": 12,
+        "setNumber": "1",
+        "emblemNumber": "12",
         "name": "Deidara",
         "tags": [
             "Akatsuki",
             "Art"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "C4 Karura",
@@ -331,14 +331,14 @@
     },
     {
         "id": "1-13",
-        "setNumber": 1,
-        "emblemNumber": 13,
+        "setNumber": "1",
+        "emblemNumber": "13",
         "name": "Sasori",
         "tags": [
             "Akatsuki",
             "Puppet"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Performance of a Hundred Puppets",
@@ -359,15 +359,15 @@
     },
     {
         "id": "1-14",
-        "setNumber": 1,
-        "emblemNumber": 14,
+        "setNumber": "1",
+        "emblemNumber": "14",
         "name": "Hiruzen Sarutobi",
         "tags": [
             "Hokage",
             "Leaf",
             "Weapon"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Fire Style: Dragon Flame Bombs",
@@ -387,15 +387,15 @@
     },
     {
         "id": "1-15",
-        "setNumber": 1,
-        "emblemNumber": 15,
+        "setNumber": "1",
+        "emblemNumber": "15",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Toad"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Giant Rasengan",
@@ -415,15 +415,15 @@
     },
     {
         "id": "1-16",
-        "setNumber": 1,
-        "emblemNumber": 16,
+        "setNumber": "1",
+        "emblemNumber": "16",
         "name": "Jiraiya",
         "tags": [
             "Leaf",
             "Legendary Sannin",
             "Toad"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Rasengan",
@@ -444,15 +444,15 @@
     },
     {
         "id": "1-17",
-        "setNumber": 1,
-        "emblemNumber": 17,
+        "setNumber": "1",
+        "emblemNumber": "17",
         "name": "Sasuke Uchiha",
         "tags": [
             "Lil' bro",
             "Sharingan",
             "Sound"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Chidori Stream",
@@ -467,14 +467,14 @@
     },
     {
         "id": "1-18",
-        "setNumber": 1,
-        "emblemNumber": 18,
+        "setNumber": "1",
+        "emblemNumber": "18",
         "name": "Orochimaru",
         "tags": [
             "Legendary Sannin",
             "Sound"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Mandala of Snakes Formation",
@@ -495,15 +495,15 @@
     },
     {
         "id": "1-19",
-        "setNumber": 1,
-        "emblemNumber": 19,
+        "setNumber": "1",
+        "emblemNumber": "19",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -518,15 +518,15 @@
     },
     {
         "id": "1-20",
-        "setNumber": 1,
-        "emblemNumber": 20,
+        "setNumber": "1",
+        "emblemNumber": "20",
         "name": "Tsunade",
         "tags": [
             "Hokage",
             "Leaf",
             "Legendary Sannin"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Heaven Kick of Pain",
@@ -547,14 +547,14 @@
     },
     {
         "id": "1-21",
-        "setNumber": 1,
-        "emblemNumber": 21,
+        "setNumber": "1",
+        "emblemNumber": "21",
         "name": "Rock Lee",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Great Leaf Hurricane",
@@ -570,14 +570,14 @@
     },
     {
         "id": "1-22",
-        "setNumber": 1,
-        "emblemNumber": 22,
+        "setNumber": "1",
+        "emblemNumber": "22",
         "name": "Might Guy",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Severe Leaf Hurricanes",
@@ -598,15 +598,15 @@
     },
     {
         "id": "1-23",
-        "setNumber": 1,
-        "emblemNumber": 23,
+        "setNumber": "1",
+        "emblemNumber": "23",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Rasengan",
@@ -626,15 +626,15 @@
     },
     {
         "id": "1-24",
-        "setNumber": 1,
-        "emblemNumber": 24,
+        "setNumber": "1",
+        "emblemNumber": "24",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Lightning Style: Lightning Hound",
@@ -653,15 +653,15 @@
     },
     {
         "id": "1-25",
-        "setNumber": 1,
-        "emblemNumber": 25,
+        "setNumber": "1",
+        "emblemNumber": "25",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -680,15 +680,15 @@
     },
     {
         "id": "1-26",
-        "setNumber": 1,
-        "emblemNumber": 26,
+        "setNumber": "1",
+        "emblemNumber": "26",
         "name": "Sai",
         "tags": [
             "Art",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Super Beast Scroll",
@@ -708,15 +708,15 @@
     },
     {
         "id": "1-27",
-        "setNumber": 1,
-        "emblemNumber": 27,
+        "setNumber": "1",
+        "emblemNumber": "27",
         "name": "Yamato",
         "tags": [
             "Leaf",
             "Team 7",
             "Wood Style"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Tree Bind Eternal Burial",
@@ -735,15 +735,15 @@
     },
     {
         "id": "1-28",
-        "setNumber": 1,
-        "emblemNumber": 28,
+        "setNumber": "1",
+        "emblemNumber": "28",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Toad"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Rasengan",
@@ -762,15 +762,15 @@
     },
     {
         "id": "1-29",
-        "setNumber": 1,
-        "emblemNumber": 29,
+        "setNumber": "1",
+        "emblemNumber": "29",
         "name": "Sasuke Uchiha",
         "tags": [
             "Lil' bro",
             "Sharingan",
             "Sound"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Chidori",
@@ -789,15 +789,15 @@
     },
     {
         "id": "1-30",
-        "setNumber": 1,
-        "emblemNumber": 30,
+        "setNumber": "1",
+        "emblemNumber": "30",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Lightning Blade",
@@ -816,14 +816,14 @@
     },
     {
         "id": "1-31",
-        "setNumber": 1,
-        "emblemNumber": 31,
+        "setNumber": "1",
+        "emblemNumber": "31",
         "name": "Hinata Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Gentle Step Twin Lion Fists",
@@ -843,14 +843,14 @@
     },
     {
         "id": "1-32",
-        "setNumber": 1,
-        "emblemNumber": 32,
+        "setNumber": "1",
+        "emblemNumber": "32",
         "name": "Neji Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "8 Trigrams 64 Palms",
@@ -869,14 +869,14 @@
     },
     {
         "id": "1-33",
-        "setNumber": 1,
-        "emblemNumber": 33,
+        "setNumber": "1",
+        "emblemNumber": "33",
         "name": "Tenten",
         "tags": [
             "Leaf",
             "Weapon"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Rising Twin Dragons",
@@ -896,15 +896,15 @@
     },
     {
         "id": "1-34",
-        "setNumber": 1,
-        "emblemNumber": 34,
+        "setNumber": "1",
+        "emblemNumber": "34",
         "name": "Gaara",
         "tags": [
             "Five Kage",
             "Lil' bro",
             "Sand"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Sand Prison",
@@ -924,15 +924,15 @@
     },
     {
         "id": "1-35",
-        "setNumber": 1,
-        "emblemNumber": 35,
+        "setNumber": "1",
+        "emblemNumber": "35",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Tsukuyomi",
@@ -951,11 +951,11 @@
     },
     {
         "id": "1-36",
-        "setNumber": 1,
-        "emblemNumber": 36,
+        "setNumber": "1",
+        "emblemNumber": "36",
         "name": "Deidara",
         "tags": [],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "C3",
@@ -975,14 +975,14 @@
     },
     {
         "id": "1-37",
-        "setNumber": 1,
-        "emblemNumber": 37,
+        "setNumber": "1",
+        "emblemNumber": "37",
         "name": "Sasori",
         "tags": [
             "Akatsuki",
             "Puppet"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Iron Sand Unleash",
@@ -1002,14 +1002,14 @@
     },
     {
         "id": "1-38",
-        "setNumber": 1,
-        "emblemNumber": 38,
+        "setNumber": "1",
+        "emblemNumber": "38",
         "name": "Suigetsu Hozuki",
         "tags": [
             "Taka",
             "Weapon"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Water Gun: Double Blast",
@@ -1028,15 +1028,15 @@
     },
     {
         "id": "1-39",
-        "setNumber": 1,
-        "emblemNumber": 39,
+        "setNumber": "1",
+        "emblemNumber": "39",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Rasengan",
@@ -1056,15 +1056,15 @@
     },
     {
         "id": "1-40",
-        "setNumber": 1,
-        "emblemNumber": 40,
+        "setNumber": "1",
+        "emblemNumber": "40",
         "name": "Sasuke Uchiha",
         "tags": [
             "Hebi",
             "Lil' bro",
             "Sharingan"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Chidori",
@@ -1080,15 +1080,15 @@
     },
     {
         "id": "1-41",
-        "setNumber": 1,
-        "emblemNumber": 41,
+        "setNumber": "1",
+        "emblemNumber": "41",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -1103,15 +1103,15 @@
     },
     {
         "id": "1-42",
-        "setNumber": 1,
-        "emblemNumber": 42,
+        "setNumber": "1",
+        "emblemNumber": "42",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Lightning Blade",
@@ -1127,15 +1127,15 @@
     },
     {
         "id": "1-43",
-        "setNumber": 1,
-        "emblemNumber": 43,
+        "setNumber": "1",
+        "emblemNumber": "43",
         "name": "Sai",
         "tags": [
             "Art",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Super Beast Scroll",
@@ -1151,15 +1151,15 @@
     },
     {
         "id": "1-44",
-        "setNumber": 1,
-        "emblemNumber": 44,
+        "setNumber": "1",
+        "emblemNumber": "44",
         "name": "Yamato",
         "tags": [
             "Leaf",
             "Team 7",
             "Wood Style"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "10th Edict on Enlightenment",
@@ -1174,14 +1174,14 @@
     },
     {
         "id": "1-45",
-        "setNumber": 1,
-        "emblemNumber": 45,
+        "setNumber": "1",
+        "emblemNumber": "45",
         "name": "Neji Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "8 Trigrams Hazan Strike",
@@ -1200,14 +1200,14 @@
     },
     {
         "id": "1-46",
-        "setNumber": 1,
-        "emblemNumber": 46,
+        "setNumber": "1",
+        "emblemNumber": "46",
         "name": "Rock Lee",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Leaf Hurricane",
@@ -1222,14 +1222,14 @@
     },
     {
         "id": "1-47",
-        "setNumber": 1,
-        "emblemNumber": 47,
+        "setNumber": "1",
+        "emblemNumber": "47",
         "name": "Tenten",
         "tags": [
             "Leaf",
             "Weapon"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Weapon Control Tensasai",
@@ -1245,15 +1245,15 @@
     },
     {
         "id": "1-48",
-        "setNumber": 1,
-        "emblemNumber": 48,
+        "setNumber": "1",
+        "emblemNumber": "48",
         "name": "Kankuro",
         "tags": [
             "Lil' bro",
             "Puppet",
             "Sand"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Puppet Show Iron Maiden",
@@ -1269,14 +1269,14 @@
     },
     {
         "id": "1-49",
-        "setNumber": 1,
-        "emblemNumber": 49,
+        "setNumber": "1",
+        "emblemNumber": "49",
         "name": "Temari",
         "tags": [
             "Fan",
             "Sand"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Wind Scythe Jutsu",
@@ -1291,15 +1291,15 @@
     },
     {
         "id": "1-50",
-        "setNumber": 1,
-        "emblemNumber": 50,
+        "setNumber": "1",
+        "emblemNumber": "50",
         "name": "Granny Chiyo",
         "tags": [
             "Big Sis",
             "Puppet",
             "Sand"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Chikamatsu's 10 Puppets",
@@ -1319,15 +1319,15 @@
     },
     {
         "id": "1-51",
-        "setNumber": 1,
-        "emblemNumber": 51,
+        "setNumber": "1",
+        "emblemNumber": "51",
         "name": "Kabuto Yakushi",
         "tags": [
             "Glasses",
             "Medical",
             "Sound"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Chakra Scalpel",
@@ -1347,14 +1347,14 @@
     },
     {
         "id": "1-52",
-        "setNumber": 1,
-        "emblemNumber": 52,
+        "setNumber": "1",
+        "emblemNumber": "52",
         "name": "Kisame Hoshigaki",
         "tags": [
             "Akatsuki",
             "Weapon"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Water Shark Bomb Jutsu",
@@ -1373,14 +1373,14 @@
     },
     {
         "id": "1-53",
-        "setNumber": 1,
-        "emblemNumber": 53,
+        "setNumber": "1",
+        "emblemNumber": "53",
         "name": "Deidara",
         "tags": [
             "Akatsuki",
             "Art"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "C2",
@@ -1396,14 +1396,14 @@
     },
     {
         "id": "1-54",
-        "setNumber": 1,
-        "emblemNumber": 54,
+        "setNumber": "1",
+        "emblemNumber": "54",
         "name": "Sasori",
         "tags": [
             "Akatsuki",
             "Puppet"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Puppet Hiruko",
@@ -1419,14 +1419,14 @@
     },
     {
         "id": "1-55",
-        "setNumber": 1,
-        "emblemNumber": 55,
+        "setNumber": "1",
+        "emblemNumber": "55",
         "name": "Karin",
         "tags": [
             "Glasses",
             "Hebi"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Adamantine Sealing Chains",
@@ -1441,14 +1441,14 @@
     },
     {
         "id": "1-56",
-        "setNumber": 1,
-        "emblemNumber": 56,
+        "setNumber": "1",
+        "emblemNumber": "56",
         "name": "Jugo",
         "tags": [
             "Animal",
             "Hebi"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Living Wall Fist: Style One",
@@ -1463,15 +1463,15 @@
     },
     {
         "id": "1-57",
-        "setNumber": 1,
-        "emblemNumber": 57,
+        "setNumber": "1",
+        "emblemNumber": "57",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Rasengan",
@@ -1487,15 +1487,15 @@
     },
     {
         "id": "1-58",
-        "setNumber": 1,
-        "emblemNumber": 58,
+        "setNumber": "1",
+        "emblemNumber": "58",
         "name": "Sasuke Uchiha",
         "tags": [
             "Hebi",
             "Lil' bro",
             "Sharingan"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Lightning Speed Weapons",
@@ -1510,15 +1510,15 @@
     },
     {
         "id": "1-59",
-        "setNumber": 1,
-        "emblemNumber": 59,
+        "setNumber": "1",
+        "emblemNumber": "59",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -1533,15 +1533,15 @@
     },
     {
         "id": "1-60",
-        "setNumber": 1,
-        "emblemNumber": 60,
+        "setNumber": "1",
+        "emblemNumber": "60",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Water Style: Water Dragon Jutsu",
@@ -1557,15 +1557,15 @@
     },
     {
         "id": "1-61",
-        "setNumber": 1,
-        "emblemNumber": 61,
+        "setNumber": "1",
+        "emblemNumber": "61",
         "name": "Sai",
         "tags": [
             "Art",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Super Beast Scroll",
@@ -1580,15 +1580,15 @@
     },
     {
         "id": "1-62",
-        "setNumber": 1,
-        "emblemNumber": 62,
+        "setNumber": "1",
+        "emblemNumber": "62",
         "name": "Yamato",
         "tags": [
             "Leaf",
             "Team 7",
             "Wood Style"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Wood Style: Giant Forest",
@@ -1604,14 +1604,14 @@
     },
     {
         "id": "1-63",
-        "setNumber": 1,
-        "emblemNumber": 63,
+        "setNumber": "1",
+        "emblemNumber": "63",
         "name": "Shikamaru Nara",
         "tags": [
             "Leaf",
             "Shogi"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Shadow Stitching Jutsu",
@@ -1627,14 +1627,14 @@
     },
     {
         "id": "1-64",
-        "setNumber": 1,
-        "emblemNumber": 64,
+        "setNumber": "1",
+        "emblemNumber": "64",
         "name": "Shino Aburame",
         "tags": [
             "Insect",
             "Leaf"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Hidden Jutsu Beetle Sphere",
@@ -1654,14 +1654,14 @@
     },
     {
         "id": "1-65",
-        "setNumber": 1,
-        "emblemNumber": 65,
+        "setNumber": "1",
+        "emblemNumber": "65",
         "name": "Neji Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "8 Trigrams Air Palm",
@@ -1681,14 +1681,14 @@
     },
     {
         "id": "1-66",
-        "setNumber": 1,
-        "emblemNumber": 66,
+        "setNumber": "1",
+        "emblemNumber": "66",
         "name": "Might Guy",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Severe Leaf Hurricanes",
@@ -1703,15 +1703,15 @@
     },
     {
         "id": "1-67",
-        "setNumber": 1,
-        "emblemNumber": 67,
+        "setNumber": "1",
+        "emblemNumber": "67",
         "name": "Jiraiya",
         "tags": [
             "Leaf",
             "Legendary Sannin",
             "Toad"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Earth Style: Dark Swamp",
@@ -1726,14 +1726,14 @@
     },
     {
         "id": "1-68",
-        "setNumber": 1,
-        "emblemNumber": 68,
+        "setNumber": "1",
+        "emblemNumber": "68",
         "name": "Orochimaru",
         "tags": [
             "Legendary Sannin",
             "Sound"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Multiple Striking Shadow Snakes",
@@ -1748,15 +1748,15 @@
     },
     {
         "id": "1-69",
-        "setNumber": 1,
-        "emblemNumber": 69,
+        "setNumber": "1",
+        "emblemNumber": "69",
         "name": "Tsunade",
         "tags": [
             "Hokage",
             "Leaf",
             "Legendary Sannin"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Bodily Disorder Strike",
@@ -1771,15 +1771,15 @@
     },
     {
         "id": "1-70",
-        "setNumber": 1,
-        "emblemNumber": 70,
+        "setNumber": "1",
+        "emblemNumber": "70",
         "name": "Gaara",
         "tags": [
             "Five Kage",
             "Lil' bro",
             "Sand"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Sand Shower Barrage",
@@ -1795,15 +1795,15 @@
     },
     {
         "id": "1-71",
-        "setNumber": 1,
-        "emblemNumber": 71,
+        "setNumber": "1",
+        "emblemNumber": "71",
         "name": "Granny Chiyo",
         "tags": [
             "Big Sis",
             "Puppet",
             "Sand"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Puppets: Father and Mother",
@@ -1818,15 +1818,15 @@
     },
     {
         "id": "1-72",
-        "setNumber": 1,
-        "emblemNumber": 72,
+        "setNumber": "1",
+        "emblemNumber": "72",
         "name": "Kabuto Yakushi",
         "tags": [
             "Glasses",
             "Medical",
             "Sound"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Chakra Scalpel",
@@ -1841,15 +1841,15 @@
     },
     {
         "id": "1-73",
-        "setNumber": 1,
-        "emblemNumber": 73,
+        "setNumber": "1",
+        "emblemNumber": "73",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Fire Style: Fire Ball Jutsu",
@@ -1865,14 +1865,14 @@
     },
     {
         "id": "1-74",
-        "setNumber": 1,
-        "emblemNumber": 74,
+        "setNumber": "1",
+        "emblemNumber": "74",
         "name": "Kisame Hoshigaki",
         "tags": [
             "Akatsuki",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "The Great Blade: Shark Skin",
@@ -1888,14 +1888,14 @@
     },
     {
         "id": "1-75",
-        "setNumber": 1,
-        "emblemNumber": 75,
+        "setNumber": "1",
+        "emblemNumber": "75",
         "name": "Deidara",
         "tags": [
             "Akatsuki",
             "Art"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "C1",
@@ -1911,14 +1911,14 @@
     },
     {
         "id": "1-76",
-        "setNumber": 1,
-        "emblemNumber": 76,
+        "setNumber": "1",
+        "emblemNumber": "76",
         "name": "Sasori",
         "tags": [
             "Akatsuki",
             "Puppet"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Puppet Hiruko",
@@ -1934,14 +1934,14 @@
     },
     {
         "id": "1-77",
-        "setNumber": 1,
-        "emblemNumber": 77,
+        "setNumber": "1",
+        "emblemNumber": "77",
         "name": "Zabuza Momochi",
         "tags": [
             "Demon",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Ninja Art Hidden Mist Jutsu",
@@ -1961,14 +1961,14 @@
     },
     {
         "id": "1-78",
-        "setNumber": 1,
-        "emblemNumber": 78,
+        "setNumber": "1",
+        "emblemNumber": "78",
         "name": "Haku",
         "tags": [
             "Ice Style",
             "Mask"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Secret Jutsu Crystal Ice Mirrors",
@@ -1988,14 +1988,14 @@
     },
     {
         "id": "1-79",
-        "setNumber": 1,
-        "emblemNumber": 79,
+        "setNumber": "1",
+        "emblemNumber": "79",
         "name": "Kimimaro",
         "tags": [
             "Bone",
             "Sound"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Camelia Dance",
@@ -2015,15 +2015,15 @@
     },
     {
         "id": "1-80",
-        "setNumber": 1,
-        "emblemNumber": 80,
+        "setNumber": "1",
+        "emblemNumber": "80",
         "name": "Naruto Uzumaki",
         "tags": [
             "Leaf",
             "Team 7",
             "Toad"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Rasengan",
@@ -2039,15 +2039,15 @@
     },
     {
         "id": "1-81",
-        "setNumber": 1,
-        "emblemNumber": 81,
+        "setNumber": "1",
+        "emblemNumber": "81",
         "name": "Sasuke Uchiha",
         "tags": [
             "Hebi",
             "Lil' bro",
             "Sharingan"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Fire Style: Fire Ball Jutsu",
@@ -2062,15 +2062,15 @@
     },
     {
         "id": "1-82",
-        "setNumber": 1,
-        "emblemNumber": 82,
+        "setNumber": "1",
+        "emblemNumber": "82",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -2085,15 +2085,15 @@
     },
     {
         "id": "1-83",
-        "setNumber": 1,
-        "emblemNumber": 83,
+        "setNumber": "1",
+        "emblemNumber": "83",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Fire Style: Fire Ball Jutsu",
@@ -2108,14 +2108,14 @@
     },
     {
         "id": "1-84",
-        "setNumber": 1,
-        "emblemNumber": 84,
+        "setNumber": "1",
+        "emblemNumber": "84",
         "name": "Choji Akimichi",
         "tags": [
             "Food",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Partial Expansion Jutsu",
@@ -2130,14 +2130,14 @@
     },
     {
         "id": "1-85",
-        "setNumber": 1,
-        "emblemNumber": 85,
+        "setNumber": "1",
+        "emblemNumber": "85",
         "name": "Ino Yamanaka",
         "tags": [
             "Flower",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Mind Transfer Jutsu",
@@ -2152,14 +2152,14 @@
     },
     {
         "id": "1-86",
-        "setNumber": 1,
-        "emblemNumber": 86,
+        "setNumber": "1",
+        "emblemNumber": "86",
         "name": "Kiba Inuzuka",
         "tags": [
             "Animal",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Fang Over Fang",
@@ -2175,14 +2175,14 @@
     },
     {
         "id": "1-87",
-        "setNumber": 1,
-        "emblemNumber": 87,
+        "setNumber": "1",
+        "emblemNumber": "87",
         "name": "Hinata Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Gentle Fist",
@@ -2197,14 +2197,14 @@
     },
     {
         "id": "1-88",
-        "setNumber": 1,
-        "emblemNumber": 88,
+        "setNumber": "1",
+        "emblemNumber": "88",
         "name": "Rock Lee",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Leaf Hurricane",
@@ -2219,14 +2219,14 @@
     },
     {
         "id": "1-89",
-        "setNumber": 1,
-        "emblemNumber": 89,
+        "setNumber": "1",
+        "emblemNumber": "89",
         "name": "Tenten",
         "tags": [
             "Leaf",
             "Weapon"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Unsealing Jutsu: Axe",
@@ -2241,14 +2241,14 @@
     },
     {
         "id": "1-90",
-        "setNumber": 1,
-        "emblemNumber": 90,
+        "setNumber": "1",
+        "emblemNumber": "90",
         "name": "Anko Mitarashi",
         "tags": [
             "Food",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Striking Shadow Snake",
@@ -2263,15 +2263,15 @@
     },
     {
         "id": "1-91",
-        "setNumber": 1,
-        "emblemNumber": 91,
+        "setNumber": "1",
+        "emblemNumber": "91",
         "name": "Shizune",
         "tags": [
             "Animal",
             "Leaf",
             "Medical"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Poison Fog",
@@ -2287,15 +2287,15 @@
     },
     {
         "id": "1-92",
-        "setNumber": 1,
-        "emblemNumber": 92,
+        "setNumber": "1",
+        "emblemNumber": "92",
         "name": "Kankuro",
         "tags": [
             "Lil' bro",
             "Puppet",
             "Sand"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Puppet: Crow",
@@ -2310,15 +2310,15 @@
     },
     {
         "id": "1-93",
-        "setNumber": 1,
-        "emblemNumber": 93,
+        "setNumber": "1",
+        "emblemNumber": "93",
         "name": "Temari",
         "tags": [
             "Big Sis",
             "Fan",
             "Sand"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Summoning: Blade Dance",
@@ -2333,14 +2333,14 @@
     },
     {
         "id": "1-94",
-        "setNumber": 1,
-        "emblemNumber": 94,
+        "setNumber": "1",
+        "emblemNumber": "94",
         "name": "Suigetsu Hozuki",
         "tags": [
             "Hebi",
             "Weapon"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "The Executioner's Blade",
@@ -2356,14 +2356,14 @@
     },
     {
         "id": "1-95",
-        "setNumber": 1,
-        "emblemNumber": 95,
+        "setNumber": "1",
+        "emblemNumber": "95",
         "name": "Karin",
         "tags": [
             "Glasses",
             "Hebi"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Adamantine Sealing Chains",
@@ -2379,14 +2379,14 @@
     },
     {
         "id": "1-96",
-        "setNumber": 1,
-        "emblemNumber": 96,
+        "setNumber": "1",
+        "emblemNumber": "96",
         "name": "Jugo",
         "tags": [
             "Animal",
             "Hebi"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Pile Hammer, Living Wall Fist",
@@ -2402,15 +2402,15 @@
     },
     {
         "id": "1-97",
-        "setNumber": 1,
-        "emblemNumber": 97,
+        "setNumber": "1",
+        "emblemNumber": "97",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "N.A.R.U.T.O. Uzumaki Barrage",
@@ -2426,15 +2426,15 @@
     },
     {
         "id": "1-98",
-        "setNumber": 1,
-        "emblemNumber": 98,
+        "setNumber": "1",
+        "emblemNumber": "98",
         "name": "Sasuke Uchiha",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Lions Barrage",
@@ -2450,14 +2450,14 @@
     },
     {
         "id": "1-99",
-        "setNumber": 1,
-        "emblemNumber": 99,
+        "setNumber": "1",
+        "emblemNumber": "99",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Inner Sakura",
@@ -2473,14 +2473,14 @@
     },
     {
         "id": "1-100",
-        "setNumber": 1,
-        "emblemNumber": 100,
+        "setNumber": "1",
+        "emblemNumber": "100",
         "name": "Shikamaru Nara",
         "tags": [
             "Leaf",
             "Shogi"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Shadow Possession Jutsu",
@@ -2495,14 +2495,14 @@
     },
     {
         "id": "1-101",
-        "setNumber": 1,
-        "emblemNumber": 101,
+        "setNumber": "1",
+        "emblemNumber": "101",
         "name": "Neji Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "8 Trigrams 64 Palms",
@@ -2517,15 +2517,15 @@
     },
     {
         "id": "2-01",
-        "setNumber": 2,
-        "emblemNumber": 1,
+        "setNumber": "2",
+        "emblemNumber": "1",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 6,
+        "rarity": "6",
         "type": "TECH",
         "specialAttack": {
             "name": "Susano'o: Totsuka Blade",
@@ -2545,14 +2545,14 @@
     },
     {
         "id": "2-02",
-        "setNumber": 2,
-        "emblemNumber": 2,
+        "setNumber": "2",
+        "emblemNumber": "2",
         "name": "Madara Uchiha",
         "tags": [
             "Akatsuki",
             "Sharingan"
         ],
-        "rarity": 6,
+        "rarity": "6",
         "type": "SPD",
         "specialAttack": {
             "name": "Perfect Susano'o",
@@ -2571,15 +2571,15 @@
     },
     {
         "id": "2-03",
-        "setNumber": 2,
-        "emblemNumber": 3,
+        "setNumber": "2",
+        "emblemNumber": "3",
         "name": "Naruto Uzumaki",
         "tags": [
             "Leaf",
             "Sage Mode",
             "Toad"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "Wind Style: Rasen Shuriken",
@@ -2598,15 +2598,15 @@
     },
     {
         "id": "2-04",
-        "setNumber": 2,
-        "emblemNumber": 4,
+        "setNumber": "2",
+        "emblemNumber": "4",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "Lightning Blade",
@@ -2626,14 +2626,14 @@
     },
     {
         "id": "2-05",
-        "setNumber": 2,
-        "emblemNumber": 5,
+        "setNumber": "2",
+        "emblemNumber": "5",
         "name": "Hinata Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Gentle Step Twin Lion Fists",
@@ -2653,15 +2653,15 @@
     },
     {
         "id": "2-06",
-        "setNumber": 2,
-        "emblemNumber": 6,
+        "setNumber": "2",
+        "emblemNumber": "6",
         "name": "Jiraiya",
         "tags": [
             "Leaf",
             "Sage Mode",
             "Toad"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Massive Rasengan",
@@ -2680,14 +2680,14 @@
     },
     {
         "id": "2-07",
-        "setNumber": 2,
-        "emblemNumber": 7,
+        "setNumber": "2",
+        "emblemNumber": "7",
         "name": "Orochimaru",
         "tags": [
             "Legendary Sannin",
             "Sound"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Eight-Headed Serpent Jutsu",
@@ -2706,15 +2706,15 @@
     },
     {
         "id": "2-08",
-        "setNumber": 2,
-        "emblemNumber": 8,
+        "setNumber": "2",
+        "emblemNumber": "8",
         "name": "Tsunade",
         "tags": [
             "Hokage",
             "Leaf",
             "Legendary Sannin"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "Heaven Kick of Pain",
@@ -2733,14 +2733,14 @@
     },
     {
         "id": "2-09",
-        "setNumber": 2,
-        "emblemNumber": 9,
+        "setNumber": "2",
+        "emblemNumber": "9",
         "name": "Deidara",
         "tags": [
             "Akatsuki",
             "Art"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Detonating Clay: CO",
@@ -2760,14 +2760,14 @@
     },
     {
         "id": "2-10",
-        "setNumber": 2,
-        "emblemNumber": 10,
+        "setNumber": "2",
+        "emblemNumber": "10",
         "name": "Nagato",
         "tags": [
             "Akatsuki",
             "Rinnegan"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Planetary Devastation",
@@ -2786,14 +2786,14 @@
     },
     {
         "id": "2-11",
-        "setNumber": 2,
-        "emblemNumber": 11,
+        "setNumber": "2",
+        "emblemNumber": "11",
         "name": "Konan",
         "tags": [
             "Akatsuki",
             "Paper"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Sacred Paper Emissary Jutsu",
@@ -2813,15 +2813,15 @@
     },
     {
         "id": "2-12",
-        "setNumber": 2,
-        "emblemNumber": 12,
+        "setNumber": "2",
+        "emblemNumber": "12",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "Susano'o",
@@ -2840,14 +2840,14 @@
     },
     {
         "id": "2-13",
-        "setNumber": 2,
-        "emblemNumber": 13,
+        "setNumber": "2",
+        "emblemNumber": "13",
         "name": "Sasuke Uchiha",
         "tags": [
             "Hebi",
             "Sharingan"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Kirin",
@@ -2866,14 +2866,14 @@
     },
     {
         "id": "2-14",
-        "setNumber": 2,
-        "emblemNumber": 14,
+        "setNumber": "2",
+        "emblemNumber": "14",
         "name": "Shisui Uchiha",
         "tags": [
             "Leaf",
             "Sharingan"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Fire Style: Fire Ball Jutsu",
@@ -2892,14 +2892,14 @@
     },
     {
         "id": "2-15",
-        "setNumber": 2,
-        "emblemNumber": 15,
+        "setNumber": "2",
+        "emblemNumber": "15",
         "name": "Pain",
         "tags": [
             "Akatsuki",
             "Rinnegan"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Almighty Push",
@@ -2919,14 +2919,14 @@
     },
     {
         "id": "2-16",
-        "setNumber": 2,
-        "emblemNumber": 16,
+        "setNumber": "2",
+        "emblemNumber": "16",
         "name": "Konan",
         "tags": [
             "Akatsuki",
             "Paper"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Shikigami Dance",
@@ -2945,15 +2945,15 @@
     },
     {
         "id": "2-17",
-        "setNumber": 2,
-        "emblemNumber": 17,
+        "setNumber": "2",
+        "emblemNumber": "17",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Amaterasu",
@@ -2972,14 +2972,14 @@
     },
     {
         "id": "2-18",
-        "setNumber": 2,
-        "emblemNumber": 18,
+        "setNumber": "2",
+        "emblemNumber": "18",
         "name": "Kisame Hoshigaki",
         "tags": [
             "Akatsuki",
             "Weapon"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Water Style: Five Hungry Sharks",
@@ -2998,14 +2998,14 @@
     },
     {
         "id": "2-19",
-        "setNumber": 2,
-        "emblemNumber": 19,
+        "setNumber": "2",
+        "emblemNumber": "19",
         "name": "Deidara",
         "tags": [
             "Akatsuki",
             "Art"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "C3",
@@ -3024,14 +3024,14 @@
     },
     {
         "id": "2-20",
-        "setNumber": 2,
-        "emblemNumber": 20,
+        "setNumber": "2",
+        "emblemNumber": "20",
         "name": "Sasori",
         "tags": [
             "Akatsuki",
             "Puppet"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Iron Sand Block Attack",
@@ -3051,15 +3051,15 @@
     },
     {
         "id": "2-21",
-        "setNumber": 2,
-        "emblemNumber": 21,
+        "setNumber": "2",
+        "emblemNumber": "21",
         "name": "Hidan",
         "tags": [
             "Akatsuki",
             "Immortal",
             "Weapon"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Cursed Art: Blood Rite Death",
@@ -3078,14 +3078,14 @@
     },
     {
         "id": "2-22",
-        "setNumber": 2,
-        "emblemNumber": 22,
+        "setNumber": "2",
+        "emblemNumber": "22",
         "name": "Kakuzu",
         "tags": [
             "Akatsuki",
             "Money"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Fire Style: Searing Migraine",
@@ -3105,14 +3105,14 @@
     },
     {
         "id": "2-23",
-        "setNumber": 2,
-        "emblemNumber": 23,
+        "setNumber": "2",
+        "emblemNumber": "23",
         "name": "Zetsu",
         "tags": [
             "Akatsuki",
             "Mystery"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Sporulation Jutsu",
@@ -3131,14 +3131,14 @@
     },
     {
         "id": "2-24",
-        "setNumber": 2,
-        "emblemNumber": 24,
+        "setNumber": "2",
+        "emblemNumber": "24",
         "name": "Tobi",
         "tags": [
             "Akatsuki",
             "Mask"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Ninja Art: Whack-A-Mole Jutsu",
@@ -3157,15 +3157,15 @@
     },
     {
         "id": "2-25",
-        "setNumber": 2,
-        "emblemNumber": 25,
+        "setNumber": "2",
+        "emblemNumber": "25",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Lightning Blade",
@@ -3185,15 +3185,15 @@
     },
     {
         "id": "2-26",
-        "setNumber": 2,
-        "emblemNumber": 26,
+        "setNumber": "2",
+        "emblemNumber": "26",
         "name": "Asuma Sarutobi",
         "tags": [
             "Leaf",
             "Shogi",
             "Weapon"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Fire Style: Burning Ash",
@@ -3213,14 +3213,14 @@
     },
     {
         "id": "2-27",
-        "setNumber": 2,
-        "emblemNumber": 27,
+        "setNumber": "2",
+        "emblemNumber": "27",
         "name": "Kurenai Yuhi",
         "tags": [
             "Flower",
             "Leaf"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Demonic Illusion: Tree Trap",
@@ -3240,14 +3240,14 @@
     },
     {
         "id": "2-28",
-        "setNumber": 2,
-        "emblemNumber": 28,
+        "setNumber": "2",
+        "emblemNumber": "28",
         "name": "Might Guy",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Asakujaku",
@@ -3267,15 +3267,15 @@
     },
     {
         "id": "2-29",
-        "setNumber": 2,
-        "emblemNumber": 29,
+        "setNumber": "2",
+        "emblemNumber": "29",
         "name": "Yamato",
         "tags": [
             "Leaf",
             "Team 7",
             "Wood Style"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Tree Bind Eternal Burial",
@@ -3295,15 +3295,15 @@
     },
     {
         "id": "2-30",
-        "setNumber": 2,
-        "emblemNumber": 30,
+        "setNumber": "2",
+        "emblemNumber": "30",
         "name": "Sasuke Uchiha",
         "tags": [
             "Hebi",
             "Lil' bro",
             "Sharingan"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Chidori",
@@ -3323,15 +3323,15 @@
     },
     {
         "id": "2-31",
-        "setNumber": 2,
-        "emblemNumber": 31,
+        "setNumber": "2",
+        "emblemNumber": "31",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Rasengan",
@@ -3351,15 +3351,15 @@
     },
     {
         "id": "2-32",
-        "setNumber": 2,
-        "emblemNumber": 32,
+        "setNumber": "2",
+        "emblemNumber": "32",
         "name": "Sasuke Uchiha",
         "tags": [
             "Hebi",
             "Lil' bro",
             "Sharingan"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Chidori Stream",
@@ -3379,15 +3379,15 @@
     },
     {
         "id": "2-33",
-        "setNumber": 2,
-        "emblemNumber": 33,
+        "setNumber": "2",
+        "emblemNumber": "33",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -3406,14 +3406,14 @@
     },
     {
         "id": "2-34",
-        "setNumber": 2,
-        "emblemNumber": 34,
+        "setNumber": "2",
+        "emblemNumber": "34",
         "name": "Shikamaru Nara",
         "tags": [
             "Leaf",
             "Shogi"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Shadow Pull Jutsu",
@@ -3433,14 +3433,14 @@
     },
     {
         "id": "2-35",
-        "setNumber": 2,
-        "emblemNumber": 35,
+        "setNumber": "2",
+        "emblemNumber": "35",
         "name": "Ino Yamanaka",
         "tags": [
             "Flower",
             "Leaf"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Mind Transfer Jutsu",
@@ -3460,14 +3460,14 @@
     },
     {
         "id": "2-36",
-        "setNumber": 2,
-        "emblemNumber": 36,
+        "setNumber": "2",
+        "emblemNumber": "36",
         "name": "Iruka Umino",
         "tags": [
             "Leaf",
             "Teacher"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Seal and Capture Perimeter",
@@ -3487,15 +3487,15 @@
     },
     {
         "id": "2-37",
-        "setNumber": 2,
-        "emblemNumber": 37,
+        "setNumber": "2",
+        "emblemNumber": "37",
         "name": "Jiraiya",
         "tags": [
             "Leaf",
             "Legendary Sannin",
             "Toad"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Art of the Raging Lion's Mane",
@@ -3515,15 +3515,15 @@
     },
     {
         "id": "2-38",
-        "setNumber": 2,
-        "emblemNumber": 38,
+        "setNumber": "2",
+        "emblemNumber": "38",
         "name": "Killer Bee",
         "tags": [
             "Cloud",
             "Jinchuriki",
             "Music"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Lightning Style: Lariat",
@@ -3543,15 +3543,15 @@
     },
     {
         "id": "2-39",
-        "setNumber": 2,
-        "emblemNumber": 39,
+        "setNumber": "2",
+        "emblemNumber": "39",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Rasengan",
@@ -3571,15 +3571,15 @@
     },
     {
         "id": "2-40",
-        "setNumber": 2,
-        "emblemNumber": 40,
+        "setNumber": "2",
+        "emblemNumber": "40",
         "name": "Sasuke Uchiha",
         "tags": [
             "Akatsuki",
             "Lil' bro",
             "Sharingan"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Snake Sword: Chidori Blade",
@@ -3594,15 +3594,15 @@
     },
     {
         "id": "2-41",
-        "setNumber": 2,
-        "emblemNumber": 41,
+        "setNumber": "2",
+        "emblemNumber": "41",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -3617,15 +3617,15 @@
     },
     {
         "id": "2-42",
-        "setNumber": 2,
-        "emblemNumber": 42,
+        "setNumber": "2",
+        "emblemNumber": "42",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Lightning Style: Lightning Hound",
@@ -3640,15 +3640,15 @@
     },
     {
         "id": "2-43",
-        "setNumber": 2,
-        "emblemNumber": 43,
+        "setNumber": "2",
+        "emblemNumber": "43",
         "name": "Sai",
         "tags": [
             "Art",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Super Beast Scroll",
@@ -3664,14 +3664,14 @@
     },
     {
         "id": "2-44",
-        "setNumber": 2,
-        "emblemNumber": 44,
+        "setNumber": "2",
+        "emblemNumber": "44",
         "name": "Choji Akimichi",
         "tags": [
             "Food",
             "Leaf"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Spiky Human Boulder",
@@ -3691,14 +3691,14 @@
     },
     {
         "id": "2-45",
-        "setNumber": 2,
-        "emblemNumber": 45,
+        "setNumber": "2",
+        "emblemNumber": "45",
         "name": "Hinata Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "8 Trigrams 32 Palms",
@@ -3718,14 +3718,14 @@
     },
     {
         "id": "2-46",
-        "setNumber": 2,
-        "emblemNumber": 46,
+        "setNumber": "2",
+        "emblemNumber": "46",
         "name": "Shino Aburame",
         "tags": [
             "Insect",
             "Leaf"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Hidden Jutsu: Beetle Sphere",
@@ -3740,14 +3740,14 @@
     },
     {
         "id": "2-47",
-        "setNumber": 2,
-        "emblemNumber": 47,
+        "setNumber": "2",
+        "emblemNumber": "47",
         "name": "Kiba Inuzuka",
         "tags": [
             "Animal",
             "Leaf"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Fang Over Fang",
@@ -3767,15 +3767,15 @@
     },
     {
         "id": "2-48",
-        "setNumber": 2,
-        "emblemNumber": 48,
+        "setNumber": "2",
+        "emblemNumber": "48",
         "name": "Jiraiya",
         "tags": [
             "Leaf",
             "Legendary Sannin",
             "Toad"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Fire Style: Flame Bombs",
@@ -3795,14 +3795,14 @@
     },
     {
         "id": "2-49",
-        "setNumber": 2,
-        "emblemNumber": 49,
+        "setNumber": "2",
+        "emblemNumber": "49",
         "name": "Orochimaru",
         "tags": [
             "Legendary Sannin",
             "Sound"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Mandala of Snakes Formation",
@@ -3818,15 +3818,15 @@
     },
     {
         "id": "2-50",
-        "setNumber": 2,
-        "emblemNumber": 50,
+        "setNumber": "2",
+        "emblemNumber": "50",
         "name": "Tsunade",
         "tags": [
             "Hokage",
             "Leaf",
             "Legendary Sannin"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Heaven Kick of Pain",
@@ -3842,15 +3842,15 @@
     },
     {
         "id": "2-51",
-        "setNumber": 2,
-        "emblemNumber": 51,
+        "setNumber": "2",
+        "emblemNumber": "51",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Tsukuyomi",
@@ -3870,14 +3870,14 @@
     },
     {
         "id": "2-52",
-        "setNumber": 2,
-        "emblemNumber": 52,
+        "setNumber": "2",
+        "emblemNumber": "52",
         "name": "Pain",
         "tags": [
             "Akatsuki",
             "Rinnegan"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Universal Pull",
@@ -3892,14 +3892,14 @@
     },
     {
         "id": "2-53",
-        "setNumber": 2,
-        "emblemNumber": 53,
+        "setNumber": "2",
+        "emblemNumber": "53",
         "name": "Konan",
         "tags": [
             "Akatsuki",
             "Paper"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Shikigami Dance",
@@ -3914,14 +3914,14 @@
     },
     {
         "id": "2-54",
-        "setNumber": 2,
-        "emblemNumber": 54,
+        "setNumber": "2",
+        "emblemNumber": "54",
         "name": "Deidara",
         "tags": [
             "Akatsuki",
             "Art"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "C4 Karura",
@@ -3936,14 +3936,14 @@
     },
     {
         "id": "2-55",
-        "setNumber": 2,
-        "emblemNumber": 55,
+        "setNumber": "2",
+        "emblemNumber": "55",
         "name": "Juzo Biwa",
         "tags": [
             "Akatsuki",
             "Weapon"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "The Executioner's Blade",
@@ -3963,14 +3963,14 @@
     },
     {
         "id": "2-56",
-        "setNumber": 2,
-        "emblemNumber": 56,
+        "setNumber": "2",
+        "emblemNumber": "56",
         "name": "Suigetsu Hozuki",
         "tags": [
             "Akatsuki",
             "Weapon"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Water Gun: Double Blast",
@@ -3985,15 +3985,15 @@
     },
     {
         "id": "2-57",
-        "setNumber": 2,
-        "emblemNumber": 57,
+        "setNumber": "2",
+        "emblemNumber": "57",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Toad"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Rasengan",
@@ -4009,15 +4009,15 @@
     },
     {
         "id": "2-58",
-        "setNumber": 2,
-        "emblemNumber": 58,
+        "setNumber": "2",
+        "emblemNumber": "58",
         "name": "Sasuke Uchiha",
         "tags": [
             "Hebi",
             "Lil' bro",
             "Sharingan"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Chidori Senbon",
@@ -4033,15 +4033,15 @@
     },
     {
         "id": "2-59",
-        "setNumber": 2,
-        "emblemNumber": 59,
+        "setNumber": "2",
+        "emblemNumber": "59",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -4057,15 +4057,15 @@
     },
     {
         "id": "2-60",
-        "setNumber": 2,
-        "emblemNumber": 60,
+        "setNumber": "2",
+        "emblemNumber": "60",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Lightning Blade",
@@ -4080,14 +4080,14 @@
     },
     {
         "id": "2-61",
-        "setNumber": 2,
-        "emblemNumber": 61,
+        "setNumber": "2",
+        "emblemNumber": "61",
         "name": "Choji Akimichi",
         "tags": [
             "Food",
             "Leaf"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Partial Expansion Jutsu",
@@ -4103,14 +4103,14 @@
     },
     {
         "id": "2-62",
-        "setNumber": 2,
-        "emblemNumber": 62,
+        "setNumber": "2",
+        "emblemNumber": "62",
         "name": "Ino Yamanaka",
         "tags": [
             "Flower",
             "Leaf"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Mind Transfer Jutsu",
@@ -4125,15 +4125,15 @@
     },
     {
         "id": "2-63",
-        "setNumber": 2,
-        "emblemNumber": 63,
+        "setNumber": "2",
+        "emblemNumber": "63",
         "name": "Asuma Sarutobi",
         "tags": [
             "Leaf",
             "Shogi",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Flying Swallow",
@@ -4149,14 +4149,14 @@
     },
     {
         "id": "2-64",
-        "setNumber": 2,
-        "emblemNumber": 64,
+        "setNumber": "2",
+        "emblemNumber": "64",
         "name": "Kiba Inuzuka",
         "tags": [
             "Animal",
             "Leaf"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Fang Over Fang",
@@ -4172,14 +4172,14 @@
     },
     {
         "id": "2-65",
-        "setNumber": 2,
-        "emblemNumber": 65,
+        "setNumber": "2",
+        "emblemNumber": "65",
         "name": "Hinata Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Gentle Fist",
@@ -4198,14 +4198,14 @@
     },
     {
         "id": "2-66",
-        "setNumber": 2,
-        "emblemNumber": 66,
+        "setNumber": "2",
+        "emblemNumber": "66",
         "name": "Kurenai Yuhi",
         "tags": [
             "Flower",
             "Leaf"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Demonic Illusion: Tree Trap",
@@ -4221,14 +4221,14 @@
     },
     {
         "id": "2-67",
-        "setNumber": 2,
-        "emblemNumber": 67,
+        "setNumber": "2",
+        "emblemNumber": "67",
         "name": "Rock Lee",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Leaf Hurricane",
@@ -4244,14 +4244,14 @@
     },
     {
         "id": "2-68",
-        "setNumber": 2,
-        "emblemNumber": 68,
+        "setNumber": "2",
+        "emblemNumber": "68",
         "name": "Tenten",
         "tags": [
             "Leaf",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Weapon Control: Tensasai",
@@ -4266,15 +4266,15 @@
     },
     {
         "id": "2-69",
-        "setNumber": 2,
-        "emblemNumber": 69,
+        "setNumber": "2",
+        "emblemNumber": "69",
         "name": "Hiruzen Sarutobi",
         "tags": [
             "Hokage",
             "Leaf",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Adamantine Nyoi",
@@ -4289,15 +4289,15 @@
     },
     {
         "id": "2-70",
-        "setNumber": 2,
-        "emblemNumber": 70,
+        "setNumber": "2",
+        "emblemNumber": "70",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Demonic Illusion: Shackle Stakes",
@@ -4312,14 +4312,14 @@
     },
     {
         "id": "2-71",
-        "setNumber": 2,
-        "emblemNumber": 71,
+        "setNumber": "2",
+        "emblemNumber": "71",
         "name": "Sasori",
         "tags": [
             "Akatsuki",
             "Puppet"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Iron Sand Block Attack",
@@ -4334,15 +4334,15 @@
     },
     {
         "id": "2-72",
-        "setNumber": 2,
-        "emblemNumber": 72,
+        "setNumber": "2",
+        "emblemNumber": "72",
         "name": "Hidan",
         "tags": [
             "Akatsuki",
             "Immortal",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Triple-Bladed Scythe",
@@ -4357,14 +4357,14 @@
     },
     {
         "id": "2-73",
-        "setNumber": 2,
-        "emblemNumber": 73,
+        "setNumber": "2",
+        "emblemNumber": "73",
         "name": "Kakuzu",
         "tags": [
             "Akatsuki",
             "Money"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Lightning Style: False Darkness",
@@ -4379,14 +4379,14 @@
     },
     {
         "id": "2-74",
-        "setNumber": 2,
-        "emblemNumber": 74,
+        "setNumber": "2",
+        "emblemNumber": "74",
         "name": "Zetsu",
         "tags": [
             "Akatsuki",
             "Mystery"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Sporulation Jutsu",
@@ -4402,14 +4402,14 @@
     },
     {
         "id": "2-75",
-        "setNumber": 2,
-        "emblemNumber": 75,
+        "setNumber": "2",
+        "emblemNumber": "75",
         "name": "Tobi",
         "tags": [
             "Akatsuki",
             "Mask"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Ninja Art: Whack-A-Mole Jutsu",
@@ -4425,14 +4425,14 @@
     },
     {
         "id": "2-76",
-        "setNumber": 2,
-        "emblemNumber": 76,
+        "setNumber": "2",
+        "emblemNumber": "76",
         "name": "Suigetsu Hozuki",
         "tags": [
             "Hebi",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "The Executioner's Blade",
@@ -4447,14 +4447,14 @@
     },
     {
         "id": "2-77",
-        "setNumber": 2,
-        "emblemNumber": 77,
+        "setNumber": "2",
+        "emblemNumber": "77",
         "name": "Karin",
         "tags": [
             "Glasses",
             "Hebi"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Adamantine Sealing Chains",
@@ -4469,14 +4469,14 @@
     },
     {
         "id": "2-78",
-        "setNumber": 2,
-        "emblemNumber": 78,
+        "setNumber": "2",
+        "emblemNumber": "78",
         "name": "Jugo",
         "tags": [
             "Animal",
             "Hebi"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Pile Hammer, Living Wall Fist",
@@ -4491,15 +4491,15 @@
     },
     {
         "id": "2-79",
-        "setNumber": 2,
-        "emblemNumber": 79,
+        "setNumber": "2",
+        "emblemNumber": "79",
         "name": "Killer Bee",
         "tags": [
             "Cloud",
             "Jinchuriki",
             "Music"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Acrobat",
@@ -4515,15 +4515,15 @@
     },
     {
         "id": "2-80",
-        "setNumber": 2,
-        "emblemNumber": 80,
+        "setNumber": "2",
+        "emblemNumber": "80",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Rasengan",
@@ -4539,15 +4539,15 @@
     },
     {
         "id": "2-81",
-        "setNumber": 2,
-        "emblemNumber": 81,
+        "setNumber": "2",
+        "emblemNumber": "81",
         "name": "Sasuke Uchiha",
         "tags": [
             "Hebi",
             "Lil' bro",
             "Sharingan"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Twin Snakes Curse",
@@ -4562,15 +4562,15 @@
     },
     {
         "id": "2-82",
-        "setNumber": 2,
-        "emblemNumber": 82,
+        "setNumber": "2",
+        "emblemNumber": "82",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -4585,15 +4585,15 @@
     },
     {
         "id": "2-83",
-        "setNumber": 2,
-        "emblemNumber": 83,
+        "setNumber": "2",
+        "emblemNumber": "83",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "A Thousand Years of Death",
@@ -4609,15 +4609,15 @@
     },
     {
         "id": "2-84",
-        "setNumber": 2,
-        "emblemNumber": 84,
+        "setNumber": "2",
+        "emblemNumber": "84",
         "name": "Sai",
         "tags": [
             "Art",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Super Beast Scroll",
@@ -4633,15 +4633,15 @@
     },
     {
         "id": "2-85",
-        "setNumber": 2,
-        "emblemNumber": 85,
+        "setNumber": "2",
+        "emblemNumber": "85",
         "name": "Yamato",
         "tags": [
             "Leaf",
             "Team 7",
             "Wood Style"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Wood Style: Giant Forest",
@@ -4656,14 +4656,14 @@
     },
     {
         "id": "2-86",
-        "setNumber": 2,
-        "emblemNumber": 86,
+        "setNumber": "2",
+        "emblemNumber": "86",
         "name": "Shikamaru Nara",
         "tags": [
             "Leaf",
             "Shogi"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Shadow Stitching Jutsu",
@@ -4679,14 +4679,14 @@
     },
     {
         "id": "2-87",
-        "setNumber": 2,
-        "emblemNumber": 87,
+        "setNumber": "2",
+        "emblemNumber": "87",
         "name": "Shino Aburame",
         "tags": [
             "Insect",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Hidden Jutsu: Beetle Sphere",
@@ -4701,14 +4701,14 @@
     },
     {
         "id": "2-88",
-        "setNumber": 2,
-        "emblemNumber": 88,
+        "setNumber": "2",
+        "emblemNumber": "88",
         "name": "Neji Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "8 Trigrams Air Palm",
@@ -4727,14 +4727,14 @@
     },
     {
         "id": "2-89",
-        "setNumber": 2,
-        "emblemNumber": 89,
+        "setNumber": "2",
+        "emblemNumber": "89",
         "name": "Might Guy",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Severe Leaf Hurricanes",
@@ -4750,14 +4750,14 @@
     },
     {
         "id": "2-90",
-        "setNumber": 2,
-        "emblemNumber": 90,
+        "setNumber": "2",
+        "emblemNumber": "90",
         "name": "Konohamaru Sarutobi",
         "tags": [
             "Leaf",
             "Scarf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Rasengan",
@@ -4773,15 +4773,15 @@
     },
     {
         "id": "2-91",
-        "setNumber": 2,
-        "emblemNumber": 91,
+        "setNumber": "2",
+        "emblemNumber": "91",
         "name": "Jiraiya",
         "tags": [
             "Leaf",
             "Legendary Sannin",
             "Toad"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Earth Style: Dark Swamp",
@@ -4796,14 +4796,14 @@
     },
     {
         "id": "2-92",
-        "setNumber": 2,
-        "emblemNumber": 92,
+        "setNumber": "2",
+        "emblemNumber": "92",
         "name": "Orochimaru",
         "tags": [
             "Legendary Sannin",
             "Sound"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Snake Sword",
@@ -4819,15 +4819,15 @@
     },
     {
         "id": "2-93",
-        "setNumber": 2,
-        "emblemNumber": 93,
+        "setNumber": "2",
+        "emblemNumber": "93",
         "name": "Tsunade",
         "tags": [
             "Hokage",
             "Leaf",
             "Legendary Sannin"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Bodily Disorder Strike",
@@ -4842,15 +4842,15 @@
     },
     {
         "id": "2-94",
-        "setNumber": 2,
-        "emblemNumber": 94,
+        "setNumber": "2",
+        "emblemNumber": "94",
         "name": "Kabuto Yakushi",
         "tags": [
             "Glasses",
             "Medical",
             "Sound"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Chakra Scalpel",
@@ -4866,14 +4866,14 @@
     },
     {
         "id": "2-95",
-        "setNumber": 2,
-        "emblemNumber": 95,
+        "setNumber": "2",
+        "emblemNumber": "95",
         "name": "Kisame Hoshigaki",
         "tags": [
             "Akatsuki",
             "Weapon"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "The Great Blade: Shark Skin",
@@ -4888,14 +4888,14 @@
     },
     {
         "id": "2-96",
-        "setNumber": 2,
-        "emblemNumber": 96,
+        "setNumber": "2",
+        "emblemNumber": "96",
         "name": "Deidara",
         "tags": [
             "Akatsuki",
             "Art"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "C1",
@@ -4910,14 +4910,14 @@
     },
     {
         "id": "2-97",
-        "setNumber": 2,
-        "emblemNumber": 97,
+        "setNumber": "2",
+        "emblemNumber": "97",
         "name": "Hinata Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Gentle Fist",
@@ -4932,14 +4932,14 @@
     },
     {
         "id": "2-98",
-        "setNumber": 2,
-        "emblemNumber": 98,
+        "setNumber": "2",
+        "emblemNumber": "98",
         "name": "Rock Lee",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Hidden Lotus",
@@ -4954,14 +4954,14 @@
     },
     {
         "id": "2-99",
-        "setNumber": 2,
-        "emblemNumber": 99,
+        "setNumber": "2",
+        "emblemNumber": "99",
         "name": "Gaara",
         "tags": [
             "Lil' bro",
             "Sand"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Sand Tsunami",
@@ -4977,15 +4977,15 @@
     },
     {
         "id": "2-100",
-        "setNumber": 2,
-        "emblemNumber": 100,
+        "setNumber": "2",
+        "emblemNumber": "100",
         "name": "Kankuro",
         "tags": [
             "Big Bro",
             "Puppet",
             "Sand"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Puppet Show: Iron Maiden",
@@ -5001,15 +5001,15 @@
     },
     {
         "id": "2-101",
-        "setNumber": 2,
-        "emblemNumber": 101,
+        "setNumber": "2",
+        "emblemNumber": "101",
         "name": "Temari",
         "tags": [
             "Big Sis",
             "Fan",
             "Sand"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Summoning Jutsu: Blade Dance",
@@ -5025,15 +5025,15 @@
     },
     {
         "id": "3-01",
-        "setNumber": 3,
-        "emblemNumber": 1,
+        "setNumber": "3",
+        "emblemNumber": "1",
         "name": "Naruto & Sasuke",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Sharingan"
         ],
-        "rarity": 6,
+        "rarity": "6",
         "type": "TECH",
         "specialAttack": {
             "name": "Sage Art: Magnet Style Rasengan & Chidori",
@@ -5053,13 +5053,13 @@
     },
     {
         "id": "3-02",
-        "setNumber": 3,
-        "emblemNumber": 2,
+        "setNumber": "3",
+        "emblemNumber": "2",
         "name": "Kaguya Otsutsuki",
         "tags": [
             "Divine"
         ],
-        "rarity": 6,
+        "rarity": "6",
         "type": "PWR",
         "specialAttack": {
             "name": "Murderous Bone Ash",
@@ -5078,15 +5078,15 @@
     },
     {
         "id": "3-03",
-        "setNumber": 3,
-        "emblemNumber": 3,
+        "setNumber": "3",
+        "emblemNumber": "3",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Rasengan",
@@ -5105,15 +5105,15 @@
     },
     {
         "id": "3-04",
-        "setNumber": 3,
-        "emblemNumber": 4,
+        "setNumber": "3",
+        "emblemNumber": "4",
         "name": "Naruto Uzumaki",
         "tags": [
             "Leaf",
             "Team 7",
             "Toad"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Allied Shinobi Forces Jutsu",
@@ -5133,15 +5133,15 @@
     },
     {
         "id": "3-05",
-        "setNumber": 3,
-        "emblemNumber": 5,
+        "setNumber": "3",
+        "emblemNumber": "5",
         "name": "Sasuke Uchiha",
         "tags": [
             "Lil' bro",
             "Sharingan",
             "Taka"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "Inferno Style: Flame Control",
@@ -5161,15 +5161,15 @@
     },
     {
         "id": "3-06",
-        "setNumber": 3,
-        "emblemNumber": 6,
+        "setNumber": "3",
+        "emblemNumber": "6",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -5188,15 +5188,43 @@
         "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_506.png"
     },
     {
+        "id": "3-07",
+        "setNumber": "3",
+        "emblemNumber": "7",
+        "name": "Kakashi Hatake",
+        "tags": [
+            "Leaf",
+            "Sharingan",
+            "Team 7"
+        ],
+        "rarity": "5",
+        "type": "PWR",
+        "specialAttack": {
+            "name": "Lightning Style Kunai Attack",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Battle Within Kamui's Dimension",
+            "desc": "Usable on Round 3. Permanently increases your team's ATK by 1000 and decreases the enemy team's DEF by 1000.",
+            "icon": "scene"
+        },
+        "skill2": {
+            "name": "What I Can Do for You",
+            "desc": "When SP is used, if the enemy AE is \"Sharingan,\" increases your ATK by 3000 until the end of the round."
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_507.png"
+    },
+    {
         "id": "3-08",
-        "setNumber": 3,
-        "emblemNumber": 8,
+        "setNumber": "3",
+        "emblemNumber": "8",
         "name": "Madara Uchiha",
         "tags": [
             "Sharingan",
             "Weapon"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Majestic Attire: Susano'o",
@@ -5215,15 +5243,15 @@
     },
     {
         "id": "3-09",
-        "setNumber": 3,
-        "emblemNumber": 9,
+        "setNumber": "3",
+        "emblemNumber": "9",
         "name": "Hashirama Senju",
         "tags": [
             "Hokage",
             "Leaf",
             "Wood Style"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "SPD",
         "specialAttack": {
             "name": "Sage Art Wood Style: Veritable 1000-Armed Kan'on Chojo Kebutsu Artifacts of the Buddha",
@@ -5242,15 +5270,15 @@
     },
     {
         "id": "3-10",
-        "setNumber": 3,
-        "emblemNumber": 10,
+        "setNumber": "3",
+        "emblemNumber": "10",
         "name": "Tobirama Senju",
         "tags": [
             "Hokage",
             "Leaf",
             "Weapon"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "Flying Raijin Slice",
@@ -5270,15 +5298,15 @@
     },
     {
         "id": "3-11",
-        "setNumber": 3,
-        "emblemNumber": 11,
+        "setNumber": "3",
+        "emblemNumber": "11",
         "name": "Minato Namikaze",
         "tags": [
             "Flash",
             "Hokage",
             "Leaf"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Flying Raijin: Level 2",
@@ -5293,16 +5321,43 @@
         "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_511.png"
     },
     {
+        "id": "3-12",
+        "setNumber": "3",
+        "emblemNumber": "12",
+        "name": "Kabuto Yakushi",
+        "tags": [
+            "Medical",
+            "Sage Mode",
+            "Sound"
+        ],
+        "rarity": "5",
+        "type": "SPD",
+        "specialAttack": {
+            "name": "Sage Art: Inorganic Animation",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Dragon Transformation",
+            "desc": "At the start of Round 3, permanently increases your ATK by 200 and DEF by 100 for each trait type on your team."
+        },
+        "skill2": {
+            "name": "Sage Art: White Extreme Attack",
+            "desc": "Can be used only once. When deployed as the AE, permanently decreases enemy team's DEF by 1000."
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_512.png"
+    },
+    {
         "id": "3-13",
-        "setNumber": 3,
-        "emblemNumber": 13,
+        "setNumber": "3",
+        "emblemNumber": "13",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "TECH",
         "specialAttack": {
             "name": "Susano'o",
@@ -5321,15 +5376,15 @@
     },
     {
         "id": "3-14",
-        "setNumber": 3,
-        "emblemNumber": 14,
+        "setNumber": "3",
+        "emblemNumber": "14",
         "name": "Obito Uchiha",
         "tags": [
             "Akatsuki",
             "Jinchuriki",
             "Sharingan"
         ],
-        "rarity": 5,
+        "rarity": "5",
         "type": "PWR",
         "specialAttack": {
             "name": "Truthseeker Orb Attack",
@@ -5344,15 +5399,15 @@
     },
     {
         "id": "3-15",
-        "setNumber": 3,
-        "emblemNumber": 15,
+        "setNumber": "3",
+        "emblemNumber": "15",
         "name": "Hashirama Senju",
         "tags": [
             "Hokage",
             "Leaf",
             "Wood Style"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Wood Style: Wood Dragon Jutsu",
@@ -5372,15 +5427,15 @@
     },
     {
         "id": "3-16",
-        "setNumber": 3,
-        "emblemNumber": 16,
+        "setNumber": "3",
+        "emblemNumber": "16",
         "name": "Tobirama Senju",
         "tags": [
             "Hokage",
             "Leaf",
             "Weapon"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Heavenly Weeping",
@@ -5399,15 +5454,15 @@
     },
     {
         "id": "3-17",
-        "setNumber": 3,
-        "emblemNumber": 17,
+        "setNumber": "3",
+        "emblemNumber": "17",
         "name": "Hiruzen Sarutobi",
         "tags": [
             "Hokage",
             "Leaf",
             "Weapon"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Fire Style: Dragon Flame Bombs",
@@ -5426,15 +5481,15 @@
     },
     {
         "id": "3-18",
-        "setNumber": 3,
-        "emblemNumber": 18,
+        "setNumber": "3",
+        "emblemNumber": "18",
         "name": "Minato Namikaze",
         "tags": [
             "Flash",
             "Hokage",
             "Leaf"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Rasen-Flash Super-Circle Dance Howl Stage Three",
@@ -5453,15 +5508,15 @@
     },
     {
         "id": "3-19",
-        "setNumber": 3,
-        "emblemNumber": 19,
+        "setNumber": "3",
+        "emblemNumber": "19",
         "name": "Tsunade",
         "tags": [
             "Five Kage",
             "Leaf",
             "Legendary Sannin"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "The 100 Healings Jutsu",
@@ -5481,15 +5536,15 @@
     },
     {
         "id": "3-20",
-        "setNumber": 3,
-        "emblemNumber": 20,
+        "setNumber": "3",
+        "emblemNumber": "20",
         "name": "Gaara",
         "tags": [
             "Five Kage",
             "Lil' bro",
             "Sand"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Grand Sand Mausoleum Seal",
@@ -5509,15 +5564,71 @@
         "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_520.png"
     },
     {
+        "id": "3-21",
+        "setNumber": "3",
+        "emblemNumber": "21",
+        "name": "Ay",
+        "tags": [
+            "Big Bro",
+            "Cloud",
+            "Five Kage"
+        ],
+        "rarity": "4",
+        "type": "PWR",
+        "specialAttack": {
+            "name": "Lightning Style: Liger Bomb",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Lightning Style Chakra Mode",
+            "desc": "When deployed as the AE, if you have more than 6 chakra, increases your ATK and DEF by 1500 until the end of the round."
+        },
+        "skill2": {
+            "name": "Support: Cloud Shinobi",
+            "desc": "At the end of Round 2, summons \"Darui\" and \"Cee.\"",
+            "icon": "support"
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_521.png"
+    },
+    {
+        "id": "3-22",
+        "setNumber": "3",
+        "emblemNumber": "22",
+        "name": "Ohnoki",
+        "tags": [
+            "Five Kage",
+            "Rock",
+            "Stone"
+        ],
+        "rarity": "4",
+        "type": "TECH",
+        "specialAttack": {
+            "name": "Atomic Dismantling Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Time to Retrieve What I Forsook",
+            "desc": "Can be used only once. When an ally takes damage from SP, permanently increases your ATK and DEF by 1500."
+        },
+        "skill2": {
+            "name": "Support: Stone Shinobi",
+            "desc": "At the end of Round 2, summons \"Kurotsuchi\" and \"Akatsuchi.\"",
+            "icon": "support"
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_522.png"
+    },
+    {
         "id": "3-23",
-        "setNumber": 3,
-        "emblemNumber": 23,
+        "setNumber": "3",
+        "emblemNumber": "23",
         "name": "Mei Terumi",
         "tags": [
             "Five Kage",
             "Mist"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Lava Style: Lava Monster Jutsu",
@@ -5537,14 +5648,14 @@
     },
     {
         "id": "3-24",
-        "setNumber": 3,
-        "emblemNumber": 24,
+        "setNumber": "3",
+        "emblemNumber": "24",
         "name": "Neji Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "8 Trigrams Palm Rotation",
@@ -5562,16 +5673,43 @@
         "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_524.png"
     },
     {
+        "id": "3-25",
+        "setNumber": "3",
+        "emblemNumber": "25",
+        "name": "Gaara",
+        "tags": [
+            "Jinchuriki",
+            "Lil' bro",
+            "Sand"
+        ],
+        "rarity": "4",
+        "type": "PWR",
+        "specialAttack": {
+            "name": "Sand Coffin",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Ultimate Defense",
+            "desc": "When deployed as the AE, if you lose the Attack Battle, increases your DEF by 1500 until the end of the round."
+        },
+        "skill2": {
+            "name": "One-Tailed Jinchuriki",
+            "desc": "Can be used only once. At the start of the round, if you have more than 6 chakra, permanently increases your ATK by 1500."
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_525.png"
+    },
+    {
         "id": "3-26",
-        "setNumber": 3,
-        "emblemNumber": 26,
+        "setNumber": "3",
+        "emblemNumber": "26",
         "name": "Sasuke Uchiha",
         "tags": [
             "Leaf",
             "Lil' bro",
             "Sharingan"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Chidori",
@@ -5591,14 +5729,14 @@
     },
     {
         "id": "3-27",
-        "setNumber": 3,
-        "emblemNumber": 27,
+        "setNumber": "3",
+        "emblemNumber": "27",
         "name": "Pain",
         "tags": [
             "Akatsuki",
             "Rinnegan"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Almighty Push",
@@ -5618,15 +5756,15 @@
     },
     {
         "id": "3-28",
-        "setNumber": 3,
-        "emblemNumber": 28,
+        "setNumber": "3",
+        "emblemNumber": "28",
         "name": "Sasuke Uchiha",
         "tags": [
             "Lil' bro",
             "Sharingan",
             "Taka"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Chidori Light Blade",
@@ -5646,15 +5784,15 @@
     },
     {
         "id": "3-29",
-        "setNumber": 3,
-        "emblemNumber": 29,
+        "setNumber": "3",
+        "emblemNumber": "29",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Rasengan",
@@ -5674,14 +5812,14 @@
     },
     {
         "id": "3-30",
-        "setNumber": 3,
-        "emblemNumber": 30,
+        "setNumber": "3",
+        "emblemNumber": "30",
         "name": "Deidara",
         "tags": [
             "Akatsuki",
             "Art"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Detonating Clay: CO",
@@ -5701,15 +5839,15 @@
     },
     {
         "id": "3-31",
-        "setNumber": 3,
-        "emblemNumber": 31,
+        "setNumber": "3",
+        "emblemNumber": "31",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Amaterasu",
@@ -5728,14 +5866,14 @@
     },
     {
         "id": "3-32",
-        "setNumber": 3,
-        "emblemNumber": 32,
+        "setNumber": "3",
+        "emblemNumber": "32",
         "name": "Danzo Shimura",
         "tags": [
             "Leaf",
             "Sharingan"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Wind Style: Vacuum Blast Barrage",
@@ -5754,15 +5892,15 @@
     },
     {
         "id": "3-33",
-        "setNumber": 3,
-        "emblemNumber": 33,
+        "setNumber": "3",
+        "emblemNumber": "33",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Rasengan",
@@ -5782,15 +5920,15 @@
     },
     {
         "id": "3-34",
-        "setNumber": 3,
-        "emblemNumber": 34,
+        "setNumber": "3",
+        "emblemNumber": "34",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -5809,15 +5947,15 @@
     },
     {
         "id": "3-35",
-        "setNumber": 3,
-        "emblemNumber": 35,
+        "setNumber": "3",
+        "emblemNumber": "35",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Weapon"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "SPD",
         "specialAttack": {
             "name": "The Executioner's Blade",
@@ -5836,15 +5974,15 @@
     },
     {
         "id": "3-36",
-        "setNumber": 3,
-        "emblemNumber": 36,
+        "setNumber": "3",
+        "emblemNumber": "36",
         "name": "Sai",
         "tags": [
             "Art",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "TECH",
         "specialAttack": {
             "name": "Super God Scroll",
@@ -5864,14 +6002,14 @@
     },
     {
         "id": "3-37",
-        "setNumber": 3,
-        "emblemNumber": 37,
+        "setNumber": "3",
+        "emblemNumber": "37",
         "name": "Choji Akimichi",
         "tags": [
             "Food",
             "Leaf"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Butterfly Bomb",
@@ -5890,15 +6028,42 @@
         "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_537.png"
     },
     {
+        "id": "3-38",
+        "setNumber": "3",
+        "emblemNumber": "38",
+        "name": "Darui",
+        "tags": [
+            "Cloud",
+            "Weapon"
+        ],
+        "rarity": "4",
+        "type": "SPD",
+        "specialAttack": {
+            "name": "Lightning Style: Black Panther",
+            "chakra": "7",
+            "desc": "Deals massive DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Raikage's Right Hand",
+            "desc": "At the start of Round 2, if \"Ay\" is an ally, grants you 2 chakra and permanently increases ATK by 1000.",
+            "icon": "team"
+        },
+        "skill2": {
+            "name": "Battle Regiment: First Unit Captain",
+            "desc": "At the start of Round 1, increases your team's ATK and DEF by 1000 until the end of the round."
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_538.png"
+    },
+    {
         "id": "3-39",
-        "setNumber": 3,
-        "emblemNumber": 39,
+        "setNumber": "3",
+        "emblemNumber": "39",
         "name": "Kisame Hoshigaki",
         "tags": [
             "Akatsuki",
             "Weapon"
         ],
-        "rarity": 4,
+        "rarity": "4",
         "type": "PWR",
         "specialAttack": {
             "name": "Super Shark Bomb Jutsu",
@@ -5916,16 +6081,68 @@
         "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_539.png"
     },
     {
+        "id": "3-40",
+        "setNumber": "3",
+        "emblemNumber": "40",
+        "name": "Obito Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Rinnegan",
+            "Sharingan"
+        ],
+        "rarity": "4",
+        "type": "TECH",
+        "specialAttack": {
+            "name": "Wood Style: Cutting Sprigs Jutsu",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Dream World",
+            "desc": "Usable on Round 3. If \"Rin\" is an ally, grants 2 chakra to your team and permanently increases ATK and DEF by 1500.",
+            "icon": "scene"
+        },
+        "skill2": {
+            "name": "Hell",
+            "desc": "When a \"Rin\" ally takes damage, grants you 1 chakra and permanently increases ATK and DEF by 1000."
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_540.png"
+    },
+    {
+        "id": "3-41",
+        "setNumber": "3",
+        "emblemNumber": "41",
+        "name": "Naruto Uzumaki",
+        "tags": [
+            "Jinchuriki",
+            "Leaf",
+            "Team 7"
+        ],
+        "rarity": "3",
+        "type": "PWR",
+        "specialAttack": {
+            "name": "Giant Rasengan Barrage Line",
+            "chakra": "8",
+            "desc": "Deals massive damage to enemy AE. The DMG is increased if there are more than 4 \"Naruto\" emblems on your team."
+        },
+        "skill1": {
+            "name": "Multi Shadow Clone Jutsu",
+            "desc": "Can be used only once. At the start of the round, if you have more than 7 chakra, releases 4 shadow clones.",
+            "icon": "clone"
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_541.png"
+    },
+    {
         "id": "3-42",
-        "setNumber": 3,
-        "emblemNumber": 42,
+        "setNumber": "3",
+        "emblemNumber": "42",
         "name": "Sasuke Uchiha",
         "tags": [
             "Lil' bro",
             "Sharingan",
             "Taka"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Amaterasu",
@@ -5940,15 +6157,15 @@
     },
     {
         "id": "3-43",
-        "setNumber": 3,
-        "emblemNumber": 43,
+        "setNumber": "3",
+        "emblemNumber": "43",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -5963,15 +6180,15 @@
     },
     {
         "id": "3-44",
-        "setNumber": 3,
-        "emblemNumber": 44,
+        "setNumber": "3",
+        "emblemNumber": "44",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Lightning Cable",
@@ -5991,14 +6208,14 @@
     },
     {
         "id": "3-45",
-        "setNumber": 3,
-        "emblemNumber": 45,
+        "setNumber": "3",
+        "emblemNumber": "45",
         "name": "Might Guy",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Severe Leaf Hurricanes",
@@ -6017,15 +6234,42 @@
         "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_545.png"
     },
     {
-        "id": "3-47",
+        "id": "3-46",
         "setNumber": 3,
-        "emblemNumber": 47,
+        "emblemNumber": 46,
+        "name": "Yamato",
+        "tags": [
+            "Leaf",
+            "Team 7",
+            "Wood Style"
+        ],
+        "rarity": 3,
+        "type": "PWR",
+        "specialAttack": {
+            "name": "Tree Bind Eternal Burial",
+            "chakra": "6",
+            "desc": "Deals heavy DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Power to Control a Tailed Beast",
+            "desc": "If the enemy AE is \"Jinchuriki,\" decreases enemy AE's ATK by 1000 until the end of the round."
+        },
+        "skill2": {
+            "name": "A Match for Hashirama's Cells",
+            "desc": "At the start of Round 3, restores your team's HP by 2000."
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_546.png"
+    },
+    {
+        "id": "3-47",
+        "setNumber": "3",
+        "emblemNumber": "47",
         "name": "Shikamaru Nara",
         "tags": [
             "Leaf",
             "Shogi"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Shadow Pull Jutsu",
@@ -6041,14 +6285,14 @@
     },
     {
         "id": "3-48",
-        "setNumber": 3,
-        "emblemNumber": 48,
+        "setNumber": "3",
+        "emblemNumber": "48",
         "name": "Ino Yamanaka",
         "tags": [
             "Flower",
             "Leaf"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Mind Transfer Jutsu",
@@ -6063,15 +6307,38 @@
         "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_548.png"
     },
     {
-        "id": "3-50",
+        "id": "3-49",
         "setNumber": 3,
-        "emblemNumber": 50,
+        "emblemNumber": 49,
+        "name": "Iruka Umino",
+        "tags": [
+            "Leaf",
+            "Teacher"
+        ],
+        "rarity": 3,
+        "type": "TECH",
+        "specialAttack": {
+            "name": "Seal and Capture Perimeter",
+            "chakra": "7",
+            "desc": "Deals heavy DMG to the enemy AE and permanently decreases the enemy AE's ATK by 1000."
+        },
+        "skill1": {
+            "name": "Letter to Naruto",
+            "desc": "Usable on Round 2. Grants all \"Jinchuriki\" allies 1 chakra and permanently increases ATK by 1000.",
+            "icon": "scene"
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_549.png"
+    },
+    {
+        "id": "3-50",
+        "setNumber": "3",
+        "emblemNumber": "50",
         "name": "Shikaku Nara",
         "tags": [
             "Leaf",
             "Shogi"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Shadow Strangle Jutsu",
@@ -6091,14 +6358,14 @@
     },
     {
         "id": "3-51",
-        "setNumber": 3,
-        "emblemNumber": 51,
+        "setNumber": "3",
+        "emblemNumber": "51",
         "name": "Orochimaru",
         "tags": [
             "Legendary Sannin",
             "Sound"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Softening Reconstruction",
@@ -6118,15 +6385,15 @@
     },
     {
         "id": "3-52",
-        "setNumber": 3,
-        "emblemNumber": 52,
+        "setNumber": "3",
+        "emblemNumber": "52",
         "name": "Killer Bee",
         "tags": [
             "Cloud",
             "Jinchuriki",
             "Lil' bro"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "TECH",
         "specialAttack": {
             "name": "Lightning Style: Lariat",
@@ -6147,14 +6414,14 @@
     },
     {
         "id": "3-53",
-        "setNumber": 3,
-        "emblemNumber": 53,
+        "setNumber": "3",
+        "emblemNumber": "53",
         "name": "Kitsuchi",
         "tags": [
             "Bandana",
             "Stone"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Earth Style: Mountain Jutsu",
@@ -6173,14 +6440,14 @@
     },
     {
         "id": "3-54",
-        "setNumber": 3,
-        "emblemNumber": 54,
+        "setNumber": "3",
+        "emblemNumber": "54",
         "name": "Nagato",
         "tags": [
             "Akatsuki (Orig.)",
             "Rinnegan"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Wind Style: Gale Palm",
@@ -6195,15 +6462,38 @@
         "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_554.png"
     },
     {
-        "id": "3-56",
+        "id": "3-55",
         "setNumber": 3,
-        "emblemNumber": 56,
+        "emblemNumber": 55,
+        "name": "Konan",
+        "tags": [
+            "Akatsuki (Orig.)",
+            "Paper"
+        ],
+        "rarity": 3,
+        "type": "TECH",
+        "specialAttack": {
+            "name": "Paper Shuriken",
+            "chakra": "5",
+            "desc": "Deals DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Team: Akatsuki (Original)",
+            "desc": "If ally AE is \"Nagato\" or \"Yahiko,\" increases ally AE's ATK and DEF by 1000 until the end of the round.",
+            "icon": "team"
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_555.png"
+    },
+    {
+        "id": "3-56",
+        "setNumber": "3",
+        "emblemNumber": "56",
         "name": "Yahiko",
         "tags": [
             "Akatsuki (Orig.)",
             "Weapon"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "PWR",
         "specialAttack": {
             "name": "Water Style: Raging Waves",
@@ -6222,15 +6512,43 @@
         "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_556.png"
     },
     {
-        "id": "3-58",
+        "id": "3-57",
         "setNumber": 3,
-        "emblemNumber": 58,
+        "emblemNumber": 57,
+        "name": "Madara Uchiha",
+        "tags": [
+            "Akatsuki",
+            "Mask",
+            "Sharingan"
+        ],
+        "rarity": 3,
+        "type": "SPD",
+        "specialAttack": {
+            "name": "Summoning Jutsu Gedo Statue",
+            "chakra": "8",
+            "desc": "Deals colossal DMG to the enemy AE."
+        },
+        "skill1": {
+            "name": "Combat Mask",
+            "desc": "When deployed as the AE, increases your DEF by 2000 until the end of the round."
+        },
+        "skill2": {
+            "name": "Transform: Broken Mask",
+            "desc": "At the end of the round, if you have taken damage, activates \"Unmasked State.\"",
+            "icon": "transform"
+        },
+        "imageUrl": "https://www.naruto-emblem-battle.com/wp-content/uploads/2025/08/uT_plate_03_557.png"
+    },
+    {
+        "id": "3-58",
+        "setNumber": "3",
+        "emblemNumber": "58",
         "name": "Jugo",
         "tags": [
             "Animal",
             "Taka"
         ],
-        "rarity": 3,
+        "rarity": "3",
         "type": "SPD",
         "specialAttack": {
             "name": "Supermassive Lotus Cannons",
@@ -6246,15 +6564,15 @@
     },
     {
         "id": "3-59",
-        "setNumber": 3,
-        "emblemNumber": 59,
+        "setNumber": "3",
+        "emblemNumber": "59",
         "name": "Naruto Uzumaki",
         "tags": [
             "Leaf",
             "Team 7",
             "Toad"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Rasengan",
@@ -6270,15 +6588,15 @@
     },
     {
         "id": "3-60",
-        "setNumber": 3,
-        "emblemNumber": 60,
+        "setNumber": "3",
+        "emblemNumber": "60",
         "name": "Sasuke Uchiha",
         "tags": [
             "Lil' bro",
             "Sharingan",
             "Taka"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Chidori Spear",
@@ -6293,15 +6611,15 @@
     },
     {
         "id": "3-61",
-        "setNumber": 3,
-        "emblemNumber": 61,
+        "setNumber": "3",
+        "emblemNumber": "61",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -6316,15 +6634,15 @@
     },
     {
         "id": "3-62",
-        "setNumber": 3,
-        "emblemNumber": 62,
+        "setNumber": "3",
+        "emblemNumber": "62",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Lightning Blade",
@@ -6340,15 +6658,15 @@
     },
     {
         "id": "3-63",
-        "setNumber": 3,
-        "emblemNumber": 63,
+        "setNumber": "3",
+        "emblemNumber": "63",
         "name": "Sai",
         "tags": [
             "Art",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Sealing Jutsu: Crouched Tiger Bullet",
@@ -6363,14 +6681,14 @@
     },
     {
         "id": "3-64",
-        "setNumber": 3,
-        "emblemNumber": 64,
+        "setNumber": "3",
+        "emblemNumber": "64",
         "name": "Shikamaru Nara",
         "tags": [
             "Leaf",
             "Shogi"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Shadow Stitching Jutsu",
@@ -6385,14 +6703,14 @@
     },
     {
         "id": "3-65",
-        "setNumber": 3,
-        "emblemNumber": 65,
+        "setNumber": "3",
+        "emblemNumber": "65",
         "name": "Choji Akimichi",
         "tags": [
             "Food",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Human Boulder",
@@ -6408,14 +6726,14 @@
     },
     {
         "id": "3-66",
-        "setNumber": 3,
-        "emblemNumber": 66,
+        "setNumber": "3",
+        "emblemNumber": "66",
         "name": "Ino Yamanaka",
         "tags": [
             "Flower",
             "Leaf"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Mind Transfer Jutsu",
@@ -6430,14 +6748,14 @@
     },
     {
         "id": "3-67",
-        "setNumber": 3,
-        "emblemNumber": 67,
+        "setNumber": "3",
+        "emblemNumber": "67",
         "name": "Shisui Uchiha",
         "tags": [
             "Leaf",
             "Sharingan"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Fire Style: Fire Ball Jutsu",
@@ -6453,14 +6771,14 @@
     },
     {
         "id": "3-68",
-        "setNumber": 3,
-        "emblemNumber": 68,
+        "setNumber": "3",
+        "emblemNumber": "68",
         "name": "Danzo Shimura",
         "tags": [
             "Leaf",
             "Sharingan"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Wind Style: Vacuum Bullets",
@@ -6476,15 +6794,15 @@
     },
     {
         "id": "3-69",
-        "setNumber": 3,
-        "emblemNumber": 69,
+        "setNumber": "3",
+        "emblemNumber": "69",
         "name": "Gaara",
         "tags": [
             "Five Kage",
             "Lil' bro",
             "Sand"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Sand Prison",
@@ -6500,15 +6818,15 @@
     },
     {
         "id": "3-70",
-        "setNumber": 3,
-        "emblemNumber": 70,
+        "setNumber": "3",
+        "emblemNumber": "70",
         "name": "Kankuro",
         "tags": [
             "Big Bro",
             "Puppet",
             "Sand"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Secret Black Technique Triple Iron Maiden",
@@ -6528,15 +6846,15 @@
     },
     {
         "id": "3-71",
-        "setNumber": 3,
-        "emblemNumber": 71,
+        "setNumber": "3",
+        "emblemNumber": "71",
         "name": "Temari",
         "tags": [
             "Big Sis",
             "Fan",
             "Sand"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Wind Scythe Jutsu",
@@ -6551,15 +6869,15 @@
     },
     {
         "id": "3-72",
-        "setNumber": 3,
-        "emblemNumber": 72,
+        "setNumber": "3",
+        "emblemNumber": "72",
         "name": "Ay",
         "tags": [
             "Big Bro",
             "Cloud",
             "Five Kage"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Lateral Bolt of Pain: Chop",
@@ -6575,14 +6893,14 @@
     },
     {
         "id": "3-73",
-        "setNumber": 3,
-        "emblemNumber": 73,
+        "setNumber": "3",
+        "emblemNumber": "73",
         "name": "Darui",
         "tags": [
             "Cloud",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Gale Style: Laser Circus",
@@ -6597,15 +6915,15 @@
     },
     {
         "id": "3-74",
-        "setNumber": 3,
-        "emblemNumber": 74,
+        "setNumber": "3",
+        "emblemNumber": "74",
         "name": "Ohnoki",
         "tags": [
             "Five Kage",
             "Rock",
             "Stone"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Earth Style: Stone Fist Jutsu",
@@ -6621,14 +6939,14 @@
     },
     {
         "id": "3-75",
-        "setNumber": 3,
-        "emblemNumber": 75,
+        "setNumber": "3",
+        "emblemNumber": "75",
         "name": "Kurotsuchi",
         "tags": [
             "Stone",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Lava Style: Quicklime Jutsu",
@@ -6643,14 +6961,14 @@
     },
     {
         "id": "3-76",
-        "setNumber": 3,
-        "emblemNumber": 76,
+        "setNumber": "3",
+        "emblemNumber": "76",
         "name": "Mei Terumi",
         "tags": [
             "Five Kage",
             "Mist"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Vapor Style: Solid Fog Jutsu",
@@ -6666,14 +6984,14 @@
     },
     {
         "id": "3-77",
-        "setNumber": 3,
-        "emblemNumber": 77,
+        "setNumber": "3",
+        "emblemNumber": "77",
         "name": "Chojuro",
         "tags": [
             "Mist",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Great Twin Sword Hiramekarei",
@@ -6688,14 +7006,14 @@
     },
     {
         "id": "3-78",
-        "setNumber": 3,
-        "emblemNumber": 78,
+        "setNumber": "3",
+        "emblemNumber": "78",
         "name": "Mifune",
         "tags": [
             "Samurai",
             "Weapon"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Famed Blade Kurosawa",
@@ -6714,14 +7032,14 @@
     },
     {
         "id": "3-79",
-        "setNumber": 3,
-        "emblemNumber": 79,
+        "setNumber": "3",
+        "emblemNumber": "79",
         "name": "Pain",
         "tags": [
             "Akatsuki",
             "Rinnegan"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "PWR",
         "specialAttack": {
             "name": "Universal Pull",
@@ -6736,14 +7054,14 @@
     },
     {
         "id": "3-80",
-        "setNumber": 3,
-        "emblemNumber": 80,
+        "setNumber": "3",
+        "emblemNumber": "80",
         "name": "Konan",
         "tags": [
             "Akatsuki",
             "Paper"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "SPD",
         "specialAttack": {
             "name": "Shikigami Dance",
@@ -6759,15 +7077,15 @@
     },
     {
         "id": "3-81",
-        "setNumber": 3,
-        "emblemNumber": 81,
+        "setNumber": "3",
+        "emblemNumber": "81",
         "name": "Madara Uchiha",
         "tags": [
             "Akatsuki",
             "Mask",
             "Sharingan"
         ],
-        "rarity": 2,
+        "rarity": "2",
         "type": "TECH",
         "specialAttack": {
             "name": "Fan Attack",
@@ -6782,15 +7100,15 @@
     },
     {
         "id": "3-82",
-        "setNumber": 3,
-        "emblemNumber": 82,
+        "setNumber": "3",
+        "emblemNumber": "82",
         "name": "Naruto Uzumaki",
         "tags": [
             "Jinchuriki",
             "Leaf",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Rasengan",
@@ -6810,15 +7128,15 @@
     },
     {
         "id": "3-83",
-        "setNumber": 3,
-        "emblemNumber": 83,
+        "setNumber": "3",
+        "emblemNumber": "83",
         "name": "Sasuke Uchiha",
         "tags": [
             "Hebi",
             "Lil' bro",
             "Sharingan"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Fire Style: Fire Ball Jutsu",
@@ -6833,15 +7151,15 @@
     },
     {
         "id": "3-84",
-        "setNumber": 3,
-        "emblemNumber": 84,
+        "setNumber": "3",
+        "emblemNumber": "84",
         "name": "Sakura Haruno",
         "tags": [
             "Leaf",
             "Medical",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Cherry Blossom Clash",
@@ -6856,15 +7174,15 @@
     },
     {
         "id": "3-85",
-        "setNumber": 3,
-        "emblemNumber": 85,
+        "setNumber": "3",
+        "emblemNumber": "85",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Sharingan",
             "Team 7"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Water Style: Water Dragon Jutsu",
@@ -6879,14 +7197,14 @@
     },
     {
         "id": "3-86",
-        "setNumber": 3,
-        "emblemNumber": 86,
+        "setNumber": "3",
+        "emblemNumber": "86",
         "name": "Shino Aburame",
         "tags": [
             "Insect",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Hidden Jutsu: Beetle Sphere",
@@ -6901,14 +7219,14 @@
     },
     {
         "id": "3-87",
-        "setNumber": 3,
-        "emblemNumber": 87,
+        "setNumber": "3",
+        "emblemNumber": "87",
         "name": "Kiba Inuzuka",
         "tags": [
             "Animal",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Fang Over Fang",
@@ -6924,14 +7242,14 @@
     },
     {
         "id": "3-88",
-        "setNumber": 3,
-        "emblemNumber": 88,
+        "setNumber": "3",
+        "emblemNumber": "88",
         "name": "Hinata Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Gentle Fist",
@@ -6951,14 +7269,14 @@
     },
     {
         "id": "3-89",
-        "setNumber": 3,
-        "emblemNumber": 89,
+        "setNumber": "3",
+        "emblemNumber": "89",
         "name": "Neji Hyuga",
         "tags": [
             "Byakugan",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "8 Trigrams Air Palm",
@@ -6978,14 +7296,14 @@
     },
     {
         "id": "3-90",
-        "setNumber": 3,
-        "emblemNumber": 90,
+        "setNumber": "3",
+        "emblemNumber": "90",
         "name": "Rock Lee",
         "tags": [
             "Leaf",
             "Youth"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Leaf Hurricane",
@@ -7001,14 +7319,14 @@
     },
     {
         "id": "3-91",
-        "setNumber": 3,
-        "emblemNumber": 91,
+        "setNumber": "3",
+        "emblemNumber": "91",
         "name": "Tenten",
         "tags": [
             "Leaf",
             "Weapon"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Unsealing Jutsu: Axe",
@@ -7023,15 +7341,15 @@
     },
     {
         "id": "3-92",
-        "setNumber": 3,
-        "emblemNumber": 92,
+        "setNumber": "3",
+        "emblemNumber": "92",
         "name": "Asuma Sarutobi",
         "tags": [
             "Leaf",
             "Shogi",
             "Weapon"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Flying Swallow",
@@ -7046,14 +7364,14 @@
     },
     {
         "id": "3-93",
-        "setNumber": 3,
-        "emblemNumber": 93,
+        "setNumber": "3",
+        "emblemNumber": "93",
         "name": "Kurenai Yuhi",
         "tags": [
             "Flower",
             "Leaf"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Demonic Illusion: Tree Trap",
@@ -7068,15 +7386,15 @@
     },
     {
         "id": "3-94",
-        "setNumber": 3,
-        "emblemNumber": 94,
+        "setNumber": "3",
+        "emblemNumber": "94",
         "name": "Killer Bee",
         "tags": [
             "Cloud",
             "Jinchuriki",
             "Lil' bro"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Acrobat",
@@ -7092,15 +7410,15 @@
     },
     {
         "id": "3-95",
-        "setNumber": 3,
-        "emblemNumber": 95,
+        "setNumber": "3",
+        "emblemNumber": "95",
         "name": "Itachi Uchiha",
         "tags": [
             "Akatsuki",
             "Big Bro",
             "Sharingan"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Fire Style: Fire Ball Jutsu",
@@ -7115,14 +7433,14 @@
     },
     {
         "id": "3-96",
-        "setNumber": 3,
-        "emblemNumber": 96,
+        "setNumber": "3",
+        "emblemNumber": "96",
         "name": "Sasori",
         "tags": [
             "Akatsuki",
             "Puppet"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Iron Sand Block Attack",
@@ -7138,14 +7456,14 @@
     },
     {
         "id": "3-97",
-        "setNumber": 3,
-        "emblemNumber": 97,
+        "setNumber": "3",
+        "emblemNumber": "97",
         "name": "Kakuzu",
         "tags": [
             "Akatsuki",
             "Money"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Wind Style: Pressure Damage",
@@ -7161,14 +7479,14 @@
     },
     {
         "id": "3-98",
-        "setNumber": 3,
-        "emblemNumber": 98,
+        "setNumber": "3",
+        "emblemNumber": "98",
         "name": "Hidan",
         "tags": [
             "Akatsuki",
             "Weapon"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Triple-Bladed Scythe",
@@ -7184,14 +7502,14 @@
     },
     {
         "id": "3-99",
-        "setNumber": 3,
-        "emblemNumber": 99,
+        "setNumber": "3",
+        "emblemNumber": "99",
         "name": "Zetsu",
         "tags": [
             "Akatsuki",
             "Mystery"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Sporulation Jutsu",
@@ -7206,14 +7524,14 @@
     },
     {
         "id": "3-100",
-        "setNumber": 3,
-        "emblemNumber": 100,
+        "setNumber": "3",
+        "emblemNumber": "100",
         "name": "Tobi",
         "tags": [
             "Akatsuki",
             "Mask"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Ninja Art: Whack-A-Mole Jutsu",
@@ -7228,14 +7546,14 @@
     },
     {
         "id": "3-101",
-        "setNumber": 3,
-        "emblemNumber": 101,
+        "setNumber": "3",
+        "emblemNumber": "101",
         "name": "Kakashi Hatake",
         "tags": [
             "Leaf",
             "Weapon"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "TECH",
         "specialAttack": {
             "name": "Chidori",
@@ -7250,14 +7568,14 @@
     },
     {
         "id": "3-102",
-        "setNumber": 3,
-        "emblemNumber": 102,
+        "setNumber": "3",
+        "emblemNumber": "102",
         "name": "Obito Uchiha",
         "tags": [
             "Leaf",
             "Sharingan"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "PWR",
         "specialAttack": {
             "name": "Fire Style: Fire Ball Jutsu",
@@ -7272,14 +7590,14 @@
     },
     {
         "id": "3-103",
-        "setNumber": 3,
-        "emblemNumber": 103,
+        "setNumber": "3",
+        "emblemNumber": "103",
         "name": "Rin Nohara",
         "tags": [
             "Leaf",
             "Medical"
         ],
-        "rarity": 1,
+        "rarity": "1",
         "type": "SPD",
         "specialAttack": {
             "name": "Team Minato Combination Attack",

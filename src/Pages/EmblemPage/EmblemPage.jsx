@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 import styles from './Naruto.module.css';
 import EmblemCard from './EmblemCard';
-import emblems from '../../db/emblems';
+// import emblems from '../../db/emblems';
 import EmblemInfo from './EmblemInfo';
 
 function EmblemPage() {
+  const [emblems, setEmblems]  = useState([]);
   const [searchString, setSearchString] = useState("");
   const [setSelection, setSetSelection] = useState("all");
   const [OwnedStatus, setOwnedStatus] = useState("both");
@@ -15,16 +16,33 @@ function EmblemPage() {
   const [displayInfoID, setDisplayInfoID] = useState(0);
   const [progressSetFilter, setProgressSetFilter] = useState("all");
   const [rarityFilter, setRarityFilter] = useState("all");
-  const [ownedEmblems, setOwnedEmblems] = useState(() => {
-    const stored = localStorage.getItem('emblemEncode');
-    if (stored) {
-      setEmblemEncode(stored);
-      return decodeEmblems(stored);
-    }
-    return [];
-  });
+  const [ownedEmblems, setOwnedEmblems] = useState([]);
 
-  const [orderBy, setOrderBy] = useState("id");  // New state for sorting
+  useEffect(() => {
+    const token = localStorage.getItem("authToken");
+
+    fetch(`${process.env.REACT_APP_API}`)
+      .then(res => res.json())
+      .then(data => {
+        setEmblems(data);
+      })
+      .catch(error => console.error('Error fetching data:', error));
+
+    fetch("http://localhost:8080/collection", {
+      method: "GET",
+      headers: {
+        "Authorization": `Bearer ${token}`,
+      },
+    })
+      .then(res => res.json())
+      .then(data => {
+        console.log(data.emblem_data)
+        setOwnedEmblems(data.emblem_data);
+      })
+      .catch(error => console.error("Error fetching data:", error));
+  }, []);
+
+  const [orderBy, setOrderBy] = useState("id");
 
   const { rarities, overall } = getRarityProgress(progressSetFilter);
 
@@ -34,12 +52,6 @@ function EmblemPage() {
     localStorage.setItem('emblemEncode', encoded);
     setEmblemEncode(encoded);
   }, [ownedEmblems]);
-
-  const toggleOwned = (id) => {
-    setOwnedEmblems((prev) =>
-      prev.includes(id) ? prev.filter((e) => e !== id) : [...prev, id]
-    );
-  };
 
   function breakIntoChunks(str, chunkSize) {
     const chunks = [];
@@ -55,7 +67,7 @@ function EmblemPage() {
   function encodeEmblems() {
     let emblemsBin = "";
     for (const emblem of emblems) {
-      emblemsBin = ownedEmblems.includes(emblem.id) ? "1" + emblemsBin : "0" + emblemsBin;
+      emblemsBin = ownedEmblems?.includes(emblem.id) ? "1" + emblemsBin : "0" + emblemsBin;
     }
     return binaryToBase64(emblemsBin);
   }
@@ -72,7 +84,6 @@ function EmblemPage() {
 
     const firstChar = base64.findIndex(item => item !== "0");
 
-    console.log(base64.slice(firstChar).join(""))
     return base64.slice(firstChar).join("") || '0';
   }
 
@@ -97,7 +108,6 @@ function EmblemPage() {
     const reversedBinary = binary.split('').reverse().join('');
     const updatedOwnedEmblems = [];
     for (let i = 0; i < reversedBinary.length; i++) {
-      console.log(emblems[i])
       if (reversedBinary[i] === '1') updatedOwnedEmblems.push(emblems[i]?.id);
     }
     return updatedOwnedEmblems;
@@ -159,38 +169,46 @@ function EmblemPage() {
   };
 
   function getRarityProgress(setFilter) {
-    const rarityLevels = [1, 2, 3, 4, 5, 6];
+    const rarityLevels = ["1", "2", "3", "4", "5", "6"];
     const progressByRarity = [];
   
     let overallOwned = 0;
     let overallTotal = 0;
+
+    console.log(emblems);
   
     rarityLevels.forEach((rarity) => {
       const filtered = emblems.filter((e) => {
+        console.log("test")
+          console.log(rarity)
         const matchesSet =
-          setFilter === "all" ? true : e.setNumber === Number(setFilter);
+          setFilter === "all" ? true : e.setNumber === setFilter;
         return matchesSet && e.rarity === rarity;
       });
+
   
-      const owned = filtered.filter((e) => ownedEmblems.includes(e.id));
+      // Update: check if the emblem is owned and has a positive count
+      const owned = filtered.filter((e) => {
+        // Find the corresponding ownedEmblem object by matching `emblem_id`
+        const ownedEmblem = ownedEmblems?.find((emblem) => emblem.emblem_id === e.id);
+        // Check if the emblem is owned (i.e., the count is greater than 0)
+        return ownedEmblem && parseInt(ownedEmblem.count) > 0;
+      });
+
   
       progressByRarity.push({
         rarity,
-        owned: owned.length,
-        total: filtered.length,
+        owned: owned.length, // Number of owned emblems of this rarity
+        total: filtered.length, // Total emblems of this rarity
       });
   
       overallOwned += owned.length;
       overallTotal += filtered.length;
     });
   
+    // Calculate overall progress percentage
     const overallPercent = overallTotal > 0 ? (overallOwned / overallTotal) * 100 : 0;
-    
-    console.log({
-      owned: overallOwned,
-      total: overallTotal,
-      percent: overallPercent,
-    })
+
     return {
       rarities: progressByRarity,
       overall: {
@@ -199,7 +217,7 @@ function EmblemPage() {
         percent: overallPercent,
       },
     };
-  }  
+}
 
   function openEmblemInfo(id) {
     setDisplayInfo(!displayInfo);
@@ -210,6 +228,16 @@ function EmblemPage() {
     setDisplayInfo(false);
     setDisplayInfoID(0);
   }
+
+  const updateOwnedEmblemCount = (emblemId, newCount) => {
+    setOwnedEmblems((prevEmblems) => {
+      return prevEmblems.map((emblem) =>
+        emblem.emblem_id === emblemId
+          ? { ...emblem, count: newCount }
+          : emblem
+      );
+    });
+  };
 
   return (
     <>
@@ -328,7 +356,7 @@ function EmblemPage() {
                 </div>
               </div>
 
-              <div className={styles["filter-group"]}>
+              {/* <div className={styles["filter-group"]}>
                 <label htmlFor="emblemEncode" className={styles["filter-label"]}>Emblem Collection ID:</label>
                 <div className={styles["input-with-button"]}>
                   <input
@@ -364,7 +392,7 @@ function EmblemPage() {
                     </svg>
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </>
         )}
@@ -406,11 +434,11 @@ function EmblemPage() {
               {rarities.map(({ rarity, owned, total }) => {
                 const percent = total > 0 ? (owned / total) * 100 : 0;
                 const starClass =
-                  rarity === 6
+                  rarity === "6"
                     ? "six-star"
-                    : rarity === 5 || rarity === 4
+                    : rarity === "5" || rarity === "4"
                     ? "five-star"
-                    : rarity === 3
+                    : rarity === "3"
                     ? "three-star"
                     : "two-star";
 
@@ -436,13 +464,13 @@ function EmblemPage() {
       <div className={styles["card-list"]}>
         {sortEmblems(
           emblems.filter((e) => {
-            const matchesSet = setSelection === "all" ? true : e.setNumber === Number(setSelection);
+            const matchesSet = setSelection === "all" ? true : e.setNumber === setSelection;
           
             const matchesOwned = () => {
               if (OwnedStatus === "both") return true;
               return OwnedStatus === "Owned"
-                ? ownedEmblems.includes(e.id)
-                : !ownedEmblems.includes(e.id);
+                ? ownedEmblems?.some(emblem => emblem.emblem_id === e.id)
+                : !ownedEmblems?.some(emblem => emblem.emblem_id === e.id);
             };
           
             const query = searchString.toLowerCase();
@@ -461,15 +489,16 @@ function EmblemPage() {
           <EmblemCard
             key={e.id}
             emblem={e}
-            isOwned={ownedEmblems.includes(e.id)}
-            toggleOwned={toggleOwned}
+            isOwned={ownedEmblems?.some(emblem => emblem.emblem_id === e.id)}
             openEmblemInfo={openEmblemInfo}
+            updateOwnedEmblemCount={updateOwnedEmblemCount}
+            count={ownedEmblems?.find(emblem => emblem.emblem_id === e.id)?.count || 0}
           />
         ))}
       </div>
       {
         displayInfo && 
-        <EmblemInfo emblem={emblems.find((e) => e.id === displayInfoID)} closeEmblemInfo={closeEmblemInfo} />
+        <EmblemInfo emblem={emblems?.find((e) => e.id === displayInfoID)} closeEmblemInfo={closeEmblemInfo} />
       }
     </>
   );

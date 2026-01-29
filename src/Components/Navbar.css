@@ -5,6 +5,7 @@
     padding: 10px;
     color: white;
     border-bottom: 1px solid  #222;
+    user-select: none;
   }
   
   .hamburger {
@@ -32,8 +33,20 @@
   .menu li {
     padding: 10px;
   }
+
+  .menu li:hover {
+    background-color: #333;
+  }
+
+  .menu li:hover a {
+    color: gainsboro;
+  }
   
   .menu li a {
     color: white;
     text-decoration: none;
+  }
+
+  .menu-link {
+    display: block;
   }

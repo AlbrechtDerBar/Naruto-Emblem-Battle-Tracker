@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import EmblemPage from './Pages/EmblemPage/EmblemPage';
 import FriendaPage from './Pages/FriendaPage/FriendaPage';
 import Home from './Pages/Home';
+import Login from './Pages/Login/Login';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/naruto-emblem-battle" element={<EmblemPage />} />
         <Route path="/pokemon-frienda" element={<FriendaPage />} />
       </Routes>

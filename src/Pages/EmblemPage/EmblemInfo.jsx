@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Naruto.module.css';
 
 export default function EmblemInfo({ emblem, closeEmblemInfo }) {
-    const emblemIcon = `/Naruto-Emblem-Battle-Tracker/Images/NarutoEmblemBattle/Volume${emblem.id[0]}/u${emblem.id}.webp`;
+    const emblemIcon = emblem.imageUrl;
     const chakraIcon = `/Naruto-Emblem-Battle-Tracker/Images/NarutoEmblemBattle/Icons/icon_chakra.png`;
     const cloneIcon = `/Naruto-Emblem-Battle-Tracker/Images/NarutoEmblemBattle/Icons/icon_clone.png`;
     const sceneIcon = `/Naruto-Emblem-Battle-Tracker/Images/NarutoEmblemBattle/Icons/icon_scene.png`;
@@ -79,17 +79,17 @@ export default function EmblemInfo({ emblem, closeEmblemInfo }) {
               <p>{emblem.specialAttack.desc}</p>
             </div>
 
-            {emblem.skill1 && (
+            {emblem.skills[0] && (
               <div className={styles['emblem-skills']}>
-                <h3>Skill 1: <span>{emblem.skill1.name}</span>{emblem.skill1.icon && <img src={getIcon(emblem.skill1.icon)} className={styles['icon']} />}</h3>
-                <div className={styles['skill-desc']}>{emblem.skill1.desc}</div>
+                <h3>Skill 1: <span>{emblem.skills[0].name}</span>{emblem.skills[0].icon && <img src={getIcon(emblem.skills[0].icon)} className={styles['icon']} />}</h3>
+                <div className={styles['skill-desc']}>{emblem.skills[0].desc}</div>
               </div>
             )}
 
-            {emblem.skill2 && (
+            {emblem.skills[1] && (
               <div className={styles['emblem-skills']}>
-                <h3>Skill 2: <span>{emblem.skill2.name}</span>{emblem.skill2Icon && <img src={getIcon(emblem.skill2Icon)} />}</h3>
-                <div className={styles['skill-desc']}>{emblem.skill2.desc}</div>
+                <h3>Skill 2: <span>{emblem.skills[1].name}</span>{emblem.skills[1].icon && <img src={getIcon(emblem.skills[1].icon)} />}</h3>
+                <div className={styles['skill-desc']}>{emblem.skills[1].desc}</div>
               </div>
             )}
           </div>
